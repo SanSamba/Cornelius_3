@@ -453,15 +453,16 @@
 			<CharacterName parentLink="T" id="578" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
-			<CharacterFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<CharacterCurrentOutfit parentLink="F" id="10" tableId="17" LinkAny="F"/>
 			<CharacterCurrentCommentSet parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<CharacterDialogCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterDialogCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<CharacterDialogs>
 				<Link parentLink="T" id="66" tableId="11" LinkAny="F"/>
 			</CharacterDialogs>
 			<CharacterActions>
 				<Link parentLink="T" id="100" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="104" tableId="7" LinkAny="F"/>
 			</CharacterActions>
 			<CharacterOutfits>
 				<Link parentLink="T" id="10" tableId="17" LinkAny="F"/>
@@ -475,8 +476,8 @@
 				<Link parentLink="T" id="8" tableId="10" LinkAny="F"/>
 				<Link parentLink="T" id="9" tableId="10" LinkAny="F"/>
 			</CharacterConditions>
-			<CharacterActiveDialogFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<CharacterInactiveDialogFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<CharacterActiveDialogFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
+			<CharacterInactiveDialogFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<CharacterDialogArea top="0" left="0" bottom="-1" right="-1"/>
 			<CharacterDialogActiveScrollUp name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -1028,7 +1029,7 @@
 		</Font>
 	</Fonts>
 	<Scenes newId="18" versionedId="15" tableId="4">
-		<Scene name="Schildkrötenhaus" id="10" order="2" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_3.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Schildkrötenhaus" id="10" order="2" lastModified="-1" SceneBackgroundMusic="develop\Musik\Titel_2.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="develop/Kulissen/schildkrötenlvl2.0.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1185,7 +1186,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Rätsel" id="16" order="4" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Rätsel" id="16" order="4" lastModified="-1" SceneBackgroundMusic="develop\Musik\Titel_4.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="develop/Rätsel/Puzzelbackground.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1234,7 +1235,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Kapitel2" id="17" order="3" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Kapitel2" id="17" order="3" lastModified="-1" SceneBackgroundMusic="develop\Musik\Titel_5.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="develop/Kulissen/2.level1.5.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -2626,7 +2627,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
 	</Objects>
-	<Actions newId="104" versionedId="69" tableId="7">
+	<Actions newId="105" versionedId="69" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3262,6 +3263,8 @@
 				<Link parentLink="T" id="308" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="309" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="310" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="319" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="320" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Action" id="102" order="102" lastModified="-1" ActionExecutionType="-1">
@@ -3281,8 +3284,16 @@
 				<Link parentLink="T" id="315" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="&apos;Interaktion&apos; executed" id="104" order="1" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="2" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="326" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="327" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="316" versionedId="181" tableId="8">
+	<ActionParts newId="328" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4139,39 +4150,39 @@
 			<ActionPartLink parentLink="T" id="618" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Eule&apos;" id="302" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display text by character &apos;Eule&apos;" id="302" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="619" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Cornelius&apos;" id="303" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display text by character &apos;Cornelius&apos;" id="303" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="620" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Eule&apos;" id="304" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display text by character &apos;Eule&apos;" id="304" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="621" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Eule&apos;" id="305" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display text by character &apos;Eule&apos;" id="305" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="622" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Cornelius&apos;" id="306" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display text by character &apos;Cornelius&apos;" id="306" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="623" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Eule&apos;" id="307" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display text by character &apos;Eule&apos;" id="307" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="624" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Eule&apos;" id="308" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display text by character &apos;Eule&apos;" id="308" order="12" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="625" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Cornelius&apos;" id="309" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display text by character &apos;Cornelius&apos;" id="309" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="626" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Eule&apos;" id="310" order="12" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Display text by character &apos;Eule&apos;" id="310" order="14" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="627" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4194,6 +4205,22 @@
 		<ActionPart name="Display text by character &apos;Cornelius&apos;" id="315" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="641" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display text by character &apos;Cornelius&apos;" id="319" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="645" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Display text by character &apos;Eule&apos;" id="320" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="646" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="If condition &apos;Eule_1&apos; is true" id="326" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Switch to scene &apos;Rätsel&apos;" id="327" order="1" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="65" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="111" versionedId="75" tableId="9">
@@ -5813,7 +5840,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="642" versionedId="464" tableId="14">
+	<Texts newId="654" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -7356,7 +7383,7 @@
 		</Text>
 		<Text name="Unnamed" id="583" order="583" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hallo, du! Ähm ... Bist du da? Ich bin neu hier und weiß nicht welchen Weg ich nehmen soll." path="" int="0"/>
+				<text Text="Hallo, du! Ähm ... Bist du da? Ich bin neu hier und weiß nicht welchen Weg ich nehmen soll." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_01 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="584" order="584" lastModified="-1">
@@ -7371,7 +7398,7 @@
 		</Text>
 		<Text name="Unnamed" id="598" order="598" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hallo! Schläfst du? Ich bin in den Fluss gefallen und habe mich verlaufen und finde den Weg nicht." path="" int="0"/>
+				<text Text="Hallo! Schläfst du? Ich bin in den Fluss gefallen und habe mich verlaufen und finde den Weg nicht." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_02 Cornelius_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="599" order="599" lastModified="-1">
@@ -7386,7 +7413,7 @@
 		</Text>
 		<Text name="Unnamed" id="604" order="604" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hallo, ich bin Cornelius. Wo finde ich ein bisschen Glück? " path="" int="0"/>
+				<text Text="Hallo, ich bin Cornelius. Wo finde ich ein bisschen Glück? " path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_02 Cornelius_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="605" order="605" lastModified="-1">
@@ -7401,7 +7428,7 @@
 		</Text>
 		<Text name="Unnamed" id="607" order="607" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hallo lieber Vogel! Mein Name ist Cornelius und ich bin auf der Suche nach ein bisschen Glück. Das brauche ich für den Trank der Schildkröte. Dann bin ich endlich stark!" path="" int="0"/>
+				<text Text="Hallo lieber Vogel! Mein Name ist Cornelius und ich bin auf der Suche nach ein bisschen Glück. &lt;br/&gt;Das brauche ich für den Trank der Schildkröte. Dann bin ich endlich stark!" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_02 Cornelius_C.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="608" order="608" lastModified="-1">
@@ -7416,72 +7443,72 @@
 		</Text>
 		<Text name="Unnamed" id="610" order="610" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Vogel? Ersteinmal bin ich eine Eule, wie du eigentlich sehen solltest. Naja ... &lt;br/&gt;Die Schildkröte sagtest du? Die gute alte Schildkröte ... lange ist es her, dass wir uns das letzte mal gesehen haben. &lt;br/&gt;Sag mir kleiner Cornelius, wie geht es der alten Schildkröte? Ich habe lange nichts von ihr gehört." path="" int="0"/>
+				<text Text="Vogel? Ersteinmal bin ich eine Eule, wie du eigentlich sehen solltest. Naja ... &lt;br/&gt;Die Schildkröte sagtest du? Die gute alte Schildkröte ... lange ist es her, dass wir uns das letzte mal gesehen haben. &lt;br/&gt;Sag mir kleiner Cornelius, wie geht es der alten Schildkröte? Ich habe lange nichts von ihr gehört." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_03 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="611" order="611" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ähm ... wir kennen uns noch nicht so lange, aber ich glaube gut. &lt;br/&gt;Ich bin neu hier im Wald, wir sind gerade erst hergezogen an den See &lt;br/&gt;und dann bin ich in den Fluss gefallen und im Garten der Schildkröte aufgewacht. " path="" int="0"/>
+				<text Text="Ähm ... wir kennen uns noch nicht so lange, aber ich glaube gut. &lt;br/&gt;Ich bin neu hier im Wald, wir sind gerade erst hergezogen an den See &lt;br/&gt;und dann ... dann bin ich in den Fluss gefallen und im Garten der Schildkröte wieder aufgewacht. " path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_04 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="612" order="612" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Es ist schön zu hören, dass dir nichts bei deinem Sturz passiert ist. &lt;br/&gt;Aber sag mir Cornelius, was machst du ganz allein im Wald?" path="" int="0"/>
+				<text Text="Es ist schön zu hören, dass dir nichts passiert ist bei dem Sturz. &lt;br/&gt;Aber sag mir Cornelius, was machst du ganz allein im Wald?" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_05 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="618" order="618" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Die Schildkröte hat mir versprochen einen Trank zu brauen, der mich besonders und stark macht. &lt;br/&gt;Dafür will er, dass ich ihm drei Zutaten bringe. Die ersten beiden habe ich gefunden, jetzt fehlt mir nur noch ein bisschen Glück. &lt;br/&gt;Nur weiß ich nicht, wo ich das finden kann." path="" int="0"/>
+				<text Text="Die Schildkröte hat mir versprochen einen Trank zu brauen, der mich besonders und stark macht. &lt;br/&gt;Dafür will sie, dass ich ihr drei Zutaten bringe. Eine davon ist ein bisschen Glück!" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_06 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="619" order="619" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ein bisschen Glück sagst du? Ich glaube ich habe da eine Idee, &lt;br/&gt;aber lass mich dich vorher um einen Gefallen bitten, bist du so lieb?" path="" int="0"/>
+				<text Text="Ein bisschen Glück sagst du? Ich glaube ich habe da eine Idee, &lt;br/&gt;aber lass mich dich vorher um einen Gefallen bitten, bist du so lieb?" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_08 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="620" order="620" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ja, klar! Was soll ich tun?" path="" int="0"/>
+				<text Text="Ja, klar! Was soll ich tun?" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_09 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="621" order="621" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ein bisschen weiter den Weg entlang gibt es eine schöne Wiese, &lt;br/&gt;auf der du dich erstmal ausruhen kannst. Die Tiere im Wald nennen sie die Glückswiese. " path="" int="0"/>
+				<text Text="Ein bisschen weiter den Weg entlang gibt es eine schöne Wiese, &lt;br/&gt;auf der du dich erstmal ausruhen kannst. Die Tiere im Wald nennen sie die Glückswiese. " path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_10 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="622" order="622" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Aber bevor du dich auf den Weg machst, hätte ich noch ein Rätsel für dich. &lt;br/&gt;Wenn du mir die Frage richtig beantworten kannst, zeige ich dir den Weg zur Glückswiese.  &lt;br/&gt;Und falls du Glück hast, findest du dort ein seltenes vierblättiges Kleeblatt, &lt;br/&gt;welche auf der Glückswiese öfter zu finden sind, als irgendwo sonst." path="" int="0"/>
+				<text Text="Aber bevor du dich auf den Weg machst, hätte ich noch ein Rätsel für dich. &lt;br/&gt;Wenn du mir die Frage richtig beantworten kannst, zeige ich dir den Weg zur Glückswiese." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_11 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="623" order="623" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Klar doch! Ich mag Rätsel!" path="" int="0"/>
+				<text Text="Klar doch! Ich mag Rätsel!" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_13 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="624" order="624" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Sehr gut. Mal sehen wie schnell du es lösen kannst:" path="" int="0"/>
+				<text Text="Sehr gut. Mal sehen wie schnell du es lösen kannst:" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_14 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="625" order="625" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Das stärkste Tier, &lt;br/&gt;wer nennt es mir, &lt;br/&gt;das immerfort von Ort zu Ort &lt;br/&gt;sein Haus trägt&lt;br/&gt;auf dem Rücken fort?" path="" int="0"/>
+				<text Text="Das stärkste Tier, &lt;br/&gt;wer nennt es mir, &lt;br/&gt;das immerfort von Ort zu Ort &lt;br/&gt;sein Haus trägt&lt;br/&gt;auf dem Rücken fort?" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_15 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="626" order="626" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Das ist einfach! Die Schnecke trägt ihr Haus auf dem Rücken." path="" int="0"/>
+				<text Text="Das ist einfach! Die Schnecke trägt ihr Haus auf dem Rücken." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_16 Cornelius_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="627" order="627" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Sehr gut! Wenn du willst hätte ich noch ein Rätsel für dich." path="" int="0"/>
+				<text Text="Sehr gut! Wenn du willst hätte ich noch ein Rätsel für dich." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_17 Eule_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="628" order="628" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ja, sehr gerne. Stell mir noch ein Rätsel alte Eule." path="" int="0"/>
+				<text Text="Ja, sehr gerne. Stell mir noch ein Rätsel alte Eule." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_18 Cornelius_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="629" order="629" lastModified="-1">
@@ -7496,7 +7523,7 @@
 		</Text>
 		<Text name="Unnamed" id="634" order="634" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ich bin sehr müde, vielleicht später. Jetzt würde ich gerne zur Wiese gehen." path="" int="0"/>
+				<text Text="Ich bin sehr müde, vielleicht später. Jetzt würde ich gerne zur Wiese gehen." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_18 Cornelius_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="635" order="635" lastModified="-1">
@@ -7511,27 +7538,37 @@
 		</Text>
 		<Text name="Unnamed" id="637" order="637" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Es hat ein Nest auf Bäumen, &lt;br/&gt;hüpft auf den Bäumen herum &lt;br/&gt;und ist doch kein Vogel." path="" int="0"/>
+				<text Text="Es hat ein Nest auf Bäumen, &lt;br/&gt;hüpft auf den Bäumen herum &lt;br/&gt;und doch ist es kein Vogel." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_19.1 Eule_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="638" order="638" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Hmmm ... lass mich Überlegen. Ah! Ich weiß es, das Eichhörnchen. " path="" int="0"/>
+				<text Text="Hmmm ... lass mich Überlegen. Ah! Ich weiß es, das Eichhörnchen. " path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_19.2 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="639" order="639" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Das hast du gut gemacht Cornelius. Wenn du willst zeige ich dir den Weg zur Glückswiese. &lt;br/&gt;Wenn du möchtest komm mich noch mal besuchen und ich überlege mir bis dahin ein schwereres Rätsel für dich." path="" int="0"/>
+				<text Text="Das hast du gut gemacht Cornelius. Wenn du willst zeige ich dir den Weg zur Glückswiese. " path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_19.1 Eule_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="640" order="640" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Danke, alte Eule! Ich werde mich sofort auf den Weg machen. Bis bald!" path="" int="0"/>
+				<text Text="Danke, alte Eule! Ich werde mich sofort auf den Weg machen. Bis bald!" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_20 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="641" order="641" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Danke, alte Eule! Ich werde mich sofort auf den Weg machen. Bis bald!" path="" int="0"/>
+				<text Text="Danke, alte Eule! Ich werde mich sofort auf den Weg machen. Bis bald!" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_20 Cornelius.wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="645" order="645" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Nur weiß ich nicht wo ich das finden kann ... Glück hatte ich bisher noch nicht viel." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_07 Cornelius.wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="646" order="646" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Und falls du Glück hast, findest du dort ein seltenes vierblättiges Kleeblatt, &lt;br/&gt;welche auf der Glückswiese öfter zu finden sind, als irgendwo sonst." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_12 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
