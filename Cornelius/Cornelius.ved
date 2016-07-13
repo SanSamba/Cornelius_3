@@ -33,7 +33,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="17" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="14" tableId="4" LinkAny="F"/>
 		<GameItems>
 		</GameItems>
 		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
@@ -108,7 +108,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="79" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="7" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -2781,7 +2781,7 @@
 				<Link parentLink="T" id="33" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;Inspizieren&apos; angewandt" id="24" order="0" lastModified="-1" ActionExecutionType="6">
+		<Action name="&apos;Inspizieren&apos; executed" id="24" order="0" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="3" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
@@ -2917,7 +2917,7 @@
 				<Link parentLink="T" id="87" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;Reden&apos; angewandt" id="58" order="1" lastModified="-1" ActionExecutionType="6">
+		<Action name="&apos;Reden&apos; executed" id="58" order="1" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
@@ -3071,7 +3071,7 @@
 				<Link parentLink="T" id="229" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Linksklick" id="70" order="0" lastModified="-1" ActionExecutionType="7">
+		<Action name="Left click" id="70" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
@@ -3215,7 +3215,7 @@
 				<Link parentLink="T" id="250" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="F1 (losgelassen)" id="88" order="2" lastModified="-1" ActionExecutionType="1073751882">
+		<Action name="F1 (released)" id="88" order="2" lastModified="-1" ActionExecutionType="1073751882">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
@@ -7993,15 +7993,15 @@
 		</Script>
 	</Scripts>
 	<InterfaceClasses newId="5" versionedId="4" tableId="31">
-		<InterfaceClass name="Hauptinterface" id="0" order="0" lastModified="-1" InterfaceClassName="MainInterface">
+		<InterfaceClass name="Main interface" id="0" order="0" lastModified="-1" InterfaceClassName="MainInterface">
 		</InterfaceClass>
-		<InterfaceClass name="Inventar" id="1" order="1" lastModified="-1" InterfaceClassName="Inventory">
+		<InterfaceClass name="Inventory" id="1" order="1" lastModified="-1" InterfaceClassName="Inventory">
 		</InterfaceClass>
-		<InterfaceClass name="Sekundärinterface" id="2" order="2" lastModified="-1" InterfaceClassName="SecondaryInterface">
+		<InterfaceClass name="Secondary interface" id="2" order="2" lastModified="-1" InterfaceClassName="SecondaryInterface">
 		</InterfaceClass>
-		<InterfaceClass name="Optionen-Interface" id="3" order="3" lastModified="-1" InterfaceClassName="OptionsInterface">
+		<InterfaceClass name="Options interface" id="3" order="3" lastModified="-1" InterfaceClassName="OptionsInterface">
 		</InterfaceClass>
-		<InterfaceClass name="Sonstiges" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
+		<InterfaceClass name="Miscellaneous" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
 		</InterfaceClass>
 	</InterfaceClasses>
 	<ActionAreas newId="0" versionedId="-1" tableId="32">
