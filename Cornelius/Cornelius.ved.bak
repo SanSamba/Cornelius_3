@@ -40,7 +40,7 @@
 			<Link parentLink="T" id="161" tableId="6" LinkAny="F"/>
 		</GameItems>
 		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
-		<GameWindowResolution x="1920" y="1200"/>
+		<GameWindowResolution x="1920" y="1080"/>
 		<GameCursors>
 			<Link parentLink="T" id="0" tableId="15" LinkAny="F"/>
 		</GameCursors>
@@ -550,7 +550,7 @@
 				<Link parentLink="T" id="6" tableId="2" LinkAny="F"/>
 			</InterfaceButtons>
 			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<InterfaceOffset x="-150" y="1050"/>
+			<InterfaceOffset x="-150" y="950"/>
 			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
 			<InterfaceBorder>
@@ -3681,7 +3681,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
 	</Objects>
-	<Actions newId="133" versionedId="69" tableId="7">
+	<Actions newId="132" versionedId="69" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4474,7 +4474,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="373" versionedId="181" tableId="8">
+	<ActionParts newId="372" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6785,7 +6785,7 @@
 			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAltText parentLink="T" id="365" tableId="14" LinkAny="F"/>
 		</DialogPart>
-		<DialogPart name="1. Hallo ihr! Ihr habt aber tolle Schnäbel!" id="91" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="T" DialogPartUseAltText="F">
+		<DialogPart name="1. Hallo ihr! Ihr habt aber tolle Schnäbel!" id="91" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="T" DialogPartUseAltText="F">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="381" tableId="14" LinkAny="F"/>
 			<DialogPartAction parentLink="T" id="61" tableId="7" LinkAny="F"/>
@@ -6794,7 +6794,7 @@
 			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAltText parentLink="T" id="397" tableId="14" LinkAny="F"/>
 		</DialogPart>
-		<DialogPart name="2. Hallo ihr! Womit seid ihr denn da bedeckt?" id="92" order="1" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="T" DialogPartUseAltText="F">
+		<DialogPart name="2. Hallo ihr! Womit seid ihr denn da bedeckt?" id="92" order="1" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="T" DialogPartUseAltText="F">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="398" tableId="14" LinkAny="F"/>
 			<DialogPartAction parentLink="T" id="62" tableId="7" LinkAny="F"/>
@@ -6912,7 +6912,7 @@
 			<DialogPartAltText parentLink="T" id="636" tableId="14" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="117" versionedId="14" tableId="13">
+	<Sprites newId="116" versionedId="14" tableId="13">
 		<Sprite name="Unnamed" id="3" order="3" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -7274,7 +7274,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="755" versionedId="464" tableId="14">
+	<Texts newId="753" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
