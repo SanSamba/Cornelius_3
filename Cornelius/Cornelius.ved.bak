@@ -2281,7 +2281,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Blume_6" id="107" order="19" lastModified="-1" ObjectDirection="-1" ObjectCenter="863" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Blume_6" id="107" order="19" lastModified="-1" ObjectDirection="-1" ObjectCenter="1191" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="686" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -7110,7 +7110,7 @@
 		</Sprite>
 		<Sprite name="Bild" id="81" order="38" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #1_klein.png" Transparency="-1">
-				<position x="4570" y="550"/>
+				<position x="5018" y="1078"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Bild" id="82" order="43" lastModified="-1">
