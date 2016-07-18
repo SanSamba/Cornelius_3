@@ -111,7 +111,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="126" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="81" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -1077,7 +1077,7 @@
 		</Font>
 	</Fonts>
 	<Scenes newId="22" versionedId="15" tableId="4">
-		<Scene name="Menü" id="14" order="9" lastModified="-1" SceneBackgroundMusic="develop/Musik/Menue.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="75" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Menü" id="14" order="9" lastModified="-1" SceneBackgroundMusic="develop/Musik/Menue.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="50" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="develop/Menu/Hauptmenü_1920x1200.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1114,7 +1114,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Credits" id="15" order="10" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="100" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Credits" id="15" order="10" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="50" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1139,7 +1139,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Rätsel" id="16" order="8" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_4.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="75" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Rätsel" id="16" order="8" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_4.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="30" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="develop/Rätsel/Puzzelbackground.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1189,7 +1189,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Kapitel1" id="18" order="4" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_1.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="50" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Kapitel1" id="18" order="4" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_1.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="25" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="develop/Kulissen/Kapitel1.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1249,7 +1249,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Schildkrötenhaus" id="19" order="5" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_2.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="50" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Schildkrötenhaus" id="19" order="5" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_2.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="25" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="develop/Kulissen/schildkrötenlvl2.0.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1285,7 +1285,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Kapitel2" id="20" order="7" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_5.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="50" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Kapitel2" id="20" order="7" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_5.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="25" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="develop/Kulissen/2.level1.5.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -1314,7 +1314,7 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Tutorial1" id="21" order="2" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_1.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="50" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Tutorial1" id="21" order="2" lastModified="-1" SceneBackgroundMusic="develop/Musik/Titel_1.m4a" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="25" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="develop/Kulissen/Kapitel1.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
