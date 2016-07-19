@@ -34,13 +34,13 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="18" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="20" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="159" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="161" tableId="6" LinkAny="F"/>
 		</GameItems>
 		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
-		<GameWindowResolution x="1920" y="1080"/>
+		<GameWindowResolution x="1920" y="1200"/>
 		<GameCursors>
 			<Link parentLink="T" id="0" tableId="15" LinkAny="F"/>
 		</GameCursors>
@@ -111,7 +111,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="81" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="124" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -274,7 +274,7 @@
 			</CharacterDialogSprite>
 			<CharacterActionDestPosition x="-1" y="-1"/>
 		</Character>
-		<Character name="Bibermutter" id="5" order="7" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="20">
+		<Character name="Bibermutter" id="5" order="7" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="25">
 			<CharacterName parentLink="T" id="153" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
@@ -328,7 +328,6 @@
 			<CharacterCurrentCommentSet parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<CharacterDialogCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<CharacterDialogs>
-				<Link parentLink="T" id="28" tableId="11" LinkAny="F"/>
 				<Link parentLink="T" id="64" tableId="11" LinkAny="F"/>
 			</CharacterDialogs>
 			<CharacterActions>
@@ -504,7 +503,7 @@
 	</Characters>
 	<Interfaces newId="5" versionedId="1" tableId="1">
 		<Interface name="Verb_coin" id="1" order="1" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="5" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
-			<InterfaceSprite name="" pause="-1" path="develop/Verbcoin/Verbcoin leer2.png" Transparency="-1">
+			<InterfaceSprite name="" pause="-1" path="develop/Verbcoin/Verbcoin leer3.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</InterfaceSprite>
 			<InterfaceButtons>
@@ -518,20 +517,20 @@
 			<InterfaceActionTextFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
 			<InterfaceBorder>
-				<point x="156" y="6"/>
-				<point x="70" y="38"/>
-				<point x="30" y="78"/>
-				<point x="6" y="138"/>
-				<point x="13" y="210"/>
-				<point x="40" y="266"/>
-				<point x="92" y="309"/>
-				<point x="168" y="326"/>
-				<point x="225" y="313"/>
-				<point x="293" y="264"/>
-				<point x="326" y="185"/>
-				<point x="309" y="97"/>
-				<point x="257" y="34"/>
-				<point x="186" y="5"/>
+				<point x="170" y="33"/>
+				<point x="198" y="75"/>
+				<point x="199" y="127"/>
+				<point x="183" y="163"/>
+				<point x="149" y="194"/>
+				<point x="112" y="202"/>
+				<point x="77" y="199"/>
+				<point x="31" y="173"/>
+				<point x="10" y="135"/>
+				<point x="6" y="87"/>
+				<point x="26" y="42"/>
+				<point x="56" y="16"/>
+				<point x="102" y="6"/>
+				<point x="148" y="15"/>
 			</InterfaceBorder>
 			<InterfaceLeaveAction parentLink="T" id="4" tableId="7" LinkAny="F"/>
 			<InterfaceConditions>
@@ -660,13 +659,15 @@
 			<ButtonPolygon>
 				<point x="75" y="1"/>
 				<point x="-10000" y="-10000"/>
-				<point x="129" y="11"/>
-				<point x="128" y="137"/>
 				<point x="14" y="197"/>
-				<point x="12" y="151"/>
-				<point x="28" y="96"/>
-				<point x="55" y="56"/>
-				<point x="85" y="35"/>
+				<point x="-10000" y="-10000"/>
+				<point x="81" y="10"/>
+				<point x="82" y="87"/>
+				<point x="7" y="125"/>
+				<point x="4" y="90"/>
+				<point x="15" y="57"/>
+				<point x="28" y="37"/>
+				<point x="54" y="18"/>
 			</ButtonPolygon>
 			<ButtonActions>
 				<Link parentLink="T" id="5" tableId="7" LinkAny="F"/>
@@ -688,12 +689,14 @@
 			<ButtonConjunction parentLink="T" id="27" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
 				<point x="200" y="13"/>
-				<point x="199" y="141"/>
-				<point x="316" y="198"/>
-				<point x="319" y="153"/>
-				<point x="310" y="112"/>
-				<point x="287" y="74"/>
-				<point x="255" y="40"/>
+				<point x="-10000" y="-10000"/>
+				<point x="122" y="8"/>
+				<point x="121" y="89"/>
+				<point x="199" y="128"/>
+				<point x="201" y="87"/>
+				<point x="192" y="65"/>
+				<point x="185" y="47"/>
+				<point x="161" y="26"/>
 			</ButtonPolygon>
 			<ButtonActions>
 				<Link parentLink="T" id="9" tableId="7" LinkAny="F"/>
@@ -714,13 +717,14 @@
 			<ButtonName parentLink="T" id="28" tableId="14" LinkAny="F"/>
 			<ButtonConjunction parentLink="T" id="29" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
-				<point x="163" y="208"/>
-				<point x="46" y="263"/>
-				<point x="83" y="300"/>
-				<point x="136" y="315"/>
-				<point x="192" y="316"/>
-				<point x="238" y="298"/>
-				<point x="282" y="269"/>
+				<point x="28" y="165"/>
+				<point x="101" y="126"/>
+				<point x="175" y="165"/>
+				<point x="152" y="189"/>
+				<point x="127" y="199"/>
+				<point x="103" y="201"/>
+				<point x="77" y="197"/>
+				<point x="52" y="187"/>
 			</ButtonPolygon>
 			<ButtonActions>
 				<Link parentLink="T" id="12" tableId="7" LinkAny="F"/>
@@ -1813,7 +1817,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="4704" y="595"/>
+			<ObjectPosition x="4731" y="601"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -1834,7 +1838,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="4487" y="587"/>
+			<ObjectPosition x="4502" y="610"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -2301,7 +2305,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Fisch" id="108" order="35" lastModified="-1" ObjectDirection="-1" ObjectCenter="590" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Fisch" id="108" order="35" lastModified="-1" ObjectDirection="-1" ObjectCenter="574" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="687" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -4001,6 +4005,10 @@
 				<Link parentLink="T" id="156" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="157" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="180" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="372" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="373" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="374" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="375" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Aktion" id="68" order="67" lastModified="-1" ActionExecutionType="-1">
@@ -4474,7 +4482,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="372" versionedId="181" tableId="8">
+	<ActionParts newId="376" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4851,35 +4859,35 @@
 			<ActionPartLink parentLink="T" id="413" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="5" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Dialog &apos;Szene 3&apos; starten" id="147" order="4" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Dialog &apos;Szene 3&apos; starten" id="147" order="6" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="64" tableId="11" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="148" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="148" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="415" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="149" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="149" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="416" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="150" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="150" order="14" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="417" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="151" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="151" order="15" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="418" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="153" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="153" order="16" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="420" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Sonst" id="155" order="7" lastModified="-1" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Sonst" id="155" order="9" lastModified="-1" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Bedingung &apos;Karl_1&apos; auf wahr setzen" id="156" order="6" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Bedingung &apos;Karl_1&apos; auf wahr setzen" id="156" order="7" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="1" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5503,8 +5511,24 @@
 			<ActionPartLink parentLink="F" id="161" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Person &apos;Biber Karl&apos; nach rechts ausrichten" id="372" order="10" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Person &apos;Biber Karl&apos; nach links ausrichten" id="373" order="17" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="180" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Person &apos;Biber Karl&apos; nach rechts ausrichten" id="374" order="4" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Person &apos;Biber Karl&apos; nach links ausrichten" id="375" order="8" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="180" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="115" versionedId="75" tableId="9">
+	<Animations newId="121" versionedId="75" tableId="9">
 		<Animation name="Unnamed" id="11" order="11" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5798,12 +5822,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="27108" path="develop/Charaktere/Bibermama/Bibermama heller.png" Transparency="2">
-					<position x="-166" y="-136"/>
+				<sprite name="" pause="314" path="develop/Charaktere/Bibermama/Reden/Bibermama redet 1.png" Transparency="2">
+					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="482" y="407"/>
+			<AnimationCenter x="455" y="375"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -5821,28 +5845,121 @@
 			<AnimationWalkSteps>
 			</AnimationWalkSteps>
 		</Animation>
-		<Animation name="left" id="69" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+		<Animation name="right" id="69" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="27108" path="develop/Charaktere/Biber/biber karl.png" Transparency="2">
-					<position x="-153" y="-199"/>
-				</sprite>
 			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="559" y="416"/>
+			<AnimationMirror parentLink="F" id="70" tableId="9" LinkAny="F"/>
+			<AnimationCenter x="644" y="446"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
 			</AnimationWalkSteps>
 		</Animation>
-		<Animation name="right" id="70" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+		<Animation name="left" id="70" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="60" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="T" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
+				<sprite name="" pause="1000" path="develop/Charaktere/Biber/Idle/biber karl idle 1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 6.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 7.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 8.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 9.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 10.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 11.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 12.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 13.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 14.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 15.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 16.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 17.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 18.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 19.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="6" path="develop/Charaktere/Biber/Idle/biber karl idle 20.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 21.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 22.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 23.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 24.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 25.png" Transparency="2">
+					<position x="0" y="3"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 26.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 27.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 28.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="1000" path="develop/Charaktere/Biber/Idle/biber karl idle 29.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 30.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 31.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 32.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="60" path="develop/Charaktere/Biber/Idle/biber karl idle 33.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
 			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="69" tableId="9" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="731" y="652"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -6082,54 +6199,6 @@
 			<AnimationWalkSteps>
 			</AnimationWalkSteps>
 		</Animation>
-		<Animation name="front" id="92" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-		</Animation>
-		<Animation name="back" id="93" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="90" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-		</Animation>
-		<Animation name="left" id="94" order="2" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-		</Animation>
-		<Animation name="right" id="95" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-		</Animation>
 		<Animation name="front" id="96" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6247,6 +6316,138 @@
 			<AnimationWalkSteps>
 			</AnimationWalkSteps>
 		</Animation>
+		<Animation name="Animation0" id="115" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="40" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="9" path="develop/Charaktere/Eule/Reden/Eule spricht 1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="242" path="develop/Charaktere/Eule/Reden/Eule spricht 2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="241" path="develop/Charaktere/Eule/Reden/Eule spricht 3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="0" path="develop/Charaktere/Eule/Reden/Eule spricht 4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="164" path="develop/Charaktere/Eule/Reden/Eule spricht 5.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="17" path="develop/Charaktere/Eule/Reden/Eule spricht 6.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="162" path="develop/Charaktere/Eule/Reden/Eule spricht 7.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="80" path="develop/Charaktere/Eule/Reden/Eule spricht 8.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="156" path="develop/Charaktere/Eule/Reden/Eule spricht 9.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="233" y="847"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+		</Animation>
+		<Animation name="left" id="116" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="40" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="24" path="develop/Charaktere/Biber/Reden/biber karl maul auf 1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="23" path="develop/Charaktere/Biber/Reden/biber karl maul auf 2.png" Transparency="2">
+					<position x="1" y="1"/>
+				</sprite>
+				<sprite name="" pause="155" path="develop/Charaktere/Biber/Reden/biber karl maul auf 4.png" Transparency="2">
+					<position x="0" y="1"/>
+				</sprite>
+				<sprite name="" pause="163" path="develop/Charaktere/Biber/Reden/biber karl maul auf 3.png" Transparency="2">
+					<position x="-1" y="2"/>
+				</sprite>
+				<sprite name="" pause="166" path="develop/Charaktere/Biber/Reden/biber karl maul auf 5.png" Transparency="2">
+					<position x="-1" y="0"/>
+				</sprite>
+				<sprite name="" pause="155" path="develop/Charaktere/Biber/Reden/biber karl maul auf 6.png" Transparency="2">
+					<position x="-2" y="0"/>
+				</sprite>
+				<sprite name="" pause="159" path="develop/Charaktere/Biber/Reden/biber karl maul auf 7.png" Transparency="2">
+					<position x="-1" y="-1"/>
+				</sprite>
+				<sprite name="" pause="160" path="develop/Charaktere/Biber/Reden/biber karl maul auf 8.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="644" y="447"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+		</Animation>
+		<Animation name="right" id="117" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="116" tableId="9" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+		</Animation>
+		<Animation name="left" id="119" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="50" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="311" path="develop/Charaktere/Bibermama/Reden/Bibermama redet 1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="3" path="develop/Charaktere/Bibermama/Reden/Bibermama redet 2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="334" path="develop/Charaktere/Bibermama/Reden/Bibermama redet 3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="148" path="develop/Charaktere/Bibermama/Reden/Bibermama redet 4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="306" path="develop/Charaktere/Bibermama/Reden/Bibermama redet 5.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="316" path="develop/Charaktere/Bibermama/Reden/Bibermama redet 6.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="153" path="develop/Charaktere/Bibermama/Reden/Bibermama redet 7.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="454" y="373"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+		</Animation>
+		<Animation name="right" id="120" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="119" tableId="9" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+		</Animation>
 	</Animations>
 	<Conditions newId="11" versionedId="3" tableId="10">
 		<Condition name="Mama_Condition_1" id="0" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
@@ -6298,13 +6499,6 @@
 		<Dialog name="Szene 1" id="0" order="0" lastModified="-1">
 			<DialogDialogParts>
 				<Link parentLink="T" id="0" tableId="12" LinkAny="F"/>
-			</DialogDialogParts>
-		</Dialog>
-		<Dialog name="Szene 3.1" id="28" order="2" lastModified="-1">
-			<DialogDialogParts>
-				<Link parentLink="T" id="66" tableId="12" LinkAny="F"/>
-				<Link parentLink="T" id="67" tableId="12" LinkAny="F"/>
-				<Link parentLink="T" id="69" tableId="12" LinkAny="F"/>
 			</DialogDialogParts>
 		</Dialog>
 		<Dialog name="Szene 2.1" id="30" order="2" lastModified="-1">
@@ -6386,16 +6580,6 @@
 		<Dialog name="1.1. Tut dir leid, tut dir leid…davon kann ich mir auch kein neues Junges suchen, ..." id="45" order="45" lastModified="-1">
 			<DialogDialogParts>
 				<Link parentLink="T" id="65" tableId="12" LinkAny="F"/>
-			</DialogDialogParts>
-		</Dialog>
-		<Dialog name="3. Ääähm…ja…Also, wie war das mit der Strömung, die so gefährlich ist? Was passi..." id="47" order="47" lastModified="-1">
-			<DialogDialogParts>
-				<Link parentLink="T" id="70" tableId="12" LinkAny="F"/>
-			</DialogDialogParts>
-		</Dialog>
-		<Dialog name="3.1. Man verschwindet." id="48" order="48" lastModified="-1">
-			<DialogDialogParts>
-				<Link parentLink="T" id="71" tableId="12" LinkAny="F"/>
 			</DialogDialogParts>
 		</Dialog>
 		<Dialog name="1.1.1.1.1.1.1. Wartet! Warum kann ich denn nicht bei euch -&lt;br/&gt;Was haben die nur gegen mich?" id="49" order="49" lastModified="-1">
@@ -6649,51 +6833,6 @@
 			<DialogPartAnswerText parentLink="T" id="272" tableId="14" LinkAny="F"/>
 			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAltText parentLink="T" id="273" tableId="14" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="1. Hey du! Ich bin Cornelius. Und wie heißt du? Karl?" id="66" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="274" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="275" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="276" tableId="14" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="2. Hallo Karl! " id="67" order="1" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="277" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="278" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="279" tableId="14" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="3. Ääähm…ja…Also, wie war das mit der Strömung, die so gefährlich ist? Was passi..." id="69" order="2" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="283" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="284" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="T" id="47" tableId="11" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="285" tableId="14" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="3.1. Man verschwindet." id="70" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="286" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="287" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="T" id="48" tableId="11" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="288" tableId="14" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="3.1.1. " id="71" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="289" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="290" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="291" tableId="14" LinkAny="F"/>
 		</DialogPart>
 		<DialogPart name="1.1.1.1.1.1.1.1. Sind sie das da drüben? Wenn ich so einen Pelz habe wie sie, dann mögen sie m..." id="72" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7115,7 +7254,7 @@
 		</Sprite>
 		<Sprite name="Bild" id="82" order="43" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Fisch_klein.png" Transparency="-1">
-				<position x="4520" y="340"/>
+				<position x="5087" y="324"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Bild" id="83" order="39" lastModified="-1">
@@ -7249,18 +7388,18 @@
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Bild" id="110" order="110" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="develop/Verbcoin/Verbcoin rechts2.png" Transparency="-1">
-				<position x="0" y="0"/>
+			<SpriteSprite name="" pause="-1" path="develop/Verbcoin/Verbcoin rechts3.png" Transparency="-1">
+				<position x="0" y="2"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Bild" id="111" order="111" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="develop/Verbcoin/Verbcoin mitte2.png" Transparency="-1">
-				<position x="0" y="-5"/>
+			<SpriteSprite name="" pause="-1" path="develop/Verbcoin/Verbcoin mitte3.png" Transparency="-1">
+				<position x="-1" y="1"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Bild" id="112" order="112" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="develop/Verbcoin/Verbcoin links2.png" Transparency="-1">
-				<position x="0" y="3"/>
+			<SpriteSprite name="" pause="-1" path="develop/Verbcoin/Verbcoin links3.png" Transparency="-1">
+				<position x="-1" y="1"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Bild" id="114" order="114" lastModified="-1">
@@ -7274,7 +7413,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="753" versionedId="464" tableId="14">
+	<Texts newId="755" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -7661,81 +7800,6 @@
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 273 - Bibermutter: Szene 3: " id="273" order="273" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 274 - Biber Karl: Szene 3.1: Id: 274 - Biber Karl: Szene 3.1: Id: 274 - Biber Karl: Szene 3.1: Id: 274 - Biber Karl: Szene 3.1: Id: 274 - Biber Karl: Szene 3.1: Id: 274 - Biber Karl: Szene 3.1: Id: 274 - Biber Karl: Szene 3.1: Id: 274 - Biber Karl: Szene 3.1: Unnamed" id="274" order="274" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Hey du! Ich bin Cornelius. Und wie heißt du? Karl?" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 275 - Biber Karl: Szene 3.1: Id: 275 - Biber Karl: Szene 3.1: Id: 275 - Biber Karl: Szene 3.1: Id: 275 - Biber Karl: Szene 3.1: Id: 275 - Biber Karl: Szene 3.1: Id: 275 - Biber Karl: Szene 3.1: Id: 275 - Biber Karl: Szene 3.1: Id: 275 - Biber Karl: Szene 3.1: Unnamed" id="275" order="275" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 276 - Biber Karl: Szene 3.1: Id: 276 - Biber Karl: Szene 3.1: Id: 276 - Biber Karl: Szene 3.1: Id: 276 - Biber Karl: Szene 3.1: Id: 276 - Biber Karl: Szene 3.1: Id: 276 - Biber Karl: Szene 3.1: Id: 276 - Biber Karl: Szene 3.1: Id: 276 - Biber Karl: Szene 3.1: Unnamed" id="276" order="276" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 277 - Biber Karl: Szene 3.1: Id: 277 - Biber Karl: Szene 3.1: Id: 277 - Biber Karl: Szene 3.1: Id: 277 - Biber Karl: Szene 3.1: Id: 277 - Biber Karl: Szene 3.1: Id: 277 - Biber Karl: Szene 3.1: Id: 277 - Biber Karl: Szene 3.1: Id: 277 - Biber Karl: Szene 3.1: Unnamed" id="277" order="277" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Hallo Karl! " path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 278 - Biber Karl: Szene 3.1: Id: 278 - Biber Karl: Szene 3.1: Id: 278 - Biber Karl: Szene 3.1: Id: 278 - Biber Karl: Szene 3.1: Id: 278 - Biber Karl: Szene 3.1: Id: 278 - Biber Karl: Szene 3.1: Id: 278 - Biber Karl: Szene 3.1: Id: 278 - Biber Karl: Szene 3.1: Unnamed" id="278" order="278" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 279 - Biber Karl: Szene 3.1: Id: 279 - Biber Karl: Szene 3.1: Id: 279 - Biber Karl: Szene 3.1: Id: 279 - Biber Karl: Szene 3.1: Id: 279 - Biber Karl: Szene 3.1: Id: 279 - Biber Karl: Szene 3.1: Id: 279 - Biber Karl: Szene 3.1: Id: 279 - Biber Karl: Szene 3.1: Unnamed" id="279" order="279" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 283 - Biber Karl: Szene 3.1: Id: 283 - Biber Karl: Szene 3.1: Id: 283 - Biber Karl: Szene 3.1: Id: 283 - Biber Karl: Szene 3.1: Id: 283 - Biber Karl: Szene 3.1: Id: 283 - Biber Karl: Szene 3.1: Id: 283 - Biber Karl: Szene 3.1: Id: 283 - Biber Karl: Szene 3.1: Unnamed" id="283" order="283" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Ääähm…ja…Also, wie war das mit der Strömung, die so gefährlich ist? Was passiert, wenn sie einen erwischt?" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 284 - Biber Karl: Szene 3.1: Id: 284 - Biber Karl: Szene 3.1: Id: 284 - Biber Karl: Szene 3.1: Id: 284 - Biber Karl: Szene 3.1: Id: 284 - Biber Karl: Szene 3.1: Id: 284 - Biber Karl: Szene 3.1: Id: 284 - Biber Karl: Szene 3.1: Id: 284 - Biber Karl: Szene 3.1: Unnamed" id="284" order="284" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 285 - Biber Karl: Szene 3.1: Id: 285 - Biber Karl: Szene 3.1: Id: 285 - Biber Karl: Szene 3.1: Id: 285 - Biber Karl: Szene 3.1: Id: 285 - Biber Karl: Szene 3.1: Id: 285 - Biber Karl: Szene 3.1: Id: 285 - Biber Karl: Szene 3.1: Id: 285 - Biber Karl: Szene 3.1: Unnamed" id="285" order="285" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 286 - Biber Karl: Szene 3.1: Man versch..." id="286" order="286" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Man verschwindet." path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 287 - Biber Karl: Szene 3.1: " id="287" order="287" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 288 - Biber Karl: Szene 3.1: " id="288" order="288" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 289 - Biber Karl: Szene 3.1: " id="289" order="289" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 290 - Biber Karl: Szene 3.1: " id="290" order="290" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 291 - Biber Karl: Szene 3.1: " id="291" order="291" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -9320,6 +9384,8 @@
 			<OutfitWalkAnimations>
 			</OutfitWalkAnimations>
 			<OutfitTalkAnimations>
+				<Link parentLink="T" id="119" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="120" tableId="9" LinkAny="F"/>
 			</OutfitTalkAnimations>
 			<OutfitRandomAnimations>
 			</OutfitRandomAnimations>
@@ -9336,6 +9402,8 @@
 			<OutfitWalkAnimations>
 			</OutfitWalkAnimations>
 			<OutfitTalkAnimations>
+				<Link parentLink="T" id="116" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="117" tableId="9" LinkAny="F"/>
 			</OutfitTalkAnimations>
 			<OutfitRandomAnimations>
 			</OutfitRandomAnimations>
@@ -9372,10 +9440,6 @@
 		</Outfit>
 		<Outfit name="Mainoutfit" id="9" order="0" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T">
 			<OutfitWalkAnimations>
-				<Link parentLink="T" id="92" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="93" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="94" tableId="9" LinkAny="F"/>
-				<Link parentLink="T" id="95" tableId="9" LinkAny="F"/>
 			</OutfitWalkAnimations>
 			<OutfitTalkAnimations>
 			</OutfitTalkAnimations>
@@ -9396,6 +9460,7 @@
 			<OutfitWalkAnimations>
 			</OutfitWalkAnimations>
 			<OutfitTalkAnimations>
+				<Link parentLink="T" id="115" tableId="9" LinkAny="F"/>
 			</OutfitTalkAnimations>
 			<OutfitRandomAnimations>
 			</OutfitRandomAnimations>
@@ -9436,7 +9501,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="1" versionedId="1" tableId="28">
+	<AnimationFrames newId="79" versionedId="1" tableId="28">
 		<AnimationFrame name="Unnamed - Property Frame" id="0" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="T" id="71" tableId="7" LinkAny="F"/>
 		</AnimationFrame>
