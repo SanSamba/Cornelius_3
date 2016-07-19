@@ -7413,7 +7413,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="755" versionedId="464" tableId="14">
+	<Texts newId="753" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -9501,7 +9501,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="79" versionedId="1" tableId="28">
+	<AnimationFrames newId="1" versionedId="1" tableId="28">
 		<AnimationFrame name="Unnamed - Property Frame" id="0" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="T" id="71" tableId="7" LinkAny="F"/>
 		</AnimationFrame>
