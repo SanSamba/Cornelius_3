@@ -34,7 +34,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="20" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="18" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="159" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="161" tableId="6" LinkAny="F"/>
@@ -111,7 +111,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="124" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="81" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -458,7 +458,7 @@
 			<CharacterInterfaces>
 			</CharacterInterfaces>
 			<CharacterFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
-			<CharacterCurrentOutfit parentLink="F" id="10" tableId="17" LinkAny="F"/>
+			<CharacterCurrentOutfit parentLink="F" id="11" tableId="17" LinkAny="F"/>
 			<CharacterCurrentCommentSet parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<CharacterDialogCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<CharacterDialogs>
@@ -470,6 +470,7 @@
 			</CharacterActions>
 			<CharacterOutfits>
 				<Link parentLink="T" id="10" tableId="17" LinkAny="F"/>
+				<Link parentLink="T" id="11" tableId="17" LinkAny="F"/>
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
@@ -3685,7 +3686,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
 	</Objects>
-	<Actions newId="132" versionedId="69" tableId="7">
+	<Actions newId="133" versionedId="69" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4267,6 +4268,8 @@
 				<Link parentLink="T" id="310" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="319" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="320" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="378" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="379" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Action" id="102" order="102" lastModified="-1" ActionExecutionType="-1">
@@ -4286,7 +4289,7 @@
 				<Link parentLink="T" id="315" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;Interaktion&apos; angewandt" id="104" order="2" lastModified="-1" ActionExecutionType="6">
+		<Action name="&apos;Interaktion&apos; angewandt" id="104" order="3" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="2" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
@@ -4482,7 +4485,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="376" versionedId="181" tableId="8">
+	<ActionParts newId="380" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5279,71 +5282,71 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="294" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="294" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="610" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="295" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="295" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="611" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="296" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="296" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="612" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="301" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="301" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="618" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="302" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="302" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="619" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="303" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="303" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="620" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="304" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="304" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="621" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="305" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="305" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="622" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="306" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="306" order="12" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="623" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="307" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="307" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="624" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="308" order="12" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="308" order="14" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="625" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="309" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="309" order="15" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="626" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="310" order="14" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="310" order="16" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="627" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Eule&apos;" id="311" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="311" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="637" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Cornelius&apos;" id="312" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="312" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="638" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Eule&apos;" id="313" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="313" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="639" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Display text by character &apos;Cornelius&apos;" id="314" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="314" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="640" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -5351,11 +5354,11 @@
 			<ActionPartLink parentLink="T" id="641" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="319" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="319" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="645" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="320" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Eule&apos; ausgeben" id="320" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="646" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -5527,8 +5530,16 @@
 			<ActionPartLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Animation &apos;Animation0&apos; abspielen und warten" id="378" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+			<ActionPartLink parentLink="F" id="132" tableId="9" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Outfit von &apos;Eule&apos; auf &apos;Mainoutfit&apos; wechseln" id="379" order="1" lastModified="-1" ActionPartCommand="51" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="10" tableId="17" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="121" versionedId="75" tableId="9">
+	<Animations newId="135" versionedId="75" tableId="9">
 		<Animation name="Unnamed" id="11" order="11" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5704,11 +5715,35 @@
 			<AnimationWalkSteps>
 			</AnimationWalkSteps>
 		</Animation>
-		<Animation name="front" id="27" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+		<Animation name="front" id="27" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="T" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="159" path="develop/Charaktere/Mama/Redeanimation/Schnabeltiermama schnabel auf 1.png" Transparency="2">
+				<sprite name="" pause="1800" path="develop/Charaktere/Mama/Blinzeln/Schnabeltiermama idle 1.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Mama/Blinzeln/Schnabeltiermama idle 2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Mama/Blinzeln/Schnabeltiermama idle 3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Mama/Blinzeln/Schnabeltiermama idle 4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Mama/Blinzeln/Schnabeltiermama idle 5.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Mama/Blinzeln/Schnabeltiermama idle 4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Mama/Blinzeln/Schnabeltiermama idle 3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Mama/Blinzeln/Schnabeltiermama idle 2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Mama/Blinzeln/Schnabeltiermama idle 1.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
@@ -6253,20 +6288,32 @@
 			<AnimationWalkSteps>
 			</AnimationWalkSteps>
 		</Animation>
-		<Animation name="right" id="107" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="2" AnimationPause="60" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+		<Animation name="right" id="107" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="0" AnimationPause="40" AnimationDirection="0" AnimationMove="F" AnimationUseIndividualPause="T" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="153" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 1.png" Transparency="2">
+				<sprite name="" pause="1600" path="develop/Charaktere/Cornelius/Laufen/0 cornelius steht.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="163" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 2.png" Transparency="2">
+				<sprite name="" pause="40" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 1.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="163" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 3.png" Transparency="2">
+				<sprite name="" pause="40" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 2.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
-				<sprite name="" pause="159" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 4.png" Transparency="2">
+				<sprite name="" pause="40" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 4.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 3.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 2.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="40" path="develop/Charaktere/Cornelius/Idle/cornelius blinzelt 1.png" Transparency="2">
 					<position x="0" y="0"/>
 				</sprite>
 			</AnimationSprites>
@@ -6442,6 +6489,156 @@
 			<AnimationSprites>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="119" tableId="9" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+		</Animation>
+		<Animation name="front" id="128" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="184" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 15.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="232" y="845"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+		</Animation>
+		<Animation name="Aufwachen" id="132" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="10" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="61" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 15.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="74" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 16.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="167" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 18.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="72" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 18.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="155" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 19.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="18" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 20.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="163" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 21.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="161" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 22.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="164" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 23.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="164" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 24.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="167" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 25.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="161" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 26.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="161" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 27.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="161" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 28.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="161" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 29.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="152" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 30.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="152" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 31.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="157" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 32.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="150" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 33.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="152" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 34.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="330" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 35.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="326" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 36.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="325" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 37.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="322" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 38.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="320" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 39.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="318" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 40.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="316" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 41.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="314" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 42.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="311" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 43.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="301" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 44.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="304" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 45.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="302" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 46.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="300" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 47.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="298" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 49.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="159" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 50.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="150" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 51.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+				<sprite name="" pause="160" path="develop/Charaktere/Eule/Kopf drehen/Eule dreht kopf 52.png" Transparency="2">
+					<position x="0" y="0"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="232" y="845"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+		</Animation>
+		<Animation name="left" id="134" order="1" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="180" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="107" tableId="9" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
@@ -7413,7 +7610,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="755" versionedId="464" tableId="14">
+	<Texts newId="757" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -9308,7 +9505,7 @@
 	</Cursors>
 	<CommentSets newId="0" versionedId="-1" tableId="16">
 	</CommentSets>
-	<Outfits newId="11" versionedId="7" tableId="17">
+	<Outfits newId="12" versionedId="7" tableId="17">
 		<Outfit name="Mainoutfit" id="1" order="1" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T">
 			<OutfitWalkAnimations>
 				<Link parentLink="T" id="14" tableId="9" LinkAny="F"/>
@@ -9322,6 +9519,7 @@
 			</OutfitTalkAnimations>
 			<OutfitRandomAnimations>
 				<Link parentLink="T" id="107" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="134" tableId="9" LinkAny="F"/>
 			</OutfitRandomAnimations>
 			<OutfitCharacterAnimations>
 			</OutfitCharacterAnimations>
@@ -9472,6 +9670,22 @@
 			<OutfitModelTextures>
 			</OutfitModelTextures>
 		</Outfit>
+		<Outfit name="Schlafen/Kopf drehen" id="11" order="1" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T">
+			<OutfitWalkAnimations>
+			</OutfitWalkAnimations>
+			<OutfitTalkAnimations>
+			</OutfitTalkAnimations>
+			<OutfitRandomAnimations>
+			</OutfitRandomAnimations>
+			<OutfitCharacterAnimations>
+				<Link parentLink="T" id="132" tableId="9" LinkAny="F"/>
+			</OutfitCharacterAnimations>
+			<OutfitStandingAnimations>
+				<Link parentLink="T" id="128" tableId="9" LinkAny="F"/>
+			</OutfitStandingAnimations>
+			<OutfitModelTextures>
+			</OutfitModelTextures>
+		</Outfit>
 	</Outfits>
 	<Languages newId="1" versionedId="0" tableId="18">
 		<Language name="Unnamed" id="0" order="0" lastModified="-1">
@@ -9501,7 +9715,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="79" versionedId="1" tableId="28">
+	<AnimationFrames newId="81" versionedId="1" tableId="28">
 		<AnimationFrame name="Unnamed - Property Frame" id="0" order="0" lastModified="-1" AnimationFrameIndex="0" AnimationFrameSound="" AnimationFrameSoundVolume="100" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="T" id="71" tableId="7" LinkAny="F"/>
 		</AnimationFrame>
