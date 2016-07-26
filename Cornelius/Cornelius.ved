@@ -34,7 +34,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="19" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="21" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="159" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="161" tableId="6" LinkAny="F"/>
@@ -111,7 +111,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="81" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="126" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -364,7 +364,7 @@
 			</CharacterDialogSprite>
 			<CharacterActionDestPosition x="-1" y="-1"/>
 		</Character>
-		<Character name="Schildkröte" id="7" order="9" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100">
+		<Character name="Schildkröte" id="7" order="9" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="50">
 			<CharacterName parentLink="T" id="487" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 				<Link parentLink="F" id="1" tableId="1" LinkAny="F"/>
@@ -6082,7 +6082,7 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
-	<Animations newId="137" versionedId="75" tableId="9">
+	<Animations newId="136" versionedId="75" tableId="9">
 		<Animation name="Unnamed" id="11" order="11" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
