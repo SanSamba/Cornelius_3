@@ -4777,6 +4777,7 @@
 				<Link parentLink="T" id="327" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="360" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="361" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="401" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;Interaktion&apos; angewandt" id="107" order="0" lastModified="-1" ActionExecutionType="6">
@@ -4951,6 +4952,8 @@
 				<Link parentLink="T" id="363" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="365" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="366" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="399" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="400" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;Inspizieren&apos; angewandt" id="132" order="1" lastModified="-1" ActionExecutionType="6">
@@ -5030,7 +5033,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="399" versionedId="181" tableId="8">
+	<ActionParts newId="402" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5439,9 +5442,9 @@
 			<ActionPartLink parentLink="T" id="461" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="5" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Wenn &apos;Cornelius&apos; auf Kulisse &apos;Aktuelle Kulisse&apos;" id="183" order="1" lastModified="-1" ActionPartCommand="84" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Wenn &apos;Cornelius&apos; auf Kulisse &apos;Schildkrötenhaus&apos;" id="183" order="1" lastModified="-1" ActionPartCommand="84" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="19" tableId="4" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="184" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="497" tableId="14" LinkAny="F"/>
@@ -5855,7 +5858,7 @@
 			<ActionPartLink parentLink="T" id="646" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Zu Kulisse &apos;Rätsel&apos; wechseln" id="327" order="4" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Zu Kulisse &apos;Rätsel&apos; wechseln" id="327" order="5" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="65" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5967,7 +5970,7 @@
 			<ActionPartLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Person &apos;Aktuelle Person&apos; nach rechts ausrichten" id="361" order="1" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Person &apos;Aktuelle Person&apos; nach rechts ausrichten" id="361" order="4" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5975,11 +5978,11 @@
 			<ActionPartLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Person &apos;Aktuelle Person&apos; nach rechts ausrichten" id="365" order="1" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Person &apos;Aktuelle Person&apos; nach rechts ausrichten" id="365" order="2" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Dialog &apos;Dialog1&apos; starten" id="366" order="2" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Dialog &apos;Dialog1&apos; starten" id="366" order="3" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="66" tableId="11" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6082,6 +6085,18 @@
 		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="398" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="775" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Bedingung &apos;Eule_1&apos; falsch" id="399" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Bedingung &apos;Eule_1&apos; auf wahr setzen" id="400" order="4" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Bedingung &apos;Eule_1&apos; wahr" id="401" order="1" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="8" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="137" versionedId="75" tableId="9">
@@ -8007,7 +8022,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="776" versionedId="464" tableId="14">
+	<Texts newId="779" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
