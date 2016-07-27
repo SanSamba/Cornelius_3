@@ -26,6 +26,7 @@
 			<Link parentLink="T" id="2" tableId="1" LinkAny="F"/>
 			<Link parentLink="T" id="3" tableId="1" LinkAny="F"/>
 			<Link parentLink="T" id="4" tableId="1" LinkAny="F"/>
+			<Link parentLink="T" id="5" tableId="1" LinkAny="F"/>
 		</GameInterfaces>
 		<GameFontLinks>
 			<Link parentLink="T" id="0" tableId="3" LinkAny="F"/>
@@ -96,6 +97,7 @@
 				<Link parentLink="F" id="2" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="3" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="4" tableId="1" LinkAny="F"/>
+				<Link parentLink="F" id="5" tableId="1" LinkAny="F"/>
 			</CharacterInterfaces>
 			<CharacterFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<CharacterCurrentOutfit parentLink="F" id="1" tableId="17" LinkAny="F"/>
@@ -120,21 +122,21 @@
 			</CharacterConditions>
 			<CharacterActiveDialogFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<CharacterInactiveDialogFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
-			<CharacterDialogArea top="141" left="91" bottom="301" right="503"/>
+			<CharacterDialogArea top="1078" left="404" bottom="1182" right="1782"/>
 			<CharacterDialogActiveScrollUp name="" pause="-1" path="develop/Gesprächsblase/Pfeil_oben.png" Transparency="-1">
-				<position x="46" y="128"/>
+				<position x="340" y="1072"/>
 			</CharacterDialogActiveScrollUp>
 			<CharacterDialogInactiveScrollUp name="" pause="-1" path="develop/Gesprächsblase/Pfeil_oben.png" Transparency="-1">
-				<position x="47" y="128"/>
+				<position x="340" y="1076"/>
 			</CharacterDialogInactiveScrollUp>
 			<CharacterDialogActiveScrollDown name="" pause="-1" path="develop/Gesprächsblase/Pfeil_unten.png" Transparency="-1">
-				<position x="48" y="273"/>
+				<position x="340" y="1131"/>
 			</CharacterDialogActiveScrollDown>
 			<CharacterDialogInactiveScrollDown name="" pause="-1" path="develop/Gesprächsblase/Pfeil_unten.png" Transparency="-1">
-				<position x="48" y="272"/>
+				<position x="341" y="1126"/>
 			</CharacterDialogInactiveScrollDown>
-			<CharacterDialogSprite name="" pause="-1" path="develop/Umgebung/Anschlagtafel.png" Transparency="-1">
-				<position x="-4" y="0"/>
+			<CharacterDialogSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
 			</CharacterDialogSprite>
 			<CharacterActionDestPosition x="-1" y="-1"/>
 		</Character>
@@ -284,7 +286,6 @@
 			<CharacterCurrentCommentSet parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<CharacterDialogCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<CharacterDialogs>
-				<Link parentLink="T" id="43" tableId="11" LinkAny="F"/>
 			</CharacterDialogs>
 			<CharacterActions>
 				<Link parentLink="T" id="65" tableId="7" LinkAny="F"/>
@@ -504,7 +505,7 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 		</Character>
 	</Characters>
-	<Interfaces newId="5" versionedId="1" tableId="1">
+	<Interfaces newId="6" versionedId="1" tableId="1">
 		<Interface name="Verb_coin" id="1" order="1" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="5" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
 			<InterfaceSprite name="" pause="-1" path="develop/Verbcoin/Verbcoin leer3.png" Transparency="-1">
 				<position x="0" y="0"/>
@@ -645,8 +646,27 @@
 			</InterfaceValues>
 			<InterfaceInterfaceClass parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Interface>
+		<Interface name="Tafel" id="5" order="5" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="4" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="develop/Umgebung/Anschlagtafel 3.png" Transparency="-1">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="0" y="1050"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="4" tableId="31" LinkAny="F"/>
+		</Interface>
 	</Interfaces>
-	<Buttons newId="12" versionedId="4" tableId="2">
+	<Buttons newId="13" versionedId="4" tableId="2">
 		<Button name="Laufen" id="1" order="0" lastModified="-1" ButtonType="3" ButtonCommandType="1" ButtonUse="0" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="T">
 			<ButtonActiveSprite parentLink="T" id="3" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="4" tableId="13" LinkAny="F"/>
@@ -981,118 +1001,118 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 		<Font name="Font_Cornelius" id="1" order="1" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzäöüßABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ1234567890(){}[]!?§$%&amp;@€/|\_&lt;&gt;.,;:=+-*#^°„“&quot;´`’&apos;~" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
-			<FontSprite name="" pause="-1" path="develop/Fonts/font_comic_48 (3).png" Transparency="-1">
+			<FontSprite name="" pause="-1" path="develop/Fonts/font_comic_48 (4).png" Transparency="-1">
 				<position x="0" y="0"/>
 			</FontSprite>
 			<FontLetters>
-				<rect top="38" left="109" bottom="80" right="130"/>
-				<rect top="38" left="155" bottom="80" right="175"/>
-				<rect top="38" left="200" bottom="80" right="219"/>
-				<rect top="38" left="244" bottom="80" right="265"/>
-				<rect top="38" left="290" bottom="80" right="311"/>
-				<rect top="38" left="335" bottom="80" right="354"/>
-				<rect top="38" left="379" bottom="80" right="399"/>
-				<rect top="38" left="424" bottom="80" right="444"/>
-				<rect top="38" left="470" bottom="80" right="482"/>
-				<rect top="38" left="506" bottom="80" right="523"/>
-				<rect top="38" left="549" bottom="80" right="569"/>
-				<rect top="38" left="595" bottom="80" right="606"/>
-				<rect top="38" left="632" bottom="80" right="658"/>
-				<rect top="38" left="683" bottom="80" right="702"/>
-				<rect top="38" left="727" bottom="80" right="746"/>
-				<rect top="104" left="110" bottom="146" right="130"/>
-				<rect top="104" left="154" bottom="146" right="173"/>
-				<rect top="104" left="199" bottom="146" right="218"/>
-				<rect top="104" left="242" bottom="146" right="260"/>
-				<rect top="104" left="285" bottom="146" right="304"/>
-				<rect top="104" left="329" bottom="146" right="348"/>
-				<rect top="104" left="372" bottom="146" right="392"/>
-				<rect top="104" left="416" bottom="146" right="440"/>
-				<rect top="104" left="464" bottom="146" right="486"/>
-				<rect top="104" left="509" bottom="146" right="530"/>
-				<rect top="104" left="555" bottom="146" right="575"/>
-				<rect top="104" left="599" bottom="146" right="619"/>
-				<rect top="104" left="643" bottom="146" right="663"/>
-				<rect top="104" left="688" bottom="146" right="707"/>
-				<rect top="104" left="732" bottom="146" right="751"/>
-				<rect top="171" left="110" bottom="213" right="134"/>
-				<rect top="171" left="160" bottom="213" right="182"/>
-				<rect top="171" left="206" bottom="213" right="229"/>
-				<rect top="171" left="254" bottom="213" right="277"/>
-				<rect top="171" left="303" bottom="213" right="325"/>
-				<rect top="171" left="350" bottom="213" right="371"/>
-				<rect top="171" left="395" bottom="213" right="419"/>
-				<rect top="171" left="444" bottom="213" right="469"/>
-				<rect top="171" left="494" bottom="213" right="515"/>
-				<rect top="171" left="539" bottom="213" right="562"/>
-				<rect top="171" left="589" bottom="213" right="609"/>
-				<rect top="171" left="633" bottom="213" right="654"/>
-				<rect top="171" left="679" bottom="213" right="707"/>
-				<rect top="171" left="732" bottom="213" right="758"/>
-				<rect top="171" left="783" bottom="213" right="809"/>
-				<rect top="238" left="110" bottom="280" right="130"/>
-				<rect top="238" left="154" bottom="280" right="183"/>
-				<rect top="238" left="208" bottom="280" right="230"/>
-				<rect top="238" left="255" bottom="280" right="278"/>
-				<rect top="238" left="303" bottom="280" right="328"/>
-				<rect top="238" left="352" bottom="280" right="376"/>
-				<rect top="238" left="402" bottom="280" right="425"/>
-				<rect top="238" left="449" bottom="280" right="481"/>
-				<rect top="238" left="505" bottom="280" right="530"/>
-				<rect top="238" left="554" bottom="280" right="577"/>
-				<rect top="238" left="602" bottom="280" right="626"/>
-				<rect top="238" left="651" bottom="280" right="675"/>
-				<rect top="238" left="701" bottom="280" right="727"/>
-				<rect top="238" left="752" bottom="280" right="776"/>
-				<rect top="304" left="111" bottom="346" right="127"/>
-				<rect top="304" left="153" bottom="346" right="173"/>
-				<rect top="304" left="199" bottom="346" right="220"/>
-				<rect top="304" left="245" bottom="346" right="268"/>
-				<rect top="304" left="293" bottom="346" right="314"/>
-				<rect top="304" left="339" bottom="346" right="360"/>
-				<rect top="304" left="385" bottom="346" right="407"/>
-				<rect top="304" left="432" bottom="346" right="453"/>
-				<rect top="304" left="478" bottom="346" right="500"/>
-				<rect top="304" left="524" bottom="346" right="547"/>
-				<rect top="304" left="571" bottom="346" right="587"/>
-				<rect top="304" left="612" bottom="346" right="628"/>
-				<rect top="304" left="651" bottom="346" right="668"/>
-				<rect top="304" left="692" bottom="346" right="708"/>
-				<rect top="304" left="734" bottom="346" right="749"/>
-				<rect top="304" left="775" bottom="346" right="790"/>
-				<rect top="371" left="110" bottom="413" right="121"/>
-				<rect top="371" left="147" bottom="413" right="166"/>
-				<rect top="371" left="192" bottom="413" right="213"/>
-				<rect top="371" left="239" bottom="413" right="261"/>
-				<rect top="371" left="288" bottom="413" right="314"/>
-				<rect top="371" left="339" bottom="413" right="362"/>
-				<rect top="371" left="386" bottom="413" right="416"/>
-				<rect top="371" left="440" bottom="413" right="464"/>
-				<rect top="371" left="487" bottom="413" right="507"/>
-				<rect top="371" left="535" bottom="413" right="546"/>
-				<rect top="371" left="574" bottom="413" right="593"/>
-				<rect top="371" left="617" bottom="413" right="642"/>
-				<rect top="371" left="665" bottom="413" right="680"/>
-				<rect top="371" left="706" bottom="413" right="722"/>
-				<rect top="438" left="110" bottom="480" right="122"/>
-				<rect top="438" left="149" bottom="480" right="161"/>
-				<rect top="438" left="185" bottom="480" right="198"/>
-				<rect top="438" left="226" bottom="480" right="237"/>
-				<rect top="438" left="263" bottom="480" right="281"/>
-				<rect top="438" left="307" bottom="480" right="326"/>
-				<rect top="438" left="351" bottom="480" right="367"/>
-				<rect top="438" left="392" bottom="480" right="411"/>
-				<rect top="438" left="436" bottom="480" right="465"/>
-				<rect top="438" left="490" bottom="480" right="508"/>
-				<rect top="438" left="534" bottom="480" right="552"/>
-				<rect top="438" left="576" bottom="480" right="593"/>
-				<rect top="438" left="617" bottom="480" right="633"/>
-				<rect top="438" left="659" bottom="480" right="675"/>
-				<rect top="438" left="702" bottom="480" right="716"/>
-				<rect top="438" left="746" bottom="480" right="760"/>
-				<rect top="438" left="791" bottom="480" right="802"/>
-				<rect top="438" left="829" bottom="480" right="840"/>
-				<rect top="438" left="868" bottom="480" right="889"/>
+				<rect top="34" left="98" bottom="72" right="117"/>
+				<rect top="34" left="139" bottom="72" right="157"/>
+				<rect top="34" left="180" bottom="72" right="197"/>
+				<rect top="34" left="220" bottom="72" right="239"/>
+				<rect top="34" left="261" bottom="72" right="280"/>
+				<rect top="34" left="301" bottom="72" right="318"/>
+				<rect top="34" left="341" bottom="72" right="359"/>
+				<rect top="34" left="382" bottom="72" right="400"/>
+				<rect top="34" left="423" bottom="72" right="434"/>
+				<rect top="34" left="456" bottom="72" right="471"/>
+				<rect top="34" left="495" bottom="72" right="512"/>
+				<rect top="34" left="535" bottom="72" right="546"/>
+				<rect top="34" left="569" bottom="72" right="592"/>
+				<rect top="34" left="615" bottom="72" right="632"/>
+				<rect top="34" left="654" bottom="72" right="671"/>
+				<rect top="94" left="99" bottom="132" right="117"/>
+				<rect top="94" left="139" bottom="132" right="156"/>
+				<rect top="94" left="179" bottom="132" right="196"/>
+				<rect top="94" left="217" bottom="132" right="234"/>
+				<rect top="94" left="256" bottom="132" right="274"/>
+				<rect top="94" left="296" bottom="132" right="313"/>
+				<rect top="94" left="335" bottom="132" right="353"/>
+				<rect top="94" left="374" bottom="132" right="396"/>
+				<rect top="94" left="418" bottom="132" right="437"/>
+				<rect top="94" left="458" bottom="132" right="477"/>
+				<rect top="94" left="500" bottom="132" right="517"/>
+				<rect top="94" left="539" bottom="132" right="557"/>
+				<rect top="94" left="579" bottom="132" right="597"/>
+				<rect top="94" left="619" bottom="132" right="637"/>
+				<rect top="94" left="658" bottom="132" right="675"/>
+				<rect top="154" left="99" bottom="192" right="120"/>
+				<rect top="154" left="144" bottom="192" right="164"/>
+				<rect top="154" left="186" bottom="192" right="206"/>
+				<rect top="154" left="228" bottom="192" right="249"/>
+				<rect top="154" left="272" bottom="192" right="292"/>
+				<rect top="154" left="315" bottom="192" right="334"/>
+				<rect top="154" left="356" bottom="192" right="377"/>
+				<rect top="154" left="400" bottom="192" right="422"/>
+				<rect top="154" left="444" bottom="192" right="463"/>
+				<rect top="154" left="485" bottom="192" right="506"/>
+				<rect top="154" left="530" bottom="192" right="548"/>
+				<rect top="154" left="570" bottom="192" right="589"/>
+				<rect top="154" left="611" bottom="192" right="636"/>
+				<rect top="154" left="659" bottom="192" right="682"/>
+				<rect top="154" left="705" bottom="192" right="728"/>
+				<rect top="214" left="99" bottom="252" right="117"/>
+				<rect top="214" left="139" bottom="252" right="164"/>
+				<rect top="214" left="187" bottom="252" right="207"/>
+				<rect top="214" left="229" bottom="252" right="250"/>
+				<rect top="214" left="273" bottom="252" right="295"/>
+				<rect top="214" left="317" bottom="252" right="338"/>
+				<rect top="214" left="361" bottom="252" right="382"/>
+				<rect top="214" left="404" bottom="252" right="433"/>
+				<rect top="214" left="455" bottom="252" right="477"/>
+				<rect top="214" left="499" bottom="252" right="519"/>
+				<rect top="214" left="541" bottom="252" right="563"/>
+				<rect top="214" left="586" bottom="252" right="607"/>
+				<rect top="214" left="630" bottom="252" right="654"/>
+				<rect top="214" left="677" bottom="252" right="698"/>
+				<rect top="274" left="100" bottom="312" right="114"/>
+				<rect top="274" left="138" bottom="312" right="156"/>
+				<rect top="274" left="180" bottom="312" right="198"/>
+				<rect top="274" left="220" bottom="312" right="241"/>
+				<rect top="274" left="263" bottom="312" right="282"/>
+				<rect top="274" left="305" bottom="312" right="324"/>
+				<rect top="274" left="346" bottom="312" right="367"/>
+				<rect top="274" left="389" bottom="312" right="407"/>
+				<rect top="274" left="430" bottom="312" right="450"/>
+				<rect top="274" left="472" bottom="312" right="492"/>
+				<rect top="274" left="514" bottom="312" right="528"/>
+				<rect top="274" left="551" bottom="312" right="565"/>
+				<rect top="274" left="586" bottom="312" right="601"/>
+				<rect top="274" left="622" bottom="312" right="637"/>
+				<rect top="274" left="660" bottom="312" right="674"/>
+				<rect top="274" left="697" bottom="312" right="711"/>
+				<rect top="334" left="99" bottom="372" right="109"/>
+				<rect top="334" left="132" bottom="372" right="149"/>
+				<rect top="334" left="172" bottom="372" right="191"/>
+				<rect top="334" left="215" bottom="372" right="235"/>
+				<rect top="334" left="259" bottom="372" right="283"/>
+				<rect top="334" left="305" bottom="372" right="326"/>
+				<rect top="334" left="348" bottom="372" right="374"/>
+				<rect top="334" left="396" bottom="372" right="417"/>
+				<rect top="334" left="439" bottom="372" right="456"/>
+				<rect top="334" left="481" bottom="372" right="491"/>
+				<rect top="334" left="517" bottom="372" right="534"/>
+				<rect top="334" left="555" bottom="372" right="578"/>
+				<rect top="334" left="598" bottom="372" right="612"/>
+				<rect top="334" left="635" bottom="372" right="650"/>
+				<rect top="394" left="99" bottom="432" right="110"/>
+				<rect top="394" left="134" bottom="432" right="145"/>
+				<rect top="394" left="167" bottom="432" right="178"/>
+				<rect top="394" left="203" bottom="432" right="213"/>
+				<rect top="394" left="237" bottom="432" right="253"/>
+				<rect top="394" left="276" bottom="432" right="293"/>
+				<rect top="394" left="315" bottom="432" right="330"/>
+				<rect top="394" left="352" bottom="432" right="370"/>
+				<rect top="394" left="392" bottom="432" right="418"/>
+				<rect top="394" left="441" bottom="432" right="457"/>
+				<rect top="394" left="481" bottom="432" right="496"/>
+				<rect top="394" left="518" bottom="432" right="533"/>
+				<rect top="394" left="556" bottom="432" right="570"/>
+				<rect top="394" left="593" bottom="432" right="607"/>
+				<rect top="394" left="632" bottom="432" right="644"/>
+				<rect top="394" left="672" bottom="432" right="684"/>
+				<rect top="394" left="712" bottom="432" right="721"/>
+				<rect top="394" left="746" bottom="432" right="756"/>
+				<rect top="394" left="781" bottom="432" right="800"/>
 			</FontLetters>
 			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<FontShadowOffset x="1" y="1"/>
@@ -4169,7 +4189,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
 	</Objects>
-	<Actions newId="139" versionedId="69" tableId="7">
+	<Actions newId="144" versionedId="69" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4337,20 +4357,6 @@
 				<Link parentLink="T" id="76" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Aktion" id="47" order="47" lastModified="-1" ActionExecutionType="-1">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="77" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="Aktion" id="48" order="48" lastModified="-1" ActionExecutionType="-1">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="78" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
 		<Action name="Linksklick" id="50" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4469,7 +4475,7 @@
 				<Link parentLink="T" id="143" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="145" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="178" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="181" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="393" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;Reden&apos; angewandt" id="67" order="1" lastModified="-1" ActionExecutionType="6">
@@ -4477,19 +4483,9 @@
 			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="147" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="148" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="149" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="150" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="151" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="153" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="155" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="156" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="157" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="180" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="372" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="373" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="374" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="375" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="392" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Aktion" id="68" order="67" lastModified="-1" ActionExecutionType="-1">
@@ -4501,6 +4497,11 @@
 				<Link parentLink="T" id="160" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="161" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="162" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="394" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="395" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="396" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="397" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="398" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Linksklick" id="69" order="0" lastModified="-1" ActionExecutionType="7">
@@ -5004,8 +5005,32 @@
 				<Link parentLink="T" id="390" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Aktion" id="140" order="140" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+			</ActionActionParts>
+		</Action>
+		<Action name="Aktion" id="141" order="141" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+			</ActionActionParts>
+		</Action>
+		<Action name="Aktion" id="142" order="142" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+			</ActionActionParts>
+		</Action>
+		<Action name="Aktion" id="143" order="143" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="392" versionedId="181" tableId="8">
+	<ActionParts newId="399" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5165,14 +5190,6 @@
 		<ActionPart name="Text von &apos;Ente_2&apos; ausgeben" id="76" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="250" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="77" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="266" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="78" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="270" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Kulisse &apos;Kapitel1&apos; zeigen" id="81" order="0" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="18" tableId="4" LinkAny="F"/>
@@ -5350,63 +5367,39 @@
 			<ActionPartLink parentLink="T" id="406" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Wenn Bedingung &apos;Bibermutter_1&apos; falsch" id="139" order="2" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Wenn Bedingung &apos;Bibermutter_1&apos; falsch" id="139" order="4" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Bibermutter&apos; ausgeben" id="140" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Bibermutter&apos; ausgeben" id="140" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="409" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="5" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Bedingung &apos;Bibermutter_1&apos; auf wahr setzen" id="141" order="10" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Bedingung &apos;Bibermutter_1&apos; auf wahr setzen" id="141" order="11" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="142" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="142" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="410" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="143" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="143" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="411" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Bibermutter&apos; ausgeben" id="145" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Bibermutter&apos; ausgeben" id="145" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="413" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="5" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Dialog &apos;Szene 3&apos; starten" id="147" order="6" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Dialog &apos;Szene 3&apos; starten" id="147" order="7" lastModified="-1" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="64" tableId="11" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="148" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="415" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="149" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="416" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="150" order="14" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="417" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="151" order="15" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="418" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="153" order="16" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="420" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Sonst" id="155" order="9" lastModified="-1" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Bedingung &apos;Karl_1&apos; auf wahr setzen" id="156" order="7" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Bedingung &apos;Karl_1&apos; auf wahr setzen" id="156" order="8" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="1" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Wenn Bedingung &apos;Karl_1&apos; falsch" id="157" order="2" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Wenn Bedingung &apos;Karl_1&apos; falsch" id="157" order="4" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="1" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5442,17 +5435,9 @@
 			<ActionPartLink parentLink="T" id="460" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Bibermutter&apos; ausgeben" id="178" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Bibermutter&apos; ausgeben" id="178" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="461" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="5" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Wenn Bedingung &apos;Ente_1&apos; wahr" id="180" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="3" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Wenn Bedingung &apos;Ente_1&apos; wahr" id="181" order="0" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="3" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Wenn &apos;Cornelius&apos; auf Kulisse &apos;Aktuelle Kulisse&apos;" id="183" order="1" lastModified="-1" ActionPartCommand="84" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
@@ -6018,22 +6003,6 @@
 			<ActionPartLink parentLink="F" id="161" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Person &apos;Biber Karl&apos; nach rechts ausrichten" id="372" order="10" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Person &apos;Biber Karl&apos; nach links ausrichten" id="373" order="17" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="180" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Person &apos;Biber Karl&apos; nach rechts ausrichten" id="374" order="4" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Person &apos;Biber Karl&apos; nach links ausrichten" id="375" order="8" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="180" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Animation &apos;Animation0&apos; abspielen und warten" id="378" order="0" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="132" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6085,6 +6054,34 @@
 		<ActionPart name="Video &apos;Cutscene.mp4&apos; abspielen" id="391" order="0" lastModified="-1" ActionPartCommand="66" ActionPartPath="develop\Cutscene\Cutscene.mp4" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Bedingung &apos;Bibermutter_1&apos; wahr" id="392" order="2" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Bedingung &apos;Ente_1&apos; wahr" id="393" order="2" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="394" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="771" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="395" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="772" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="396" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="773" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Biber Karl&apos; ausgeben" id="397" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="774" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="398" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="775" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="137" versionedId="75" tableId="9">
@@ -7168,7 +7165,7 @@
 			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Condition>
 	</Conditions>
-	<Dialogs newId="72" versionedId="65" tableId="11">
+	<Dialogs newId="73" versionedId="65" tableId="11">
 		<Dialog name="Szene 1" id="0" order="0" lastModified="-1">
 			<DialogDialogParts>
 				<Link parentLink="T" id="0" tableId="12" LinkAny="F"/>
@@ -7240,21 +7237,6 @@
 				<Link parentLink="T" id="62" tableId="12" LinkAny="F"/>
 			</DialogDialogParts>
 		</Dialog>
-		<Dialog name="Szene 3" id="43" order="0" lastModified="-1">
-			<DialogDialogParts>
-				<Link parentLink="T" id="63" tableId="12" LinkAny="F"/>
-			</DialogDialogParts>
-		</Dialog>
-		<Dialog name="1. Was hab ich dir gesagt, Karl?? Nicht so nahe an den gefährlichen Fluss schwim..." id="44" order="44" lastModified="-1">
-			<DialogDialogParts>
-				<Link parentLink="T" id="64" tableId="12" LinkAny="F"/>
-			</DialogDialogParts>
-		</Dialog>
-		<Dialog name="1.1. Tut dir leid, tut dir leid…davon kann ich mir auch kein neues Junges suchen, ..." id="45" order="45" lastModified="-1">
-			<DialogDialogParts>
-				<Link parentLink="T" id="65" tableId="12" LinkAny="F"/>
-			</DialogDialogParts>
-		</Dialog>
 		<Dialog name="1.1.1.1.1.1.1. Wartet! Warum kann ich denn nicht bei euch -&lt;br/&gt;Was haben die nur gegen mich?" id="49" order="49" lastModified="-1">
 			<DialogDialogParts>
 				<Link parentLink="T" id="72" tableId="12" LinkAny="F"/>
@@ -7316,13 +7298,6 @@
 				<Link parentLink="T" id="93" tableId="12" LinkAny="F"/>
 				<Link parentLink="T" id="94" tableId="12" LinkAny="F"/>
 				<Link parentLink="T" id="95" tableId="12" LinkAny="F"/>
-			</DialogDialogParts>
-		</Dialog>
-		<Dialog name="3. Ääähm … ja … Also, wie war das mit der Strömung, die so gefährlich ist? Was p..." id="65" order="99" lastModified="-1">
-			<DialogDialogParts>
-				<Link parentLink="T" id="96" tableId="12" LinkAny="F"/>
-				<Link parentLink="T" id="97" tableId="12" LinkAny="F"/>
-				<Link parentLink="T" id="98" tableId="12" LinkAny="F"/>
 			</DialogDialogParts>
 		</Dialog>
 		<Dialog name="Dialog1" id="66" order="0" lastModified="-1">
@@ -7480,33 +7455,6 @@
 			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAltText parentLink="T" id="262" tableId="14" LinkAny="F"/>
 		</DialogPart>
-		<DialogPart name="1. Was hab ich dir gesagt, Karl?? Nicht so nahe an den gefährlichen Fluss schwim..." id="63" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="263" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="T" id="47" tableId="7" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="264" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="T" id="44" tableId="11" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="265" tableId="14" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="1.1. Tut dir leid, tut dir leid…davon kann ich mir auch kein neues Junges suchen, ..." id="64" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="267" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="T" id="48" tableId="7" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="268" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="T" id="45" tableId="11" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="269" tableId="14" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="1.1.1. Aber Mama, das ist gemein!" id="65" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="271" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="272" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="273" tableId="14" LinkAny="F"/>
-		</DialogPart>
 		<DialogPart name="1.1.1.1.1.1.1.1. Sind sie das da drüben? Wenn ich so einen Pelz habe wie sie, dann mögen sie m..." id="72" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="309" tableId="14" LinkAny="F"/>
@@ -7627,7 +7575,7 @@
 		<DialogPart name="2. Hallo Karl! " id="94" order="1" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="T" DialogPartUseAltText="F">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="425" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAction parentLink="T" id="142" tableId="7" LinkAny="F"/>
 			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAnswerText parentLink="T" id="426" tableId="14" LinkAny="F"/>
 			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7639,35 +7587,8 @@
 			<DialogPartAction parentLink="T" id="68" tableId="7" LinkAny="F"/>
 			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAnswerText parentLink="T" id="434" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="T" id="65" tableId="11" LinkAny="F"/>
+			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAltText parentLink="T" id="444" tableId="14" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="3.1. Ich bin kein Biber! Ich bin ein Schnabeltier!" id="96" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="435" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="62" tableId="7" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="436" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="437" tableId="14" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="3.2. Noch nie ein Schnabeltier gesehen?" id="97" order="1" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="438" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="439" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="440" tableId="14" LinkAny="F"/>
-		</DialogPart>
-		<DialogPart name="3.3. Schnabeltiere haben Schnäbel, das weiß doch jeder!" id="98" order="2" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="F">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartText parentLink="T" id="441" tableId="14" LinkAny="F"/>
-			<DialogPartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAnswerText parentLink="T" id="442" tableId="14" LinkAny="F"/>
-			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<DialogPartAltText parentLink="T" id="443" tableId="14" LinkAny="F"/>
 		</DialogPart>
 		<DialogPart name="1. Hallo, du! Ähm ... Bist du da? Ich bin neu hier und weiß nicht welchen Weg ic..." id="99" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="T" DialogPartUseAltText="F">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7724,7 +7645,7 @@
 			<DialogPartAltText parentLink="T" id="636" tableId="14" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="118" versionedId="14" tableId="13">
+	<Sprites newId="120" versionedId="14" tableId="13">
 		<Sprite name="Unnamed" id="3" order="3" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -8086,7 +8007,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="767" versionedId="464" tableId="14">
+	<Texts newId="776" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -8418,61 +8339,6 @@
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 262 - Ente_steht: Szene 2.2: " id="262" order="262" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Unnamed" id="263" order="263" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Was hab ich dir gesagt, Karl?? Nicht so nahe an den gefährlichen Fluss schwimmen!! Die Strömung…du darfst nicht…wenn dir nun etwas passiert wäre…!!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_A.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Unnamed" id="264" order="264" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Ja, Mama, tut mir leid..." path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_B.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Unnamed" id="265" order="265" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 266 - Aktion: Text von &apos;Biber Karl&apos; ausgeben" id="266" order="266" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Jaa, Mama, tut mir leid…" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 267 - Bibermutter: Szene 3: Tut dir le..." id="267" order="267" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Tut dir leid, tut dir leid…davon kann ich mir auch kein neues Junges suchen, wenn dich die Strömung erfasst! Du hast Hausarrest!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_C.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 268 - Bibermutter: Szene 3: " id="268" order="268" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 269 - Bibermutter: Szene 3: " id="269" order="269" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 270 - Aktion: Text von &apos;Biber Karl&apos; ausgeben" id="270" order="270" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Aber Mama! Das ist ge –" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 271 - Bibermutter: Szene 3: Aber Mama,..." id="271" order="271" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Aber Mama, das ist gemein!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_D.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 272 - Bibermutter: Szene 3: Keine Wide..." id="272" order="272" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Keine Widerrede! " path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 273 - Bibermutter: Szene 3: " id="273" order="273" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -8847,31 +8713,6 @@
 				<text Text="Was hab ich dir gesagt, Karl? Nicht so nahe an den gefährlichen Fluss schwimmen!&lt;br/&gt;Die Strömung … du darfst nicht … wenn dir nun etwas passiert wäre … !" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; executed: Id: 415 - Biber Karl: &apos;Reden&apos; executed: Id: 415 - Biber Karl: &apos;Reden&apos; executed: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="415" order="527" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Ich bin kein Biber, ich bin ein Schnabeltier. Ich bin so aus dem Ei geschlüpft." path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_6 Cornelius Var1.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; executed: Id: 416 - Biber Karl: &apos;Reden&apos; executed: Id: 416 - Biber Karl: &apos;Reden&apos; executed: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="416" order="570" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="WIE BITTE?! Was bist du? Schnabel, Ei? Oh, und deine Füße sind ja Flossen! Was willst du denn hier? Geh doch zu den Enten!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_A.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; executed: Id: 417 - Biber Karl: &apos;Reden&apos; executed: Id: 417 - Biber Karl: &apos;Reden&apos; executed: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="417" order="571" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Ja, ein Schnabeltier … bei den Enten war ich schon. Wegen meines Pelzes haben sie mich zu euch geschickt!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_B.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; executed: Id: 418 - Biber Karl: &apos;Reden&apos; executed: Id: 418 - Biber Karl: &apos;Reden&apos; executed: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="418" order="572" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Ha! Was wollen wir Biber denn mit einem Schnabeltier!? Damit kannst du ja nicht mal Holz bearbeiten und uns helfen, &lt;br/&gt;den Unterschlupf auszubauen! Tut mir leid, Konstantin, hier wirst du nicht gebraucht." path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_C.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; executed: Id: 420 - Biber Karl: &apos;Reden&apos; executed: Id: 420 - Biber Karl: &apos;Reden&apos; executed: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="420" order="574" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Mein Name ist Cornelius!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_D.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
 		<Text name="Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Unnamed" id="422" order="274" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Hey du! Ich bin Cornelius. Und wie heißt du? Karl?" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_2 Cornelius Var1.wav" int="0"/>
@@ -8933,51 +8774,6 @@
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Unnamed" id="434" order="284" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 435 - Biber Karl: Szene 3: Ich bin ke..." id="435" order="543" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Ich bin kein Biber! Ich bin ein Schnabeltier!" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 436 - Biber Karl: Szene 3: " id="436" order="544" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 437 - Biber Karl: Szene 3: " id="437" order="545" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 438 - Biber Karl: Szene 3: Noch nie e..." id="438" order="559" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Noch nie ein Schnabeltier gesehen?" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 439 - Biber Karl: Szene 3: " id="439" order="560" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 440 - Biber Karl: Szene 3: " id="440" order="561" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 441 - Biber Karl: Szene 3: Schnabelti..." id="441" order="565" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Schnabeltiere haben Schnäbel, das weiß doch jeder!" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 442 - Biber Karl: Szene 3: " id="442" order="566" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 443 - Biber Karl: Szene 3: " id="443" order="567" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -9995,6 +9791,31 @@
 		<Text name="Id: 763 - Hauptmenü: Schalter0" id="763" order="763" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="771" order="771" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Ich bin kein Biber, ich bin ein Schnabeltier. Ich bin so aus dem Ei geschlüpft!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_6 Cornelius Var1.wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="772" order="772" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="WIE BITTE?! Was bist du? Schnabel, Ei? Oh, und deine Füße sind ja Flossen! &lt;br/&gt;Was willst du denn hier? Geh doch zu den Enten!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_A.wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="773" order="773" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Ja, ein Schnabeltier … bei den Enten war ich schon. &lt;br/&gt;Wegen meines Pelzes haben sie mich zu euch geschickt!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_B.wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="774" order="774" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Ha! Was wollen wir Biber denn mit einem Schnabeltier!? &lt;br/&gt;Damit kannst du ja nicht mal Holz bearbeiten und uns helfen, &lt;br/&gt;den Unterschlupf auszubauen! Tut mir leid, &lt;br/&gt;Konstantin, hier wirst du nicht gebraucht." path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_C.wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="775" order="775" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Mein Name ist Cornelius!&lt;br/&gt;Hm ... Na gut, dann geh ich wieder." path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_D.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
