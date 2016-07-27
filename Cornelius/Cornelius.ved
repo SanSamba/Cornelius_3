@@ -34,7 +34,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="21" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="14" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="159" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="161" tableId="6" LinkAny="F"/>
@@ -95,6 +95,7 @@
 				<Link parentLink="F" id="1" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="2" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="3" tableId="1" LinkAny="F"/>
+				<Link parentLink="F" id="4" tableId="1" LinkAny="F"/>
 			</CharacterInterfaces>
 			<CharacterFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<CharacterCurrentOutfit parentLink="F" id="1" tableId="17" LinkAny="F"/>
@@ -111,7 +112,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="126" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="81" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -119,21 +120,21 @@
 			</CharacterConditions>
 			<CharacterActiveDialogFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<CharacterInactiveDialogFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
-			<CharacterDialogArea top="129" left="93" bottom="216" right="728"/>
+			<CharacterDialogArea top="141" left="91" bottom="301" right="503"/>
 			<CharacterDialogActiveScrollUp name="" pause="-1" path="develop/Gesprächsblase/Pfeil_oben.png" Transparency="-1">
-				<position x="17" y="120"/>
+				<position x="46" y="128"/>
 			</CharacterDialogActiveScrollUp>
 			<CharacterDialogInactiveScrollUp name="" pause="-1" path="develop/Gesprächsblase/Pfeil_oben.png" Transparency="-1">
-				<position x="17" y="121"/>
+				<position x="47" y="128"/>
 			</CharacterDialogInactiveScrollUp>
 			<CharacterDialogActiveScrollDown name="" pause="-1" path="develop/Gesprächsblase/Pfeil_unten.png" Transparency="-1">
-				<position x="17" y="170"/>
+				<position x="48" y="273"/>
 			</CharacterDialogActiveScrollDown>
 			<CharacterDialogInactiveScrollDown name="" pause="-1" path="develop/Gesprächsblase/Pfeil_unten.png" Transparency="-1">
-				<position x="17" y="170"/>
+				<position x="48" y="272"/>
 			</CharacterDialogInactiveScrollDown>
-			<CharacterDialogSprite name="" pause="-1" path="" Transparency="-1">
-				<position x="0" y="0"/>
+			<CharacterDialogSprite name="" pause="-1" path="develop/Umgebung/Anschlagtafel.png" Transparency="-1">
+				<position x="-4" y="0"/>
 			</CharacterDialogSprite>
 			<CharacterActionDestPosition x="-1" y="-1"/>
 		</Character>
@@ -608,14 +609,14 @@
 			<InterfaceInterfaceClass parentLink="F" id="2" tableId="31" LinkAny="F"/>
 		</Interface>
 		<Interface name="Hauptmenü" id="4" order="4" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="4" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="T">
-			<InterfaceSprite name="" pause="-1" path="develop/Umgebung/Hauptmenü.png" Transparency="-1">
+			<InterfaceSprite name="" pause="-1" path="develop/Umgebung/Hauptmenü 2.0.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</InterfaceSprite>
 			<InterfaceButtons>
-				<Link parentLink="T" id="10" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="11" tableId="2" LinkAny="F"/>
 			</InterfaceButtons>
 			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<InterfaceOffset x="10" y="10"/>
+			<InterfaceOffset x="1700" y="30"/>
 			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
 			<InterfaceBorder>
@@ -625,16 +626,27 @@
 				<point x="600" y="688"/>
 				<point x="600" y="573"/>
 				<point x="611" y="547"/>
+				<point x="-10000" y="-10000"/>
+				<point x="788" y="541"/>
+				<point x="793" y="690"/>
+				<point x="961" y="688"/>
+				<point x="958" y="545"/>
+				<point x="790" y="538"/>
+				<point x="-10000" y="-10000"/>
+				<point x="10" y="8"/>
+				<point x="10" y="159"/>
+				<point x="178" y="159"/>
+				<point x="177" y="9"/>
 			</InterfaceBorder>
-			<InterfaceLeaveAction parentLink="T" id="105" tableId="7" LinkAny="F"/>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceConditions>
 			</InterfaceConditions>
 			<InterfaceValues>
 			</InterfaceValues>
-			<InterfaceInterfaceClass parentLink="F" id="3" tableId="31" LinkAny="F"/>
+			<InterfaceInterfaceClass parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Interface>
 	</Interfaces>
-	<Buttons newId="11" versionedId="4" tableId="2">
+	<Buttons newId="12" versionedId="4" tableId="2">
 		<Button name="Laufen" id="1" order="0" lastModified="-1" ButtonType="3" ButtonCommandType="1" ButtonUse="0" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="T">
 			<ButtonActiveSprite parentLink="T" id="3" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="4" tableId="13" LinkAny="F"/>
@@ -845,16 +857,20 @@
 			<ButtonGroup>
 			</ButtonGroup>
 		</Button>
-		<Button name="Button" id="10" order="0" lastModified="-1" ButtonType="3" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F">
-			<ButtonActiveSprite parentLink="T" id="60" tableId="13" LinkAny="F"/>
-			<ButtonInactiveSprite parentLink="T" id="61" tableId="13" LinkAny="F"/>
-			<ButtonCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
-			<ButtonName parentLink="T" id="656" tableId="14" LinkAny="F"/>
-			<ButtonConjunction parentLink="T" id="657" tableId="14" LinkAny="F"/>
+		<Button name="Schalter0" id="11" order="0" lastModified="-1" ButtonType="4" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F">
+			<ButtonActiveSprite parentLink="T" id="116" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="117" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="762" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="763" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
+				<point x="9" y="7"/>
+				<point x="10" y="160"/>
+				<point x="176" y="160"/>
+				<point x="175" y="8"/>
 			</ButtonPolygon>
 			<ButtonActions>
-				<Link parentLink="T" id="106" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="138" tableId="7" LinkAny="F"/>
 			</ButtonActions>
 			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -965,118 +981,118 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 		<Font name="Font_Cornelius" id="1" order="1" lastModified="-1" FontAlphabet="abcdefghijklmnopqrstuvwxyzäöüßABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ1234567890(){}[]!?§$%&amp;@€/|\_&lt;&gt;.,;:=+-*#^°„“&quot;´`’&apos;~" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="12.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
-			<FontSprite name="" pause="-1" path="develop/Fonts/font_comic_48 (2).png" Transparency="-1">
+			<FontSprite name="" pause="-1" path="develop/Fonts/font_comic_48 (3).png" Transparency="-1">
 				<position x="0" y="0"/>
 			</FontSprite>
 			<FontLetters>
-				<rect top="29" left="87" bottom="64" right="104"/>
-				<rect top="29" left="124" bottom="64" right="140"/>
-				<rect top="29" left="160" bottom="64" right="175"/>
-				<rect top="29" left="195" bottom="64" right="212"/>
-				<rect top="29" left="232" bottom="64" right="248"/>
-				<rect top="29" left="268" bottom="64" right="283"/>
-				<rect top="29" left="303" bottom="64" right="319"/>
-				<rect top="29" left="339" bottom="64" right="355"/>
-				<rect top="29" left="376" bottom="64" right="385"/>
-				<rect top="29" left="405" bottom="64" right="418"/>
-				<rect top="29" left="440" bottom="64" right="455"/>
-				<rect top="29" left="476" bottom="64" right="485"/>
-				<rect top="29" left="506" bottom="64" right="526"/>
-				<rect top="29" left="546" bottom="64" right="562"/>
-				<rect top="29" left="581" bottom="64" right="597"/>
-				<rect top="83" left="88" bottom="118" right="104"/>
-				<rect top="83" left="123" bottom="118" right="139"/>
-				<rect top="83" left="159" bottom="118" right="174"/>
-				<rect top="83" left="193" bottom="118" right="208"/>
-				<rect top="83" left="228" bottom="118" right="243"/>
-				<rect top="83" left="263" bottom="118" right="278"/>
-				<rect top="83" left="298" bottom="118" right="313"/>
-				<rect top="83" left="333" bottom="118" right="352"/>
-				<rect top="83" left="371" bottom="118" right="389"/>
-				<rect top="83" left="407" bottom="118" right="424"/>
-				<rect top="83" left="444" bottom="118" right="460"/>
-				<rect top="83" left="479" bottom="118" right="495"/>
-				<rect top="83" left="515" bottom="118" right="530"/>
-				<rect top="83" left="550" bottom="118" right="566"/>
-				<rect top="83" left="585" bottom="118" right="600"/>
-				<rect top="136" left="88" bottom="171" right="107"/>
-				<rect top="136" left="128" bottom="171" right="145"/>
-				<rect top="136" left="165" bottom="171" right="183"/>
-				<rect top="136" left="203" bottom="171" right="222"/>
-				<rect top="136" left="242" bottom="171" right="259"/>
-				<rect top="136" left="280" bottom="171" right="297"/>
-				<rect top="136" left="316" bottom="171" right="335"/>
-				<rect top="136" left="355" bottom="171" right="375"/>
-				<rect top="136" left="395" bottom="171" right="412"/>
-				<rect top="136" left="431" bottom="171" right="450"/>
-				<rect top="136" left="471" bottom="171" right="487"/>
-				<rect top="136" left="507" bottom="171" right="523"/>
-				<rect top="136" left="543" bottom="171" right="565"/>
-				<rect top="136" left="586" bottom="171" right="607"/>
-				<rect top="136" left="627" bottom="171" right="647"/>
-				<rect top="190" left="88" bottom="225" right="104"/>
-				<rect top="190" left="123" bottom="225" right="146"/>
-				<rect top="190" left="166" bottom="225" right="184"/>
-				<rect top="190" left="204" bottom="225" right="222"/>
-				<rect top="190" left="242" bottom="225" right="262"/>
-				<rect top="190" left="281" bottom="225" right="300"/>
-				<rect top="190" left="321" bottom="225" right="339"/>
-				<rect top="190" left="359" bottom="225" right="385"/>
-				<rect top="190" left="404" bottom="225" right="424"/>
-				<rect top="190" left="443" bottom="225" right="462"/>
-				<rect top="190" left="481" bottom="225" right="501"/>
-				<rect top="190" left="521" bottom="225" right="539"/>
-				<rect top="190" left="560" bottom="225" right="581"/>
-				<rect top="190" left="602" bottom="225" right="621"/>
-				<rect top="243" left="89" bottom="278" right="102"/>
-				<rect top="243" left="122" bottom="278" right="139"/>
-				<rect top="243" left="160" bottom="278" right="176"/>
-				<rect top="243" left="196" bottom="278" right="214"/>
-				<rect top="243" left="234" bottom="278" right="251"/>
-				<rect top="243" left="271" bottom="278" right="288"/>
-				<rect top="243" left="308" bottom="278" right="326"/>
-				<rect top="243" left="345" bottom="278" right="362"/>
-				<rect top="243" left="383" bottom="278" right="400"/>
-				<rect top="243" left="419" bottom="278" right="437"/>
-				<rect top="243" left="457" bottom="278" right="469"/>
-				<rect top="243" left="490" bottom="278" right="502"/>
-				<rect top="243" left="521" bottom="278" right="534"/>
-				<rect top="243" left="553" bottom="278" right="567"/>
-				<rect top="243" left="587" bottom="278" right="599"/>
-				<rect top="243" left="620" bottom="278" right="632"/>
-				<rect top="296" left="88" bottom="331" right="97"/>
-				<rect top="296" left="117" bottom="331" right="133"/>
-				<rect top="296" left="153" bottom="331" right="170"/>
-				<rect top="296" left="191" bottom="331" right="209"/>
-				<rect top="296" left="230" bottom="331" right="251"/>
-				<rect top="296" left="271" bottom="331" right="289"/>
-				<rect top="296" left="309" bottom="331" right="332"/>
-				<rect top="296" left="352" bottom="331" right="371"/>
-				<rect top="296" left="390" bottom="331" right="405"/>
-				<rect top="296" left="428" bottom="331" right="437"/>
-				<rect top="296" left="460" bottom="331" right="474"/>
-				<rect top="296" left="493" bottom="331" right="514"/>
-				<rect top="296" left="532" bottom="331" right="544"/>
-				<rect top="296" left="565" bottom="331" right="578"/>
-				<rect top="350" left="88" bottom="385" right="97"/>
-				<rect top="350" left="119" bottom="385" right="129"/>
-				<rect top="350" left="148" bottom="385" right="158"/>
-				<rect top="350" left="180" bottom="385" right="189"/>
-				<rect top="350" left="210" bottom="385" right="225"/>
-				<rect top="350" left="245" bottom="385" right="260"/>
-				<rect top="350" left="280" bottom="385" right="293"/>
-				<rect top="350" left="313" bottom="385" right="329"/>
-				<rect top="350" left="349" bottom="385" right="372"/>
-				<rect top="350" left="392" bottom="385" right="407"/>
-				<rect top="350" left="427" bottom="385" right="441"/>
-				<rect top="350" left="461" bottom="385" right="474"/>
-				<rect top="350" left="494" bottom="385" right="507"/>
-				<rect top="350" left="527" bottom="385" right="539"/>
-				<rect top="350" left="562" bottom="385" right="573"/>
-				<rect top="350" left="597" bottom="385" right="608"/>
-				<rect top="350" left="632" bottom="385" right="641"/>
-				<rect top="350" left="663" bottom="385" right="672"/>
-				<rect top="350" left="694" bottom="385" right="711"/>
+				<rect top="38" left="109" bottom="80" right="130"/>
+				<rect top="38" left="155" bottom="80" right="175"/>
+				<rect top="38" left="200" bottom="80" right="219"/>
+				<rect top="38" left="244" bottom="80" right="265"/>
+				<rect top="38" left="290" bottom="80" right="311"/>
+				<rect top="38" left="335" bottom="80" right="354"/>
+				<rect top="38" left="379" bottom="80" right="399"/>
+				<rect top="38" left="424" bottom="80" right="444"/>
+				<rect top="38" left="470" bottom="80" right="482"/>
+				<rect top="38" left="506" bottom="80" right="523"/>
+				<rect top="38" left="549" bottom="80" right="569"/>
+				<rect top="38" left="595" bottom="80" right="606"/>
+				<rect top="38" left="632" bottom="80" right="658"/>
+				<rect top="38" left="683" bottom="80" right="702"/>
+				<rect top="38" left="727" bottom="80" right="746"/>
+				<rect top="104" left="110" bottom="146" right="130"/>
+				<rect top="104" left="154" bottom="146" right="173"/>
+				<rect top="104" left="199" bottom="146" right="218"/>
+				<rect top="104" left="242" bottom="146" right="260"/>
+				<rect top="104" left="285" bottom="146" right="304"/>
+				<rect top="104" left="329" bottom="146" right="348"/>
+				<rect top="104" left="372" bottom="146" right="392"/>
+				<rect top="104" left="416" bottom="146" right="440"/>
+				<rect top="104" left="464" bottom="146" right="486"/>
+				<rect top="104" left="509" bottom="146" right="530"/>
+				<rect top="104" left="555" bottom="146" right="575"/>
+				<rect top="104" left="599" bottom="146" right="619"/>
+				<rect top="104" left="643" bottom="146" right="663"/>
+				<rect top="104" left="688" bottom="146" right="707"/>
+				<rect top="104" left="732" bottom="146" right="751"/>
+				<rect top="171" left="110" bottom="213" right="134"/>
+				<rect top="171" left="160" bottom="213" right="182"/>
+				<rect top="171" left="206" bottom="213" right="229"/>
+				<rect top="171" left="254" bottom="213" right="277"/>
+				<rect top="171" left="303" bottom="213" right="325"/>
+				<rect top="171" left="350" bottom="213" right="371"/>
+				<rect top="171" left="395" bottom="213" right="419"/>
+				<rect top="171" left="444" bottom="213" right="469"/>
+				<rect top="171" left="494" bottom="213" right="515"/>
+				<rect top="171" left="539" bottom="213" right="562"/>
+				<rect top="171" left="589" bottom="213" right="609"/>
+				<rect top="171" left="633" bottom="213" right="654"/>
+				<rect top="171" left="679" bottom="213" right="707"/>
+				<rect top="171" left="732" bottom="213" right="758"/>
+				<rect top="171" left="783" bottom="213" right="809"/>
+				<rect top="238" left="110" bottom="280" right="130"/>
+				<rect top="238" left="154" bottom="280" right="183"/>
+				<rect top="238" left="208" bottom="280" right="230"/>
+				<rect top="238" left="255" bottom="280" right="278"/>
+				<rect top="238" left="303" bottom="280" right="328"/>
+				<rect top="238" left="352" bottom="280" right="376"/>
+				<rect top="238" left="402" bottom="280" right="425"/>
+				<rect top="238" left="449" bottom="280" right="481"/>
+				<rect top="238" left="505" bottom="280" right="530"/>
+				<rect top="238" left="554" bottom="280" right="577"/>
+				<rect top="238" left="602" bottom="280" right="626"/>
+				<rect top="238" left="651" bottom="280" right="675"/>
+				<rect top="238" left="701" bottom="280" right="727"/>
+				<rect top="238" left="752" bottom="280" right="776"/>
+				<rect top="304" left="111" bottom="346" right="127"/>
+				<rect top="304" left="153" bottom="346" right="173"/>
+				<rect top="304" left="199" bottom="346" right="220"/>
+				<rect top="304" left="245" bottom="346" right="268"/>
+				<rect top="304" left="293" bottom="346" right="314"/>
+				<rect top="304" left="339" bottom="346" right="360"/>
+				<rect top="304" left="385" bottom="346" right="407"/>
+				<rect top="304" left="432" bottom="346" right="453"/>
+				<rect top="304" left="478" bottom="346" right="500"/>
+				<rect top="304" left="524" bottom="346" right="547"/>
+				<rect top="304" left="571" bottom="346" right="587"/>
+				<rect top="304" left="612" bottom="346" right="628"/>
+				<rect top="304" left="651" bottom="346" right="668"/>
+				<rect top="304" left="692" bottom="346" right="708"/>
+				<rect top="304" left="734" bottom="346" right="749"/>
+				<rect top="304" left="775" bottom="346" right="790"/>
+				<rect top="371" left="110" bottom="413" right="121"/>
+				<rect top="371" left="147" bottom="413" right="166"/>
+				<rect top="371" left="192" bottom="413" right="213"/>
+				<rect top="371" left="239" bottom="413" right="261"/>
+				<rect top="371" left="288" bottom="413" right="314"/>
+				<rect top="371" left="339" bottom="413" right="362"/>
+				<rect top="371" left="386" bottom="413" right="416"/>
+				<rect top="371" left="440" bottom="413" right="464"/>
+				<rect top="371" left="487" bottom="413" right="507"/>
+				<rect top="371" left="535" bottom="413" right="546"/>
+				<rect top="371" left="574" bottom="413" right="593"/>
+				<rect top="371" left="617" bottom="413" right="642"/>
+				<rect top="371" left="665" bottom="413" right="680"/>
+				<rect top="371" left="706" bottom="413" right="722"/>
+				<rect top="438" left="110" bottom="480" right="122"/>
+				<rect top="438" left="149" bottom="480" right="161"/>
+				<rect top="438" left="185" bottom="480" right="198"/>
+				<rect top="438" left="226" bottom="480" right="237"/>
+				<rect top="438" left="263" bottom="480" right="281"/>
+				<rect top="438" left="307" bottom="480" right="326"/>
+				<rect top="438" left="351" bottom="480" right="367"/>
+				<rect top="438" left="392" bottom="480" right="411"/>
+				<rect top="438" left="436" bottom="480" right="465"/>
+				<rect top="438" left="490" bottom="480" right="508"/>
+				<rect top="438" left="534" bottom="480" right="552"/>
+				<rect top="438" left="576" bottom="480" right="593"/>
+				<rect top="438" left="617" bottom="480" right="633"/>
+				<rect top="438" left="659" bottom="480" right="675"/>
+				<rect top="438" left="702" bottom="480" right="716"/>
+				<rect top="438" left="746" bottom="480" right="760"/>
+				<rect top="438" left="791" bottom="480" right="802"/>
+				<rect top="438" left="829" bottom="480" right="840"/>
+				<rect top="438" left="868" bottom="480" right="889"/>
 			</FontLetters>
 			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<FontShadowOffset x="1" y="1"/>
@@ -4153,7 +4169,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
 	</Objects>
-	<Actions newId="138" versionedId="69" tableId="7">
+	<Actions newId="139" versionedId="69" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4419,7 +4435,6 @@
 				<Link parentLink="T" id="123" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="124" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="125" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="126" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="127" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="129" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="130" tableId="8" LinkAny="F"/>
@@ -4432,10 +4447,8 @@
 				<Link parentLink="T" id="131" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="133" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="136" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="137" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="138" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="173" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="175" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="177" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
@@ -4700,7 +4713,7 @@
 				<Link parentLink="T" id="258" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Left click" id="93" order="0" lastModified="-1" ActionExecutionType="7">
+		<Action name="Linksklick" id="93" order="0" lastModified="-1" ActionExecutionType="7">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
@@ -4765,19 +4778,6 @@
 				<Link parentLink="T" id="361" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="Action" id="105" order="105" lastModified="-1" ActionExecutionType="-1">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-			</ActionActionParts>
-		</Action>
-		<Action name="Linksklick" id="106" order="0" lastModified="-1" ActionExecutionType="7">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="328" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
 		<Action name="&apos;Interaktion&apos; angewandt" id="107" order="0" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="2" tableId="2" LinkAny="F"/>
@@ -4824,6 +4824,7 @@
 			<ActionCommand parentLink="F" id="2" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="334" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="391" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Bei Ende der Kulisse" id="114" order="2" lastModified="-1" ActionExecutionType="32">
@@ -4995,8 +4996,16 @@
 				<Link parentLink="T" id="387" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Linksklick" id="138" order="0" lastModified="-1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="389" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="390" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="388" versionedId="181" tableId="8">
+	<ActionParts newId="392" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5166,7 +5175,7 @@
 			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Kulisse &apos;Kapitel1&apos; zeigen" id="81" order="0" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartLink parentLink="F" id="18" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Autosave #0 laden" id="82" order="0" lastModified="-1" ActionPartCommand="145" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -5313,10 +5322,6 @@
 			<ActionPartLink parentLink="T" id="390" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Ente_schwimmt&apos; ausgeben" id="126" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="391" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Text von &apos;Ente_steht&apos; ausgeben" id="127" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="392" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
@@ -5340,10 +5345,6 @@
 		<ActionPart name="Text von &apos;Ente_steht&apos; ausgeben" id="136" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="404" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Ente_schwimmt&apos; ausgeben" id="137" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="405" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="138" order="12" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="406" tableId="14" LinkAny="F"/>
@@ -5436,10 +5437,6 @@
 		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="173" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="456" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Ente_steht&apos; ausgeben" id="175" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="458" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Text von &apos;Ente_schwimmt&apos; ausgeben" id="177" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="460" tableId="14" LinkAny="F"/>
@@ -5705,7 +5702,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Show &apos;Inventory&apos;" id="260" order="0" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="&apos;Inventar&apos; zeigen" id="260" order="0" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="1" tableId="31" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5721,7 +5718,7 @@
 			<ActionPartLink parentLink="F" id="2" tableId="31" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide &apos;Secondary interface&apos;" id="266" order="1" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="&apos;Sekundärinterface&apos; verstecken" id="266" order="1" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="31" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -5877,10 +5874,6 @@
 			<ActionPartLink parentLink="F" id="65" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Menü &apos;Menü&apos; zeigen" id="328" order="0" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="14" tableId="4" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Zu Kulisse &apos;Schildkrötenhaus&apos; wechseln" id="329" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="115" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5901,7 +5894,7 @@
 			<ActionPartLink parentLink="T" id="694" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Zu Kulisse &apos;Kapitel2&apos; wechseln" id="334" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Zu Kulisse &apos;Kapitel2&apos; wechseln" id="334" order="1" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="124" tableId="6" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -6081,8 +6074,20 @@
 			<ActionPartLink parentLink="T" id="760" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Menü &apos;Menü&apos; zeigen" id="389" order="1" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="14" tableId="4" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Spielstand speichern" id="390" order="0" lastModified="-1" ActionPartCommand="146" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Video &apos;Cutscene.mp4&apos; abspielen" id="391" order="0" lastModified="-1" ActionPartCommand="66" ActionPartPath="develop\Cutscene\Cutscene.mp4" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="136" versionedId="75" tableId="9">
+	<Animations newId="137" versionedId="75" tableId="9">
 		<Animation name="Unnamed" id="11" order="11" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7719,7 +7724,7 @@
 			<DialogPartAltText parentLink="T" id="636" tableId="14" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="116" versionedId="14" tableId="13">
+	<Sprites newId="118" versionedId="14" tableId="13">
 		<Sprite name="Unnamed" id="3" order="3" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -7807,16 +7812,6 @@
 		</Sprite>
 		<Sprite name="Bild" id="57" order="57" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="develop/Rätsel/Puzzelbackground_ganz.png" Transparency="-1">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Unnamed" id="60" order="60" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Unnamed" id="61" order="61" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
@@ -8080,8 +8075,18 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Unnamed" id="116" order="116" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="117" order="117" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="761" versionedId="464" tableId="14">
+	<Texts newId="767" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -8132,22 +8137,22 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 45 - Mama: &apos;Inspizieren&apos; executed: Id: 45 - Mama: &apos;Inspizieren&apos; executed: Id: 45 - Mama: &apos;Inspizieren&apos; executed: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Unnamed" id="45" order="45" lastModified="-1">
+		<Text name="Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; executed: Id: 45 - Mama: &apos;Inspizieren&apos; executed: Id: 45 - Mama: &apos;Inspizieren&apos; executed: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Id: 45 - Mama: &apos;Inspizieren&apos; angewandt: Unnamed" id="45" order="45" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Meine Mama. Ich hab sie sehr lieb!" path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1_Mutter.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Unnamed" id="52" order="52" lastModified="-1">
+		<Text name="Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Id: 52 - Mama: Szene 1: Unnamed" id="52" order="52" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Mama, was wohnen denn hier für Tiere? Wohnen hier auch Schnabeltiere wie wir?" path="develop/Stimmen/2_Szene 1/LEVEL 1_2 Szene 1_1 Cornelius &amp; Mutter_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Unnamed" id="53" order="53" lastModified="-1">
+		<Text name="Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Id: 53 - Mama: Szene 1: Unnamed" id="53" order="53" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Nein, mein Schatz. Soweit ich weiß, sind wir drei die einzigen Schnabeltiere in diesem Wald. Und das macht auch nichts! Du lernst sicher auch andere Tieren kennen. Geh doch zu ihnen, und freunde dich mit ihnen an!" path="develop/Stimmen/2_Szene 1/LEVEL 1_2 Szene 1_1 Cornelius &amp; Mutter_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Unnamed" id="54" order="54" lastModified="-1">
+		<Text name="Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Id: 54 - Mama: Szene 1: Unnamed" id="54" order="54" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -8172,17 +8177,17 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Unnamed" id="214" order="214" lastModified="-1">
+		<Text name="Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Id: 214 - Ente_steht: Szene 2.1: Unnamed" id="214" order="214" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ihr habt aber tolle Schnäbel" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var1_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Unnamed" id="215" order="215" lastModified="-1">
+		<Text name="Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Id: 215 - Ente_steht: Szene 2.1: Unnamed" id="215" order="215" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ooooh! Quack. Vielen Dank! Du hast ja auch einen Schnabel! Wie geht das?" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Unnamed" id="216" order="216" lastModified="-1">
+		<Text name="Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Id: 216 - Ente_steht: Szene 2.1: Unnamed" id="216" order="216" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -8297,17 +8302,17 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Unnamed" id="239" order="239" lastModified="-1">
+		<Text name="Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Id: 239 - Ente_steht: Szene 2.1: Unnamed" id="239" order="239" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Womit seid ihr denn da bedeckt?" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var2_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Unnamed" id="240" order="240" lastModified="-1">
+		<Text name="Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Id: 240 - Ente_steht: Szene 2.1: Unnamed" id="240" order="240" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Hm? Quack. Das ist natürlich unser prächtiges Federkleid! Quack. Sag uns, Sonderling: Womit bist DU denn bedeckt? Quack quack." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Unnamed" id="241" order="241" lastModified="-1">
+		<Text name="Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Id: 241 - Ente_steht: Szene 2.1: Unnamed" id="241" order="241" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -8372,17 +8377,17 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Unnamed" id="254" order="254" lastModified="-1">
+		<Text name="Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Id: 254 - Ente_steht: Szene 2.2: Unnamed" id="254" order="254" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Was haben die nur gegen mich? " path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Unnamed" id="255" order="255" lastModified="-1">
+		<Text name="Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Id: 255 - Ente_steht: Szene 2.2: Unnamed" id="255" order="255" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Unnamed" id="256" order="256" lastModified="-1">
+		<Text name="Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Id: 256 - Ente_steht: Szene 2.2: Unnamed" id="256" order="256" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -8417,17 +8422,17 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Unnamed" id="263" order="263" lastModified="-1">
+		<Text name="Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Id: 263 - Bibermutter: Szene 3: Unnamed" id="263" order="263" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Was hab ich dir gesagt, Karl?? Nicht so nahe an den gefährlichen Fluss schwimmen!! Die Strömung…du darfst nicht…wenn dir nun etwas passiert wäre…!!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Unnamed" id="264" order="264" lastModified="-1">
+		<Text name="Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Id: 264 - Bibermutter: Szene 3: Unnamed" id="264" order="264" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ja, Mama, tut mir leid..." path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Unnamed" id="265" order="265" lastModified="-1">
+		<Text name="Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Id: 265 - Bibermutter: Szene 3: Unnamed" id="265" order="265" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -8537,17 +8542,17 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Unnamed" id="339" order="339" lastModified="-1">
+		<Text name="Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Id: 339 - Mama: Szene 4: Unnamed" id="339" order="339" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Cornelius, mein Schatz! Was hat dich denn in den Schnabel gezwickt?" path="develop/Stimmen/3_Szene 4/LEVEL 1_3 Szene 4_1 Cornelius &amp; Mutter_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Unnamed" id="340" order="340" lastModified="-1">
+		<Text name="Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Id: 340 - Mama: Szene 4: Unnamed" id="340" order="340" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ach, Mama...ich habe versucht mit den Enten und den Bibern zu reden, aber die wollten nicht mit mir spielen." path="develop/Stimmen/3_Szene 4/LEVEL 1_3 Szene 4_1 Cornelius &amp; Mutter_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Unnamed" id="341" order="341" lastModified="-1">
+		<Text name="Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Id: 341 - Mama: Szene 4: Unnamed" id="341" order="341" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -8582,17 +8587,17 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Unnamed" id="348" order="348" lastModified="-1">
+		<Text name="Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Id: 348 - Cornelius: Szene 4: Unnamed" id="348" order="348" lastModified="-1">
 			<TextTextLanguages>
 				<text Text=" Aber hier werde ich wohl keine finden. Nicht so, wie ich bin. Wenn ich nur irgendwie stärker wäre...dann würden sie mich nicht auslachen, dann wären sie nett zu mir!" path="develop/Stimmen/3_Szene 4/LEVEL 1_3 Szene 4_2 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Unnamed" id="349" order="349" lastModified="-1">
+		<Text name="Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Id: 349 - Cornelius: Szene 4: Unnamed" id="349" order="349" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Unnamed" id="350" order="350" lastModified="-1">
+		<Text name="Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Id: 350 - Cornelius: Szene 4: Unnamed" id="350" order="350" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -8657,62 +8662,62 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 366 - Mama: &apos;Reden&apos; executed: Id: 366 - Mama: &apos;Reden&apos; executed: Id: 366 - Mama: &apos;Reden&apos; executed: Id: 366 - Mama: &apos;Reden&apos; angewandt: Id: 366 - Mama: &apos;Reden&apos; angewandt: Id: 366 - Mama: &apos;Reden&apos; angewandt: Id: 366 - Mama: &apos;Reden&apos; angewandt: Id: 366 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="366" order="393" lastModified="-1">
+		<Text name="Id: 366 - Mama: &apos;Reden&apos; angewandt: Id: 366 - Mama: &apos;Reden&apos; angewandt: Id: 366 - Mama: &apos;Reden&apos; executed: Id: 366 - Mama: &apos;Reden&apos; executed: Id: 366 - Mama: &apos;Reden&apos; executed: Id: 366 - Mama: &apos;Reden&apos; angewandt: Id: 366 - Mama: &apos;Reden&apos; angewandt: Id: 366 - Mama: &apos;Reden&apos; angewandt: Id: 366 - Mama: &apos;Reden&apos; angewandt: Id: 366 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="366" order="393" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Mama, was wohnen denn hier für Tiere? &lt;br/&gt;Wohnen hier auch Schnabeltiere wie wir?" path="develop/Stimmen/2_Szene 1/LEVEL 1_2 Szene 1_1 Cornelius &amp; Mutter_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 367 - Mama: &apos;Reden&apos; executed: Id: 367 - Mama: &apos;Reden&apos; executed: Id: 367 - Mama: &apos;Reden&apos; executed: Id: 367 - Mama: &apos;Reden&apos; angewandt: Id: 367 - Mama: &apos;Reden&apos; angewandt: Id: 367 - Mama: &apos;Reden&apos; angewandt: Id: 367 - Mama: &apos;Reden&apos; angewandt: Id: 367 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="367" order="394" lastModified="-1">
+		<Text name="Id: 367 - Mama: &apos;Reden&apos; angewandt: Id: 367 - Mama: &apos;Reden&apos; angewandt: Id: 367 - Mama: &apos;Reden&apos; executed: Id: 367 - Mama: &apos;Reden&apos; executed: Id: 367 - Mama: &apos;Reden&apos; executed: Id: 367 - Mama: &apos;Reden&apos; angewandt: Id: 367 - Mama: &apos;Reden&apos; angewandt: Id: 367 - Mama: &apos;Reden&apos; angewandt: Id: 367 - Mama: &apos;Reden&apos; angewandt: Id: 367 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="367" order="394" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Nein, mein Schatz. Soweit ich weiß, sind wir drei die einzigen Schnabeltiere in diesem Wald. Und das macht auch nichts! &lt;br/&gt;Du lernst sicher schnell die andere Tieren kennen. Geh doch zu ihnen, und freunde dich mit ihnen an!" path="develop/Stimmen/2_Szene 1/LEVEL 1_2 Szene 1_1 Cornelius &amp; Mutter_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 369 - Mama: &apos;Reden&apos; executed: Id: 369 - Mama: &apos;Reden&apos; executed: Id: 369 - Mama: &apos;Reden&apos; executed: Id: 369 - Mama: &apos;Reden&apos; angewandt: Id: 369 - Mama: &apos;Reden&apos; angewandt: Id: 369 - Mama: &apos;Reden&apos; angewandt: Id: 369 - Mama: &apos;Reden&apos; angewandt: Id: 369 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="369" order="486" lastModified="-1">
+		<Text name="Id: 369 - Mama: &apos;Reden&apos; angewandt: Id: 369 - Mama: &apos;Reden&apos; angewandt: Id: 369 - Mama: &apos;Reden&apos; executed: Id: 369 - Mama: &apos;Reden&apos; executed: Id: 369 - Mama: &apos;Reden&apos; executed: Id: 369 - Mama: &apos;Reden&apos; angewandt: Id: 369 - Mama: &apos;Reden&apos; angewandt: Id: 369 - Mama: &apos;Reden&apos; angewandt: Id: 369 - Mama: &apos;Reden&apos; angewandt: Id: 369 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="369" order="486" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Cornelius, mein Schatz! Was hat dich denn in den Schnabel gezwickt?" path="develop/Stimmen/3_Szene 4/LEVEL 1_3 Szene 4_1 Cornelius &amp; Mutter_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 370 - Mama: &apos;Reden&apos; executed: Id: 370 - Mama: &apos;Reden&apos; executed: Id: 370 - Mama: &apos;Reden&apos; executed: Id: 370 - Mama: &apos;Reden&apos; angewandt: Id: 370 - Mama: &apos;Reden&apos; angewandt: Id: 370 - Mama: &apos;Reden&apos; angewandt: Id: 370 - Mama: &apos;Reden&apos; angewandt: Id: 370 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="370" order="487" lastModified="-1">
+		<Text name="Id: 370 - Mama: &apos;Reden&apos; angewandt: Id: 370 - Mama: &apos;Reden&apos; angewandt: Id: 370 - Mama: &apos;Reden&apos; executed: Id: 370 - Mama: &apos;Reden&apos; executed: Id: 370 - Mama: &apos;Reden&apos; executed: Id: 370 - Mama: &apos;Reden&apos; angewandt: Id: 370 - Mama: &apos;Reden&apos; angewandt: Id: 370 - Mama: &apos;Reden&apos; angewandt: Id: 370 - Mama: &apos;Reden&apos; angewandt: Id: 370 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="370" order="487" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ach, Mama ... ich habe versucht mit den Enten und den Bibern zu reden, aber die wollten nicht mit mir spielen." path="develop/Stimmen/3_Szene 4/LEVEL 1_3 Szene 4_1 Cornelius &amp; Mutter_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 371 - Mama: &apos;Reden&apos; executed: Id: 371 - Mama: &apos;Reden&apos; executed: Id: 371 - Mama: &apos;Reden&apos; executed: Id: 371 - Mama: &apos;Reden&apos; angewandt: Id: 371 - Mama: &apos;Reden&apos; angewandt: Id: 371 - Mama: &apos;Reden&apos; angewandt: Id: 371 - Mama: &apos;Reden&apos; angewandt: Id: 371 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="371" order="488" lastModified="-1">
+		<Text name="Id: 371 - Mama: &apos;Reden&apos; angewandt: Id: 371 - Mama: &apos;Reden&apos; angewandt: Id: 371 - Mama: &apos;Reden&apos; executed: Id: 371 - Mama: &apos;Reden&apos; executed: Id: 371 - Mama: &apos;Reden&apos; executed: Id: 371 - Mama: &apos;Reden&apos; angewandt: Id: 371 - Mama: &apos;Reden&apos; angewandt: Id: 371 - Mama: &apos;Reden&apos; angewandt: Id: 371 - Mama: &apos;Reden&apos; angewandt: Id: 371 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="371" order="488" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Och herrje, das ist aber nicht nett von ihnen! Aber versuch es einfach weiter. Dann sehen sie schon, was du für ein tolles Schnabeltier bist." path="develop/Stimmen/3_Szene 4/LEVEL 1_3 Szene 4_1 Cornelius &amp; Mutter_C.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 372 - Mama: &apos;Reden&apos; executed: Id: 372 - Mama: &apos;Reden&apos; executed: Id: 372 - Mama: &apos;Reden&apos; executed: Id: 372 - Mama: &apos;Reden&apos; angewandt: Id: 372 - Mama: &apos;Reden&apos; angewandt: Id: 372 - Mama: &apos;Reden&apos; angewandt: Id: 372 - Mama: &apos;Reden&apos; angewandt: Id: 372 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="372" order="489" lastModified="-1">
+		<Text name="Id: 372 - Mama: &apos;Reden&apos; angewandt: Id: 372 - Mama: &apos;Reden&apos; angewandt: Id: 372 - Mama: &apos;Reden&apos; executed: Id: 372 - Mama: &apos;Reden&apos; executed: Id: 372 - Mama: &apos;Reden&apos; executed: Id: 372 - Mama: &apos;Reden&apos; angewandt: Id: 372 - Mama: &apos;Reden&apos; angewandt: Id: 372 - Mama: &apos;Reden&apos; angewandt: Id: 372 - Mama: &apos;Reden&apos; angewandt: Id: 372 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="372" order="489" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Bestimmt nicht! Die finden mich blöd! Nur weil ich einen Schnabel UND Fell habe. Warum kann ich denn nicht wie sie sein??" path="develop/Stimmen/3_Szene 4/LEVEL 1_3 Szene 4_1 Cornelius &amp; Mutter_D.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 373 - Mama: &apos;Reden&apos; executed: Id: 373 - Mama: &apos;Reden&apos; executed: Id: 373 - Mama: &apos;Reden&apos; executed: Id: 373 - Mama: &apos;Reden&apos; angewandt: Id: 373 - Mama: &apos;Reden&apos; angewandt: Id: 373 - Mama: &apos;Reden&apos; angewandt: Id: 373 - Mama: &apos;Reden&apos; angewandt: Id: 373 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="373" order="490" lastModified="-1">
+		<Text name="Id: 373 - Mama: &apos;Reden&apos; angewandt: Id: 373 - Mama: &apos;Reden&apos; angewandt: Id: 373 - Mama: &apos;Reden&apos; executed: Id: 373 - Mama: &apos;Reden&apos; executed: Id: 373 - Mama: &apos;Reden&apos; executed: Id: 373 - Mama: &apos;Reden&apos; angewandt: Id: 373 - Mama: &apos;Reden&apos; angewandt: Id: 373 - Mama: &apos;Reden&apos; angewandt: Id: 373 - Mama: &apos;Reden&apos; angewandt: Id: 373 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="373" order="490" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Das brauchst du doch gar nicht. Und bis die anderen das begriffen haben, kannst du ja mit deiner kleinen Schwester spielen. Sie weiß nämlich, wie cool ihr großer Bruder ist." path="develop/Stimmen/3_Szene 4/LEVEL 1_3 Szene 4_1 Cornelius &amp; Mutter_E.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 374 - Mama: &apos;Reden&apos; executed: Id: 374 - Mama: &apos;Reden&apos; executed: Id: 374 - Mama: &apos;Reden&apos; executed: Id: 374 - Mama: &apos;Reden&apos; angewandt: Id: 374 - Mama: &apos;Reden&apos; angewandt: Id: 374 - Mama: &apos;Reden&apos; angewandt: Id: 374 - Mama: &apos;Reden&apos; angewandt: Id: 374 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="374" order="491" lastModified="-1">
+		<Text name="Id: 374 - Mama: &apos;Reden&apos; angewandt: Id: 374 - Mama: &apos;Reden&apos; angewandt: Id: 374 - Mama: &apos;Reden&apos; executed: Id: 374 - Mama: &apos;Reden&apos; executed: Id: 374 - Mama: &apos;Reden&apos; executed: Id: 374 - Mama: &apos;Reden&apos; angewandt: Id: 374 - Mama: &apos;Reden&apos; angewandt: Id: 374 - Mama: &apos;Reden&apos; angewandt: Id: 374 - Mama: &apos;Reden&apos; angewandt: Id: 374 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="374" order="491" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Mama, du verstehst das nicht, Maja ist ja noch so klein. Ich will Freunde, mit denen ich auch schwimmen und Spaß haben kann! " path="develop/Stimmen/3_Szene 4/LEVEL 1_3 Szene 4_1 Cornelius &amp; Mutter_F.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 376 - Mama: &apos;Reden&apos; executed: Id: 376 - Mama: &apos;Reden&apos; executed: Id: 376 - Mama: &apos;Reden&apos; executed: Id: 376 - Mama: &apos;Reden&apos; angewandt: Id: 376 - Mama: &apos;Reden&apos; angewandt: Id: 376 - Mama: &apos;Reden&apos; angewandt: Id: 376 - Mama: &apos;Reden&apos; angewandt: Id: 376 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="376" order="530" lastModified="-1">
+		<Text name="Id: 376 - Mama: &apos;Reden&apos; angewandt: Id: 376 - Mama: &apos;Reden&apos; angewandt: Id: 376 - Mama: &apos;Reden&apos; executed: Id: 376 - Mama: &apos;Reden&apos; executed: Id: 376 - Mama: &apos;Reden&apos; executed: Id: 376 - Mama: &apos;Reden&apos; angewandt: Id: 376 - Mama: &apos;Reden&apos; angewandt: Id: 376 - Mama: &apos;Reden&apos; angewandt: Id: 376 - Mama: &apos;Reden&apos; angewandt: Id: 376 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="376" order="530" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Vielleicht später." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 379 - Ente_steht: &apos;Reden&apos; executed: Id: 379 - Ente_steht: &apos;Reden&apos; executed: Id: 379 - Ente_steht: &apos;Reden&apos; executed: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Unnamed" id="379" order="524" lastModified="-1">
+		<Text name="Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Id: 379 - Ente_steht: &apos;Reden&apos; executed: Id: 379 - Ente_steht: &apos;Reden&apos; executed: Id: 379 - Ente_steht: &apos;Reden&apos; executed: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Id: 379 - Ente_steht: &apos;Reden&apos; angewandt: Unnamed" id="379" order="524" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Hmm…was hat der eine Enterich gesagt? Biber? Biber…" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var1_K.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 380 - Ente_steht: &apos;Reden&apos; executed: Id: 380 - Ente_steht: &apos;Reden&apos; executed: Id: 380 - Ente_steht: &apos;Reden&apos; executed: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Unnamed" id="380" order="525" lastModified="-1">
+		<Text name="Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Id: 380 - Ente_steht: &apos;Reden&apos; executed: Id: 380 - Ente_steht: &apos;Reden&apos; executed: Id: 380 - Ente_steht: &apos;Reden&apos; executed: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Id: 380 - Ente_steht: &apos;Reden&apos; angewandt: Unnamed" id="380" order="525" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Sind sie das da drüben? Wenn ich so einen Pelz habe wie sie, dann mögen sie mich bestimmt!" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var1_L.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Unnamed" id="381" order="208" lastModified="-1">
+		<Text name="Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Id: 381 - Ente_steht: Szene 2: Unnamed" id="381" order="208" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Hallo ihr! Ihr habt aber tolle Schnäbel!" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var1_Aa.wav" int="0"/>
 			</TextTextLanguages>
@@ -8762,11 +8767,6 @@
 				<text Text="Quack quack quack quack!" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var1_Gb.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 391 - Aktion: Text von &apos;Ente_schwimmt&apos; ausgeben" id="391" order="510" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Quack quack quack quack!" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var1_Gb.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
 		<Text name="Id: 392 - Aktion: Text von &apos;Ente_steht&apos; ausgeben" id="392" order="511" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Vielleicht bist du ja bei DENEN DA besser aufgehoben! Quack. &lt;br/&gt;Ohne Quack kein Quacken, wie es so schön heißt!" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var1_H.wav" int="0"/>
@@ -8782,17 +8782,17 @@
 				<text Text="Wartet! Warum kann ich denn nicht bei euch ... &lt;br/&gt;Was haben die nur gegen mich?" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var1_J.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Unnamed" id="396" order="209" lastModified="-1">
+		<Text name="Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Id: 396 - Ente_steht: Szene 2: Unnamed" id="396" order="209" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Unnamed" id="397" order="210" lastModified="-1">
+		<Text name="Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Id: 397 - Ente_steht: Szene 2: Unnamed" id="397" order="210" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Unnamed" id="398" order="498" lastModified="-1">
+		<Text name="Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Id: 398 - Ente_steht: Szene 2: Unnamed" id="398" order="498" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Hallo ihr! Womit seid ihr denn da bedeckt?" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var2_Aa.wav" int="0"/>
 			</TextTextLanguages>
@@ -8812,102 +8812,97 @@
 				<text Text="Quack quack quack quack quack quack!!" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var2_Bb.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 405 - Aktion: Text von &apos;Ente_schwimmt&apos; ausgeben" id="405" order="521" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Quack quack quack quack quack quack!!" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var2_Bb.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
 		<Text name="Id: 406 - Aktion: Text von &apos;Cornelius&apos; ausgeben" id="406" order="522" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Hört mal, ich bin ein Schnabeltier! Ich bin nun einmal so! Ich kann doch nichts dafür…! &lt;br/&gt;Was haben die nur gegen mich?" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var2_D.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Unnamed" id="407" order="499" lastModified="-1">
+		<Text name="Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Id: 407 - Ente_steht: Szene 2: Unnamed" id="407" order="499" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Unnamed" id="408" order="500" lastModified="-1">
+		<Text name="Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Id: 408 - Ente_steht: Szene 2: Unnamed" id="408" order="500" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 409 - Bibermutter: Cursor enters character area: Id: 409 - Bibermutter: Cursor enters character area: Id: 409 - Bibermutter: Cursor enters character area: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Unnamed" id="409" order="397" lastModified="-1">
+		<Text name="Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Id: 409 - Bibermutter: Cursor enters character area: Id: 409 - Bibermutter: Cursor enters character area: Id: 409 - Bibermutter: Cursor enters character area: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Id: 409 - Bibermutter: Mausbewegung in Personenbereich: Unnamed" id="409" order="397" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Tut dir leid, tut dir leid … davon kann ich mir auch kein neues Junges suchen, wenn dich die Strömung erfasst! Du hast Hausarrest!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_C.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 410 - Bibermutter: Cursor enters character area: Id: 410 - Bibermutter: Cursor enters character area: Id: 410 - Bibermutter: Cursor enters character area: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Unnamed" id="410" order="399" lastModified="-1">
+		<Text name="Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Id: 410 - Bibermutter: Cursor enters character area: Id: 410 - Bibermutter: Cursor enters character area: Id: 410 - Bibermutter: Cursor enters character area: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Id: 410 - Bibermutter: Mausbewegung in Personenbereich: Unnamed" id="410" order="399" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Jaa, Mama, tut mir leid …" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 411 - Bibermutter: Cursor enters character area: Id: 411 - Bibermutter: Cursor enters character area: Id: 411 - Bibermutter: Cursor enters character area: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Unnamed" id="411" order="400" lastModified="-1">
+		<Text name="Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Id: 411 - Bibermutter: Cursor enters character area: Id: 411 - Bibermutter: Cursor enters character area: Id: 411 - Bibermutter: Cursor enters character area: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Id: 411 - Bibermutter: Mausbewegung in Personenbereich: Unnamed" id="411" order="400" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Aber Mama! Das ist gemei –" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_Da.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 413 - Bibermutter: Cursor enters character area: Id: 413 - Bibermutter: Cursor enters character area: Id: 413 - Bibermutter: Cursor enters character area: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Unnamed" id="413" order="540" lastModified="-1">
+		<Text name="Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Id: 413 - Bibermutter: Cursor enters character area: Id: 413 - Bibermutter: Cursor enters character area: Id: 413 - Bibermutter: Cursor enters character area: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Id: 413 - Bibermutter: Mausbewegung in Personenbereich: Unnamed" id="413" order="540" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Was hab ich dir gesagt, Karl? Nicht so nahe an den gefährlichen Fluss schwimmen!&lt;br/&gt;Die Strömung … du darfst nicht … wenn dir nun etwas passiert wäre … !" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 415 - Biber Karl: &apos;Reden&apos; executed: Id: 415 - Biber Karl: &apos;Reden&apos; executed: Id: 415 - Biber Karl: &apos;Reden&apos; executed: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="415" order="527" lastModified="-1">
+		<Text name="Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; executed: Id: 415 - Biber Karl: &apos;Reden&apos; executed: Id: 415 - Biber Karl: &apos;Reden&apos; executed: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Id: 415 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="415" order="527" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ich bin kein Biber, ich bin ein Schnabeltier. Ich bin so aus dem Ei geschlüpft." path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_6 Cornelius Var1.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 416 - Biber Karl: &apos;Reden&apos; executed: Id: 416 - Biber Karl: &apos;Reden&apos; executed: Id: 416 - Biber Karl: &apos;Reden&apos; executed: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="416" order="570" lastModified="-1">
+		<Text name="Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; executed: Id: 416 - Biber Karl: &apos;Reden&apos; executed: Id: 416 - Biber Karl: &apos;Reden&apos; executed: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Id: 416 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="416" order="570" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="WIE BITTE?! Was bist du? Schnabel, Ei? Oh, und deine Füße sind ja Flossen! Was willst du denn hier? Geh doch zu den Enten!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 417 - Biber Karl: &apos;Reden&apos; executed: Id: 417 - Biber Karl: &apos;Reden&apos; executed: Id: 417 - Biber Karl: &apos;Reden&apos; executed: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="417" order="571" lastModified="-1">
+		<Text name="Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; executed: Id: 417 - Biber Karl: &apos;Reden&apos; executed: Id: 417 - Biber Karl: &apos;Reden&apos; executed: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Id: 417 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="417" order="571" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ja, ein Schnabeltier … bei den Enten war ich schon. Wegen meines Pelzes haben sie mich zu euch geschickt!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 418 - Biber Karl: &apos;Reden&apos; executed: Id: 418 - Biber Karl: &apos;Reden&apos; executed: Id: 418 - Biber Karl: &apos;Reden&apos; executed: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="418" order="572" lastModified="-1">
+		<Text name="Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; executed: Id: 418 - Biber Karl: &apos;Reden&apos; executed: Id: 418 - Biber Karl: &apos;Reden&apos; executed: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Id: 418 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="418" order="572" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ha! Was wollen wir Biber denn mit einem Schnabeltier!? Damit kannst du ja nicht mal Holz bearbeiten und uns helfen, &lt;br/&gt;den Unterschlupf auszubauen! Tut mir leid, Konstantin, hier wirst du nicht gebraucht." path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_C.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 420 - Biber Karl: &apos;Reden&apos; executed: Id: 420 - Biber Karl: &apos;Reden&apos; executed: Id: 420 - Biber Karl: &apos;Reden&apos; executed: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="420" order="574" lastModified="-1">
+		<Text name="Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; executed: Id: 420 - Biber Karl: &apos;Reden&apos; executed: Id: 420 - Biber Karl: &apos;Reden&apos; executed: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Id: 420 - Biber Karl: &apos;Reden&apos; angewandt: Unnamed" id="420" order="574" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Mein Name ist Cornelius!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_7 Cornelius &amp; Biber Karl_D.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Unnamed" id="422" order="274" lastModified="-1">
+		<Text name="Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Id: 422 - Biber Karl: Szene 3: Unnamed" id="422" order="274" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Hey du! Ich bin Cornelius. Und wie heißt du? Karl?" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_2 Cornelius Var1.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Unnamed" id="423" order="275" lastModified="-1">
+		<Text name="Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Id: 423 - Biber Karl: Szene 3: Unnamed" id="423" order="275" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Unnamed" id="424" order="276" lastModified="-1">
+		<Text name="Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Id: 424 - Biber Karl: Szene 3: Unnamed" id="424" order="276" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Unnamed" id="425" order="277" lastModified="-1">
+		<Text name="Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Id: 425 - Biber Karl: Szene 3: Unnamed" id="425" order="277" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Hallo Karl! " path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_2 Cornelius Var2.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Unnamed" id="426" order="278" lastModified="-1">
+		<Text name="Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Id: 426 - Biber Karl: Szene 3: Unnamed" id="426" order="278" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Unnamed" id="427" order="279" lastModified="-1">
+		<Text name="Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Id: 427 - Biber Karl: Szene 3: Unnamed" id="427" order="279" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Unnamed" id="428" order="283" lastModified="-1">
+		<Text name="Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Id: 428 - Biber Karl: Szene 3: Unnamed" id="428" order="283" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ääähm … ja … Also, wie war das mit der Strömung, die so gefährlich ist? Was passiert, wenn sie einen erwischt?" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_3 Cornelius &amp; Biber Karl _A.wav" int="0"/>
 			</TextTextLanguages>
@@ -8937,7 +8932,7 @@
 				<text Text="Wozu brauchen Biber denn einen Schnabel? Wo hast du den denn her?" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_5 Cornelius &amp; Biber Karl_C.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Unnamed" id="434" order="284" lastModified="-1">
+		<Text name="Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Id: 434 - Biber Karl: Szene 3: Unnamed" id="434" order="284" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -8987,12 +8982,12 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Unnamed" id="444" order="285" lastModified="-1">
+		<Text name="Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Id: 444 - Biber Karl: Szene 3: Unnamed" id="444" order="285" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 455 - Mama: &apos;Reden&apos; executed: Id: 455 - Mama: &apos;Reden&apos; executed: Id: 455 - Mama: &apos;Reden&apos; executed: Id: 455 - Mama: &apos;Reden&apos; angewandt: Id: 455 - Mama: &apos;Reden&apos; angewandt: Id: 455 - Mama: &apos;Reden&apos; angewandt: Id: 455 - Mama: &apos;Reden&apos; angewandt: Id: 455 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="455" order="455" lastModified="-1">
+		<Text name="Id: 455 - Mama: &apos;Reden&apos; angewandt: Id: 455 - Mama: &apos;Reden&apos; angewandt: Id: 455 - Mama: &apos;Reden&apos; executed: Id: 455 - Mama: &apos;Reden&apos; executed: Id: 455 - Mama: &apos;Reden&apos; executed: Id: 455 - Mama: &apos;Reden&apos; angewandt: Id: 455 - Mama: &apos;Reden&apos; angewandt: Id: 455 - Mama: &apos;Reden&apos; angewandt: Id: 455 - Mama: &apos;Reden&apos; angewandt: Id: 455 - Mama: &apos;Reden&apos; angewandt: Unnamed" id="455" order="455" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="... aber hier werde ich wohl keine finden. Nicht so, wie ich bin. Wenn ich nur irgendwie stärker wäre ... dann würden sie mich nicht auslachen, dann wären sie nett zu mir!" path="develop/Stimmen/3_Szene 4/LEVEL 1_3 Szene 4_2 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
@@ -9002,17 +8997,12 @@
 				<text Text="Ähm ... ich weiß nicht? Ich bin so geboren." path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var2_Ca.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 458 - Aktion: Text von &apos;Ente_steht&apos; ausgeben" id="458" order="520" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Quack quack quack quack quack quack!!" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var2_Bb.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
 		<Text name="Id: 460 - Aktion: Text von &apos;Ente_schwimmt&apos; ausgeben" id="460" order="521" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Quack quack quack quack quack quack!!" path="develop/Stimmen/3_Szene 2/LEVEL 1_3 Szene 2_1 Cornelius &amp; Enten Var2_Bb.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 461 - Bibermutter: Cursor enters character area: Id: 461 - Bibermutter: Cursor enters character area: Id: 461 - Bibermutter: Cursor enters character area: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Unnamed" id="461" order="461" lastModified="-1">
+		<Text name="Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Id: 461 - Bibermutter: Cursor enters character area: Id: 461 - Bibermutter: Cursor enters character area: Id: 461 - Bibermutter: Cursor enters character area: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Id: 461 - Bibermutter: Mausbewegung in Personenbereich: Unnamed" id="461" order="461" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Keine Widerrede!" path="develop/Stimmen/3_Szene 3/LEVEL 1_3 Szene 3_1 Biber Karl &amp; Bibermutter_Db.wav" int="0"/>
 			</TextTextLanguages>
@@ -9022,167 +9012,167 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 497 - Cornelius: Left click: Id: 497 - Cornelius: Left click: Id: 497 - Cornelius: Left click: Id: 497 - Cornelius: Linksklick: Id: 497 - Cornelius: Linksklick: Id: 497 - Cornelius: Linksklick: Id: 497 - Cornelius: Linksklick: Unnamed" id="497" order="497" lastModified="-1">
+		<Text name="Id: 497 - Cornelius: Linksklick: Id: 497 - Cornelius: Linksklick: Id: 497 - Cornelius: Left click: Id: 497 - Cornelius: Left click: Id: 497 - Cornelius: Left click: Id: 497 - Cornelius: Linksklick: Id: 497 - Cornelius: Linksklick: Id: 497 - Cornelius: Linksklick: Id: 497 - Cornelius: Linksklick: Unnamed" id="497" order="497" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Oh mann, ich habs geschafft! Ich lebe noch … puuh … ich bin sooo müde … nur noch ein bisschen liegen bleiben …" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_1 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 499 - Schildkröte: Left click: Id: 499 - Schildkröte: Left click: Id: 499 - Schildkröte: Left click: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Unnamed" id="499" order="499" lastModified="-1">
+		<Text name="Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Left click: Id: 499 - Schildkröte: Left click: Id: 499 - Schildkröte: Left click: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Unnamed" id="499" order="499" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Du hast lange geschlafen, Junge." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 501 - Schildkröte: Left click: Id: 501 - Schildkröte: Left click: Id: 501 - Schildkröte: Left click: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Unnamed" id="501" order="501" lastModified="-1">
+		<Text name="Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Left click: Id: 501 - Schildkröte: Left click: Id: 501 - Schildkröte: Left click: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Unnamed" id="501" order="501" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ähm … Hallo. Wo bin ich hier?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 502 - Schildkröte: Left click: Id: 502 - Schildkröte: Left click: Id: 502 - Schildkröte: Left click: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Unnamed" id="502" order="502" lastModified="-1">
+		<Text name="Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Left click: Id: 502 - Schildkröte: Left click: Id: 502 - Schildkröte: Left click: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Unnamed" id="502" order="502" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Im Wald. Aber ich sehe schon, aus diesem Boden bist du nicht gewachsen?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_C.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Unnamed" id="503" order="503" lastModified="-1">
+		<Text name="Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Unnamed" id="503" order="503" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Boden … ? Achso! Nein, ich wohne am Waldrand, mit meiner Familie. Da sind auch Biber ... und Enten … &lt;br/&gt;Ich weiß gar nicht, wo ich eigentlich herkomme. Mein Zuhause war das jedenfalls nicht." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_D.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 504 - Schildkröte: Left click: Id: 504 - Schildkröte: Left click: Id: 504 - Schildkröte: Left click: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Unnamed" id="504" order="504" lastModified="-1">
+		<Text name="Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Left click: Id: 504 - Schildkröte: Left click: Id: 504 - Schildkröte: Left click: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Unnamed" id="504" order="504" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Achja?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_E.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Unnamed" id="505" order="505" lastModified="-1">
+		<Text name="Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Unnamed" id="505" order="505" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ja! Ich bin da gerade erst hingezogen, aber die anderen mögen mich nicht! &lt;br/&gt;Nur weil ich ein Schnabeltier bin. Als ob ich etwas dafür könnte. Das ist so gemein!" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_F.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 506 - Schildkröte: Left click: Id: 506 - Schildkröte: Left click: Id: 506 - Schildkröte: Left click: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Unnamed" id="506" order="506" lastModified="-1">
+		<Text name="Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Left click: Id: 506 - Schildkröte: Left click: Id: 506 - Schildkröte: Left click: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Unnamed" id="506" order="506" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Nun ... ein Flieder fühlt sich nicht wohl unter Gänseblümchen." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_G.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Unnamed" id="508" order="508" lastModified="-1">
+		<Text name="Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Unnamed" id="508" order="508" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Was reden Sie denn da?! Sie verstehen gar nichts! Wenn ich nur stärker wäre! Dann würden die anderen mich respektieren und mit mir spielen wollen. &lt;br/&gt;" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_H.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Unnamed" id="509" order="509" lastModified="-1">
+		<Text name="Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Unnamed" id="509" order="509" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Soso, die Rose will also spitzere Dornen. Weißt du, man kann durch viele Dinge stärker werden. " path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_J.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 510 - Schildkröte: Left click: Id: 510 - Schildkröte: Left click: Id: 510 - Schildkröte: Left click: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Unnamed" id="510" order="510" lastModified="-1">
+		<Text name="Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Left click: Id: 510 - Schildkröte: Left click: Id: 510 - Schildkröte: Left click: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Unnamed" id="510" order="510" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Wirklich?? Wie? Sagen Sie schon!" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_L.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 511 - Schildkröte: Left click: Id: 511 - Schildkröte: Left click: Id: 511 - Schildkröte: Left click: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Unnamed" id="511" order="511" lastModified="-1">
+		<Text name="Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Left click: Id: 511 - Schildkröte: Left click: Id: 511 - Schildkröte: Left click: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Unnamed" id="511" order="511" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ein Trank." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_M.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 512 - Schildkröte: Left click: Id: 512 - Schildkröte: Left click: Id: 512 - Schildkröte: Left click: Id: 512 - Schildkröte: Linksklick: Id: 512 - Schildkröte: Linksklick: Id: 512 - Schildkröte: Linksklick: Id: 512 - Schildkröte: Linksklick: Unnamed" id="512" order="511" lastModified="-1">
+		<Text name="Id: 512 - Schildkröte: Linksklick: Id: 512 - Schildkröte: Linksklick: Id: 512 - Schildkröte: Left click: Id: 512 - Schildkröte: Left click: Id: 512 - Schildkröte: Left click: Id: 512 - Schildkröte: Linksklick: Id: 512 - Schildkröte: Linksklick: Id: 512 - Schildkröte: Linksklick: Id: 512 - Schildkröte: Linksklick: Unnamed" id="512" order="511" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ein Trank." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_O.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 513 - Schildkröte: Left click: Id: 513 - Schildkröte: Left click: Id: 513 - Schildkröte: Left click: Id: 513 - Schildkröte: Linksklick: Id: 513 - Schildkröte: Linksklick: Id: 513 - Schildkröte: Linksklick: Id: 513 - Schildkröte: Linksklick: Unnamed" id="513" order="513" lastModified="-1">
+		<Text name="Id: 513 - Schildkröte: Linksklick: Id: 513 - Schildkröte: Linksklick: Id: 513 - Schildkröte: Left click: Id: 513 - Schildkröte: Left click: Id: 513 - Schildkröte: Left click: Id: 513 - Schildkröte: Linksklick: Id: 513 - Schildkröte: Linksklick: Id: 513 - Schildkröte: Linksklick: Id: 513 - Schildkröte: Linksklick: Unnamed" id="513" order="513" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ein Trank?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_N.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 514 - Schildkröte: Left click: Id: 514 - Schildkröte: Left click: Id: 514 - Schildkröte: Left click: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Unnamed" id="514" order="514" lastModified="-1">
+		<Text name="Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Left click: Id: 514 - Schildkröte: Left click: Id: 514 - Schildkröte: Left click: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Unnamed" id="514" order="514" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ein Trank … Was für ein Trank? " path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_P.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 515 - Schildkröte: Left click: Id: 515 - Schildkröte: Left click: Id: 515 - Schildkröte: Left click: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Unnamed" id="515" order="515" lastModified="-1">
+		<Text name="Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Left click: Id: 515 - Schildkröte: Left click: Id: 515 - Schildkröte: Left click: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Unnamed" id="515" order="515" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ein stärkender Trank. Aber das ist nicht so leicht …" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Q.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 516 - Schildkröte: Left click: Id: 516 - Schildkröte: Left click: Id: 516 - Schildkröte: Left click: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Unnamed" id="516" order="516" lastModified="-1">
+		<Text name="Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Left click: Id: 516 - Schildkröte: Left click: Id: 516 - Schildkröte: Left click: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Unnamed" id="516" order="516" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ich will diesen Trank! Bitte, können Sie ihn mir brauen?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_R.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 517 - Schildkröte: Left click: Id: 517 - Schildkröte: Left click: Id: 517 - Schildkröte: Left click: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Unnamed" id="517" order="517" lastModified="-1">
+		<Text name="Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Left click: Id: 517 - Schildkröte: Left click: Id: 517 - Schildkröte: Left click: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Unnamed" id="517" order="517" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Nun, ich habe nicht alle Zutaten. Und es ist seeehr schwierig, sie zu beschaffen." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_S.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 518 - Schildkröte: Left click: Id: 518 - Schildkröte: Left click: Id: 518 - Schildkröte: Left click: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Unnamed" id="518" order="518" lastModified="-1">
+		<Text name="Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Left click: Id: 518 - Schildkröte: Left click: Id: 518 - Schildkröte: Left click: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Unnamed" id="518" order="518" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ich … ich mach‘s! Sagen Sie mir nur, welche und wo ich sie finde!" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_T.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 519 - Schildkröte: Left click: Id: 519 - Schildkröte: Left click: Id: 519 - Schildkröte: Left click: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Unnamed" id="519" order="519" lastModified="-1">
+		<Text name="Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Left click: Id: 519 - Schildkröte: Left click: Id: 519 - Schildkröte: Left click: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Unnamed" id="519" order="519" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Naja, wenn du das unbedingt willst …" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_U.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 520 - Schildkröte: Left click: Id: 520 - Schildkröte: Left click: Id: 520 - Schildkröte: Left click: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Unnamed" id="520" order="520" lastModified="-1">
+		<Text name="Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Left click: Id: 520 - Schildkröte: Left click: Id: 520 - Schildkröte: Left click: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Unnamed" id="520" order="520" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ja, ich will es! Also, wo und was?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_V.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 521 - Schildkröte: Left click: Id: 521 - Schildkröte: Left click: Id: 521 - Schildkröte: Left click: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Unnamed" id="521" order="521" lastModified="-1">
+		<Text name="Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Left click: Id: 521 - Schildkröte: Left click: Id: 521 - Schildkröte: Left click: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Unnamed" id="521" order="521" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Zunächst, mein kleiner Freund, bringe mir den Zahn eines Löwen. " path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_W.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 522 - Schildkröte: Left click: Id: 522 - Schildkröte: Left click: Id: 522 - Schildkröte: Left click: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Unnamed" id="522" order="522" lastModified="-1">
+		<Text name="Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Left click: Id: 522 - Schildkröte: Left click: Id: 522 - Schildkröte: Left click: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Unnamed" id="522" order="522" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Den Zahn eines –" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 523 - Schildkröte: Left click: Id: 523 - Schildkröte: Left click: Id: 523 - Schildkröte: Left click: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Unnamed" id="523" order="523" lastModified="-1">
+		<Text name="Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Left click: Id: 523 - Schildkröte: Left click: Id: 523 - Schildkröte: Left click: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Unnamed" id="523" order="523" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Dann, an zweiter Stelle, eine blaue Erinnerung." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_X.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 524 - Schildkröte: Left click: Id: 524 - Schildkröte: Left click: Id: 524 - Schildkröte: Left click: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Unnamed" id="524" order="524" lastModified="-1">
+		<Text name="Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Left click: Id: 524 - Schildkröte: Left click: Id: 524 - Schildkröte: Left click: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Unnamed" id="524" order="524" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Was? Wie soll ich denn -" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 525 - Schildkröte: Left click: Id: 525 - Schildkröte: Left click: Id: 525 - Schildkröte: Left click: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Unnamed" id="525" order="525" lastModified="-1">
+		<Text name="Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Left click: Id: 525 - Schildkröte: Left click: Id: 525 - Schildkröte: Left click: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Unnamed" id="525" order="525" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Und zuletzt, so soll es sein, ein kleines bisschen Glück." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Y.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Unnamed" id="526" order="526" lastModified="-1">
+		<Text name="Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Unnamed" id="526" order="526" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ähhm … entschuldigung, aber ist das Ihr Ernst?&lt;br/&gt;Ähhhh … okay … und, ähm, wo finde ich diese Dinge? &lt;br/&gt;Den Zahn, die Erinnerung und das Glück?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Z.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 532 - Schildkröte: Left click: Id: 532 - Schildkröte: Left click: Id: 532 - Schildkröte: Left click: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Unnamed" id="532" order="532" lastModified="-1">
+		<Text name="Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Left click: Id: 532 - Schildkröte: Left click: Id: 532 - Schildkröte: Left click: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Unnamed" id="532" order="532" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Im Wald." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 534 - Schildkröte: Left click: Id: 534 - Schildkröte: Left click: Id: 534 - Schildkröte: Left click: Id: 534 - Schildkröte: Linksklick: Id: 534 - Schildkröte: Linksklick: Id: 534 - Schildkröte: Linksklick: Id: 534 - Schildkröte: Linksklick: Unnamed" id="534" order="534" lastModified="-1">
+		<Text name="Id: 534 - Schildkröte: Linksklick: Id: 534 - Schildkröte: Linksklick: Id: 534 - Schildkröte: Left click: Id: 534 - Schildkröte: Left click: Id: 534 - Schildkröte: Left click: Id: 534 - Schildkröte: Linksklick: Id: 534 - Schildkröte: Linksklick: Id: 534 - Schildkröte: Linksklick: Id: 534 - Schildkröte: Linksklick: Unnamed" id="534" order="534" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Aber der Wald ist groß!" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Unnamed" id="535" order="535" lastModified="-1">
+		<Text name="Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Unnamed" id="535" order="535" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ein Hinweis, Junge: versuche nicht, alles alleine zu tun. Hilf, und dir soll geholfen werden." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Zb.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Unnamed" id="536" order="536" lastModified="-1">
+		<Text name="Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Unnamed" id="536" order="536" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ähm. Okay. Na, dann … dann mal los!" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Zc.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 541 - Schildkröte: Left click: Id: 541 - Schildkröte: Left click: Id: 541 - Schildkröte: Left click: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Unnamed" id="541" order="541" lastModified="-1">
+		<Text name="Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Left click: Id: 541 - Schildkröte: Left click: Id: 541 - Schildkröte: Left click: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Unnamed" id="541" order="541" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Aber ich bin nicht stark. Hab ja nicht einmal diesen Fisch fangen können…" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_I.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 542 - Schildkröte: Left click: Id: 542 - Schildkröte: Left click: Id: 542 - Schildkröte: Left click: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Unnamed" id="542" order="542" lastModified="-1">
+		<Text name="Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Left click: Id: 542 - Schildkröte: Left click: Id: 542 - Schildkröte: Left click: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Unnamed" id="542" order="542" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Nun, mein Junge ... ich kann dir helfen." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_K.wav" int="0"/>
 			</TextTextLanguages>
@@ -9247,7 +9237,7 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; executed: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; executed: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; executed: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; angewandt: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; angewandt: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; angewandt: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; angewandt: Unnamed" id="560" order="560" lastModified="-1">
+		<Text name="Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; angewandt: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; angewandt: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; executed: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; executed: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; executed: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; angewandt: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; angewandt: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; angewandt: Id: 560 - Schnabeltierbaby: &apos;Inspizieren&apos; angewandt: Unnamed" id="560" order="560" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Meine kleine Schwester Maja. Sie kann noch gar nicht reden." path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1_Maja.wav" int="0"/>
 			</TextTextLanguages>
@@ -9297,17 +9287,17 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 583 - Eule: Dialog1: Id: 583 - Eule: Dialog1: Id: 583 - Eule: Dialog1: Unnamed" id="583" order="583" lastModified="-1">
+		<Text name="Id: 583 - Eule: Dialog1: Id: 583 - Eule: Dialog1: Id: 583 - Eule: Dialog1: Id: 583 - Eule: Dialog1: Id: 583 - Eule: Dialog1: Unnamed" id="583" order="583" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Hallo, du! Ähm ... Bist du da? Ich bin neu hier und weiß nicht welchen Weg ich nehmen soll." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_01 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 584 - Eule: Dialog1: Id: 584 - Eule: Dialog1: Id: 584 - Eule: Dialog1: Unnamed" id="584" order="584" lastModified="-1">
+		<Text name="Id: 584 - Eule: Dialog1: Id: 584 - Eule: Dialog1: Id: 584 - Eule: Dialog1: Id: 584 - Eule: Dialog1: Id: 584 - Eule: Dialog1: Unnamed" id="584" order="584" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 585 - Eule: Dialog1: Id: 585 - Eule: Dialog1: Id: 585 - Eule: Dialog1: Unnamed" id="585" order="585" lastModified="-1">
+		<Text name="Id: 585 - Eule: Dialog1: Id: 585 - Eule: Dialog1: Id: 585 - Eule: Dialog1: Id: 585 - Eule: Dialog1: Id: 585 - Eule: Dialog1: Unnamed" id="585" order="585" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -9357,67 +9347,67 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 610 - Action: Display text by character &apos;Eule&apos;" id="610" order="610" lastModified="-1">
+		<Text name="Id: 610 - Action: Text von &apos;Eule&apos; ausgeben" id="610" order="610" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Vogel? Ersteinmal bin ich eine Eule, wie du eigentlich sehen solltest. Naja ... &lt;br/&gt;Die Schildkröte sagtest du? Die gute alte Schildkröte ... lange ist es her, dass wir uns das letzte mal gesehen haben. &lt;br/&gt;Sag mir kleiner Cornelius, wie geht es der alten Schildkröte? Ich habe lange nichts von ihr gehört." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_03 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 611 - Action: Display text by character &apos;Cornelius&apos;" id="611" order="611" lastModified="-1">
+		<Text name="Id: 611 - Action: Text von &apos;Cornelius&apos; ausgeben" id="611" order="611" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ähm ... wir kennen uns noch nicht so lange, aber ich glaube gut. &lt;br/&gt;Ich bin neu hier im Wald, wir sind gerade erst hergezogen an den See &lt;br/&gt;und dann ... dann bin ich in den Fluss gefallen und im Garten der Schildkröte wieder aufgewacht. " path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_04 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 612 - Action: Display text by character &apos;Eule&apos;" id="612" order="612" lastModified="-1">
+		<Text name="Id: 612 - Action: Text von &apos;Eule&apos; ausgeben" id="612" order="612" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Es ist schön zu hören, dass dir nichts passiert ist bei dem Sturz. &lt;br/&gt;Aber sag mir Cornelius, was machst du ganz allein im Wald?" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_05 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 618 - Action: Display text by character &apos;Cornelius&apos;" id="618" order="618" lastModified="-1">
+		<Text name="Id: 618 - Action: Text von &apos;Cornelius&apos; ausgeben" id="618" order="618" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Die Schildkröte hat mir versprochen einen Trank zu brauen, der mich besonders und stark macht. &lt;br/&gt;Dafür will sie, dass ich ihr drei Zutaten bringe. Eine davon ist ein bisschen Glück!" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_06 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 619 - Action: Display text by character &apos;Eule&apos;" id="619" order="619" lastModified="-1">
+		<Text name="Id: 619 - Action: Text von &apos;Eule&apos; ausgeben" id="619" order="619" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ein bisschen Glück sagst du? Ich glaube ich habe da eine Idee, &lt;br/&gt;aber lass mich dich vorher um einen Gefallen bitten, bist du so lieb?" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_08 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 620 - Action: Display text by character &apos;Cornelius&apos;" id="620" order="620" lastModified="-1">
+		<Text name="Id: 620 - Action: Text von &apos;Cornelius&apos; ausgeben" id="620" order="620" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ja, klar! Was soll ich tun?" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_09 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 621 - Action: Display text by character &apos;Eule&apos;" id="621" order="621" lastModified="-1">
+		<Text name="Id: 621 - Action: Text von &apos;Eule&apos; ausgeben" id="621" order="621" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ein bisschen weiter den Weg entlang gibt es eine schöne Wiese, &lt;br/&gt;auf der du dich erstmal ausruhen kannst. Die Tiere im Wald nennen sie die Glückswiese. " path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_10 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 622 - Action: Display text by character &apos;Eule&apos;" id="622" order="622" lastModified="-1">
+		<Text name="Id: 622 - Action: Text von &apos;Eule&apos; ausgeben" id="622" order="622" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Aber bevor du dich auf den Weg machst, hätte ich noch ein Rätsel für dich. &lt;br/&gt;Wenn du mir die Frage richtig beantworten kannst, zeige ich dir den Weg zur Glückswiese." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_11 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 623 - Action: Display text by character &apos;Cornelius&apos;" id="623" order="623" lastModified="-1">
+		<Text name="Id: 623 - Action: Text von &apos;Cornelius&apos; ausgeben" id="623" order="623" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Klar doch! Ich mag Rätsel!" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_13 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 624 - Action: Display text by character &apos;Eule&apos;" id="624" order="624" lastModified="-1">
+		<Text name="Id: 624 - Action: Text von &apos;Eule&apos; ausgeben" id="624" order="624" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Sehr gut. Mal sehen wie schnell du es lösen kannst:" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_14 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 625 - Action: Display text by character &apos;Eule&apos;" id="625" order="625" lastModified="-1">
+		<Text name="Id: 625 - Action: Text von &apos;Eule&apos; ausgeben" id="625" order="625" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Das stärkste Tier, &lt;br/&gt;wer nennt es mir, &lt;br/&gt;das immerfort von Ort zu Ort &lt;br/&gt;sein Haus trägt&lt;br/&gt;auf dem Rücken fort?" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_15 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 626 - Action: Display text by character &apos;Cornelius&apos;" id="626" order="626" lastModified="-1">
+		<Text name="Id: 626 - Action: Text von &apos;Cornelius&apos; ausgeben" id="626" order="626" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Das ist einfach! Die Schnecke trägt ihr Haus auf dem Rücken." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_16 Cornelius_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 627 - Action: Display text by character &apos;Eule&apos;" id="627" order="627" lastModified="-1">
+		<Text name="Id: 627 - Action: Text von &apos;Eule&apos; ausgeben" id="627" order="627" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Sehr gut! Wenn du willst hätte ich noch ein Rätsel für dich." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_17 Eule_A.wav" int="0"/>
 			</TextTextLanguages>
@@ -9452,22 +9442,22 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 637 - Action: Display text by character &apos;Eule&apos;" id="637" order="637" lastModified="-1">
+		<Text name="Id: 637 - Action: Text von &apos;Eule&apos; ausgeben" id="637" order="637" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Es hat ein Nest auf Bäumen, &lt;br/&gt;hüpft auf den Bäumen herum &lt;br/&gt;und doch ist es kein Vogel." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_19.1 Eule_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 638 - Action: Display text by character &apos;Cornelius&apos;" id="638" order="638" lastModified="-1">
+		<Text name="Id: 638 - Action: Text von &apos;Cornelius&apos; ausgeben" id="638" order="638" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Hmmm ... lass mich Überlegen. Ah! Ich weiß es, das Eichhörnchen. " path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_19.2 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 639 - Action: Display text by character &apos;Eule&apos;" id="639" order="639" lastModified="-1">
+		<Text name="Id: 639 - Action: Text von &apos;Eule&apos; ausgeben" id="639" order="639" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Das hast du gut gemacht Cornelius. Wenn du willst zeige ich dir den Weg zur Glückswiese. " path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_19.1 Eule_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 640 - Action: Display text by character &apos;Cornelius&apos;" id="640" order="640" lastModified="-1">
+		<Text name="Id: 640 - Action: Text von &apos;Cornelius&apos; ausgeben" id="640" order="640" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Danke, alte Eule! Ich werde mich sofort auf den Weg machen. Bis bald!" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_20 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
@@ -9477,534 +9467,534 @@
 				<text Text="Danke, alte Eule! Ich werde mich sofort auf den Weg machen. Bis bald!" path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_20 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 645 - Action: Display text by character &apos;Cornelius&apos;" id="645" order="645" lastModified="-1">
+		<Text name="Id: 645 - Action: Text von &apos;Cornelius&apos; ausgeben" id="645" order="645" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Nur weiß ich nicht wo ich das finden kann ... Glück hatte ich bisher noch nicht viel." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_07 Cornelius.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 646 - Action: Display text by character &apos;Eule&apos;" id="646" order="646" lastModified="-1">
+		<Text name="Id: 646 - Action: Text von &apos;Eule&apos; ausgeben" id="646" order="646" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Und falls du Glück hast, findest du dort ein seltenes vierblättiges Kleeblatt, &lt;br/&gt;welche auf der Glückswiese öfter zu finden sind, als irgendwo sonst." path="develop/Stimmen/1_Szene Eule/LEVEL 2_1 Szene 1_12 Eule.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 656 - Hauptmenü: Button" id="656" order="656" lastModified="-1">
+		<Text name="Id: 658 - : Kapitel1" id="658" order="31" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 657 - Hauptmenü: Button" id="657" order="657" lastModified="-1">
+		<Text name="Id: 659 - Kapitel1: Start_Cornelius" id="659" order="32" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 31 - : Kapitel1" id="658" order="31" lastModified="-1">
+		<Text name="Id: 660 - Kapitel1: Start_Mama" id="660" order="44" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 32 - Kapitel1: Start_Cornelius" id="659" order="32" lastModified="-1">
+		<Text name="Id: 661 - Kapitel1: Port_Schildkrötenhaus" id="661" order="292" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 44 - Kapitel1: Start_Mama" id="660" order="44" lastModified="-1">
+		<Text name="Id: 662 - Kapitel1: Start_Biber" id="662" order="294" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 292 - Kapitel1: Port_Schildkrötenhaus" id="661" order="292" lastModified="-1">
+		<Text name="Id: 663 - Kapitel1: Start_Bibermama" id="663" order="295" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 294 - Kapitel1: Start_Biber" id="662" order="294" lastModified="-1">
+		<Text name="Id: 664 - Kapitel1: Start_Ente_steht" id="664" order="296" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 295 - Kapitel1: Start_Bibermama" id="663" order="295" lastModified="-1">
+		<Text name="Id: 665 - Kapitel1: Start_Ente_schwimmt" id="665" order="297" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 296 - Kapitel1: Start_Ente_steht" id="664" order="296" lastModified="-1">
+		<Text name="Id: 666 - Kapitel1: Busch_1" id="666" order="454" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 297 - Kapitel1: Start_Ente_schwimmt" id="665" order="297" lastModified="-1">
+		<Text name="Id: 667 - Kapitel1: Wolke_1" id="667" order="464" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 454 - Kapitel1: Busch_1" id="666" order="454" lastModified="-1">
+		<Text name="Id: 668 - Kapitel1: Wolke_2" id="668" order="465" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 464 - Kapitel1: Wolke_1" id="667" order="464" lastModified="-1">
+		<Text name="Id: 669 - Kapitel1: Wolke_3" id="669" order="466" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 465 - Kapitel1: Wolke_2" id="668" order="465" lastModified="-1">
+		<Text name="Id: 670 - Kapitel1: Vogel_1" id="670" order="467" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 466 - Kapitel1: Wolke_3" id="669" order="466" lastModified="-1">
+		<Text name="Id: 671 - Kapitel1: Vogel_2" id="671" order="468" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 467 - Kapitel1: Vogel_1" id="670" order="467" lastModified="-1">
+		<Text name="Id: 672 - Kapitel1: Vogel_3" id="672" order="469" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 468 - Kapitel1: Vogel_2" id="671" order="468" lastModified="-1">
+		<Text name="Id: 673 - Kapitel1: Busch_2" id="673" order="471" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 469 - Kapitel1: Vogel_3" id="672" order="469" lastModified="-1">
+		<Text name="Id: 674 - Kapitel1: Blume_3" id="674" order="472" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 471 - Kapitel1: Busch_2" id="673" order="471" lastModified="-1">
+		<Text name="Id: 675 - Kapitel1: Blume_1" id="675" order="473" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 472 - Kapitel1: Blume_3" id="674" order="472" lastModified="-1">
+		<Text name="Id: 676 - Kapitel1: Busch_3" id="676" order="475" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 473 - Kapitel1: Blume_1" id="675" order="473" lastModified="-1">
+		<Text name="Id: 677 - Kapitel1: Blume_4" id="677" order="476" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 475 - Kapitel1: Busch_3" id="676" order="475" lastModified="-1">
+		<Text name="Id: 678 - Kapitel1: Blume_5" id="678" order="477" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 476 - Kapitel1: Blume_4" id="677" order="476" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 477 - Kapitel1: Blume_5" id="678" order="477" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 573 - Kapitel1: Blume_5: &apos;Inspizieren&apos; angewandt" id="679" order="573" lastModified="-1">
+		<Text name="Id: 679 - Kapitel1: Blume_5: &apos;Inspizieren&apos; angewandt" id="679" order="573" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Oh, eine Blume! Wie schön!" path="develop/Stimmen/SFX/SFX Cornelius_ALL_Blume.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 478 - Kapitel1: Wolke_5" id="680" order="478" lastModified="-1">
+		<Text name="Id: 680 - Kapitel1: Wolke_5" id="680" order="478" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 479 - Kapitel1: Wolke_4" id="681" order="479" lastModified="-1">
+		<Text name="Id: 681 - Kapitel1: Wolke_4" id="681" order="479" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 480 - Kapitel1: Wolke_6" id="682" order="480" lastModified="-1">
+		<Text name="Id: 682 - Kapitel1: Wolke_6" id="682" order="480" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 481 - Kapitel1: Wolke_7" id="683" order="481" lastModified="-1">
+		<Text name="Id: 683 - Kapitel1: Wolke_7" id="683" order="481" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 482 - Kapitel1: Wolke_8" id="684" order="482" lastModified="-1">
+		<Text name="Id: 684 - Kapitel1: Wolke_8" id="684" order="482" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 483 - Kapitel1: Busch_4" id="685" order="483" lastModified="-1">
+		<Text name="Id: 685 - Kapitel1: Busch_4" id="685" order="483" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 484 - Kapitel1: Blume_6" id="686" order="484" lastModified="-1">
+		<Text name="Id: 686 - Kapitel1: Blume_6" id="686" order="484" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 492 - Kapitel1: Fisch" id="687" order="492" lastModified="-1">
+		<Text name="Id: 687 - Kapitel1: Fisch" id="687" order="492" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 559 - Kapitel1: Start_Schnabeltierbaby" id="688" order="559" lastModified="-1">
+		<Text name="Id: 688 - Kapitel1: Start_Schnabeltierbaby" id="688" order="559" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 561 - Kapitel1: Haus" id="689" order="561" lastModified="-1">
+		<Text name="Id: 689 - Kapitel1: Haus" id="689" order="561" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 562 - Kapitel1: Haus: &apos;Inspizieren&apos; angewandt" id="690" order="562" lastModified="-1">
+		<Text name="Id: 690 - Kapitel1: Haus: &apos;Inspizieren&apos; angewandt" id="690" order="562" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Unser neues Haus! Hoffentlich werde ich mich hier wohl fühlen.." path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1_Haus.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 572 - Kapitel1: See" id="691" order="572" lastModified="-1">
+		<Text name="Id: 691 - Kapitel1: See" id="691" order="572" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 574 - Kapitel1: See: &apos;Inspizieren&apos; angewandt" id="692" order="574" lastModified="-1">
+		<Text name="Id: 692 - Kapitel1: See: &apos;Inspizieren&apos; angewandt" id="692" order="574" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Das ist der See. Zum Glück bin ich so ein guter Schwimmer!" path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1_See.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 576 - Kapitel1: Wald" id="693" order="576" lastModified="-1">
+		<Text name="Id: 693 - Kapitel1: Wald" id="693" order="576" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 577 - Kapitel1: Wald: &apos;Inspizieren&apos; angewandt" id="694" order="577" lastModified="-1">
+		<Text name="Id: 694 - Kapitel1: Wald: &apos;Inspizieren&apos; angewandt" id="694" order="577" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Das ist der Wald. Mama sagt, da drin ist es gefährlich.&lt;br/&gt;Aber ich bin sowieso lieber im Wasser!" path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1_Wald.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="695" order="744" lastModified="-1">
+		<Text name="Id: 695 - Kapitel1: Port_Kapitel2" id="695" order="744" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 14 - : Schildkrötenhaus" id="696" order="14" lastModified="-1">
+		<Text name="Id: 696 - : Schildkrötenhaus" id="696" order="14" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 21 - Schildkrötenhaus: Start" id="697" order="21" lastModified="-1">
+		<Text name="Id: 697 - Schildkrötenhaus: Start" id="697" order="21" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 19 - Schildkrötenhaus: Port_Kapitel1" id="698" order="19" lastModified="-1">
+		<Text name="Id: 698 - Schildkrötenhaus: Port_Kapitel1" id="698" order="19" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 485 - Schildkrötenhaus: Laterne" id="699" order="485" lastModified="-1">
+		<Text name="Id: 699 - Schildkrötenhaus: Laterne" id="699" order="485" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 488 - Schildkrötenhaus: Schild" id="700" order="488" lastModified="-1">
+		<Text name="Id: 700 - Schildkrötenhaus: Schild" id="700" order="488" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 489 - Schildkrötenhaus: Zaun" id="701" order="489" lastModified="-1">
+		<Text name="Id: 701 - Schildkrötenhaus: Zaun" id="701" order="489" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 494 - Schildkrötenhaus: Gießkanne" id="702" order="494" lastModified="-1">
+		<Text name="Id: 702 - Schildkrötenhaus: Gießkanne" id="702" order="494" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 491 - Schildkrötenhaus: Beet" id="703" order="491" lastModified="-1">
+		<Text name="Id: 703 - Schildkrötenhaus: Beet" id="703" order="491" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 544 - Schildkrötenhaus: Schildkröte" id="704" order="544" lastModified="-1">
+		<Text name="Id: 704 - Schildkrötenhaus: Schildkröte" id="704" order="544" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="705" order="744" lastModified="-1">
+		<Text name="Id: 705 - Schildkrötenhaus: Port_Kapitel2" id="705" order="744" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 579 - : Kapitel2" id="706" order="572" lastModified="-1">
+		<Text name="Id: 706 - : Kapitel2" id="706" order="572" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 581 - Kapitel2: Start_Eule" id="707" order="575" lastModified="-1">
+		<Text name="Id: 707 - Kapitel2: Start_Eule" id="707" order="575" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="708" order="745" lastModified="-1">
+		<Text name="Id: 708 - Kapitel2: Port_Kapitel1" id="708" order="745" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 19 - Schildkrötenhaus: Port_Kapitel1" id="709" order="19" lastModified="-1">
+		<Text name="Id: 709 - Kapitel2: Port_Schildkrötenhaus" id="709" order="19" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 31 - : Kapitel1" id="710" order="31" lastModified="-1">
+		<Text name="Id: 710 - : Tutorial1" id="710" order="31" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 32 - Kapitel1: Start_Cornelius" id="711" order="32" lastModified="-1">
+		<Text name="Id: 711 - Tutorial1: Start_Cornelius" id="711" order="32" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 44 - Kapitel1: Start_Mama" id="712" order="44" lastModified="-1">
+		<Text name="Id: 712 - Tutorial1: Start_Mama" id="712" order="44" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 292 - Kapitel1: Port_Schildkrötenhaus" id="713" order="292" lastModified="-1">
+		<Text name="Id: 713 - Tutorial1: Port_Schildkrötenhaus" id="713" order="292" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 294 - Kapitel1: Start_Biber" id="714" order="294" lastModified="-1">
+		<Text name="Id: 714 - Tutorial1: Start_Biber" id="714" order="294" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 295 - Kapitel1: Start_Bibermama" id="715" order="295" lastModified="-1">
+		<Text name="Id: 715 - Tutorial1: Start_Bibermama" id="715" order="295" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 296 - Kapitel1: Start_Ente_steht" id="716" order="296" lastModified="-1">
+		<Text name="Id: 716 - Tutorial1: Start_Ente_steht" id="716" order="296" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 297 - Kapitel1: Start_Ente_schwimmt" id="717" order="297" lastModified="-1">
+		<Text name="Id: 717 - Tutorial1: Start_Ente_schwimmt" id="717" order="297" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 454 - Kapitel1: Busch_1" id="718" order="454" lastModified="-1">
+		<Text name="Id: 718 - Tutorial1: Busch_1" id="718" order="454" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 464 - Kapitel1: Wolke_1" id="719" order="464" lastModified="-1">
+		<Text name="Id: 719 - Tutorial1: Wolke_1" id="719" order="464" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 465 - Kapitel1: Wolke_2" id="720" order="465" lastModified="-1">
+		<Text name="Id: 720 - Tutorial1: Wolke_2" id="720" order="465" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 466 - Kapitel1: Wolke_3" id="721" order="466" lastModified="-1">
+		<Text name="Id: 721 - Tutorial1: Wolke_3" id="721" order="466" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 467 - Kapitel1: Vogel_1" id="722" order="467" lastModified="-1">
+		<Text name="Id: 722 - Tutorial1: Vogel_1" id="722" order="467" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 468 - Kapitel1: Vogel_2" id="723" order="468" lastModified="-1">
+		<Text name="Id: 723 - Tutorial1: Vogel_2" id="723" order="468" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 469 - Kapitel1: Vogel_3" id="724" order="469" lastModified="-1">
+		<Text name="Id: 724 - Tutorial1: Vogel_3" id="724" order="469" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 470 - Kapitel1: Blume_2" id="725" order="470" lastModified="-1">
+		<Text name="Id: 725 - Tutorial1: Blume_2" id="725" order="470" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 471 - Kapitel1: Busch_2" id="726" order="471" lastModified="-1">
+		<Text name="Id: 726 - Tutorial1: Busch_2" id="726" order="471" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 472 - Kapitel1: Blume_3" id="727" order="472" lastModified="-1">
+		<Text name="Id: 727 - Tutorial1: Blume_3" id="727" order="472" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 473 - Kapitel1: Blume_1" id="728" order="473" lastModified="-1">
+		<Text name="Id: 728 - Tutorial1: Blume_1" id="728" order="473" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 475 - Kapitel1: Busch_3" id="729" order="475" lastModified="-1">
+		<Text name="Id: 729 - Tutorial1: Busch_3" id="729" order="475" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 476 - Kapitel1: Blume_4" id="730" order="476" lastModified="-1">
+		<Text name="Id: 730 - Tutorial1: Blume_4" id="730" order="476" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 477 - Kapitel1: Blume_5" id="731" order="477" lastModified="-1">
+		<Text name="Id: 731 - Tutorial1: Blume_5" id="731" order="477" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 573 - Kapitel1: Blume_5: &apos;Inspizieren&apos; angewandt" id="732" order="573" lastModified="-1">
+		<Text name="Id: 732 - Tutorial1: Blume_5: &apos;Inspizieren&apos; angewandt" id="732" order="573" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Oh, eine Blume! Wie schön!" path="develop/Stimmen/SFX/SFX Cornelius_ALL_Blume.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 478 - Kapitel1: Wolke_5" id="733" order="478" lastModified="-1">
+		<Text name="Id: 733 - Tutorial1: Wolke_5" id="733" order="478" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 479 - Kapitel1: Wolke_4" id="734" order="479" lastModified="-1">
+		<Text name="Id: 734 - Tutorial1: Wolke_4" id="734" order="479" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 480 - Kapitel1: Wolke_6" id="735" order="480" lastModified="-1">
+		<Text name="Id: 735 - Tutorial1: Wolke_6" id="735" order="480" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 481 - Kapitel1: Wolke_7" id="736" order="481" lastModified="-1">
+		<Text name="Id: 736 - Tutorial1: Wolke_7" id="736" order="481" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 482 - Kapitel1: Wolke_8" id="737" order="482" lastModified="-1">
+		<Text name="Id: 737 - Tutorial1: Wolke_8" id="737" order="482" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 483 - Kapitel1: Busch_4" id="738" order="483" lastModified="-1">
+		<Text name="Id: 738 - Tutorial1: Busch_4" id="738" order="483" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 484 - Kapitel1: Blume_6" id="739" order="484" lastModified="-1">
+		<Text name="Id: 739 - Tutorial1: Blume_6" id="739" order="484" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 492 - Kapitel1: Fisch" id="740" order="492" lastModified="-1">
+		<Text name="Id: 740 - Tutorial1: Fisch" id="740" order="492" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 559 - Kapitel1: Start_Schnabeltierbaby" id="741" order="559" lastModified="-1">
+		<Text name="Id: 741 - Tutorial1: Start_Schnabeltierbaby" id="741" order="559" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 561 - Kapitel1: Haus" id="742" order="561" lastModified="-1">
+		<Text name="Id: 742 - Tutorial1: Haus" id="742" order="561" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 562 - Kapitel1: Haus: &apos;Inspizieren&apos; angewandt" id="743" order="562" lastModified="-1">
+		<Text name="Id: 743 - Tutorial1: Haus: &apos;Inspizieren&apos; angewandt" id="743" order="562" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Unser neues Haus! Hoffentlich werde ich mich hier wohl fühlen.." path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1_Haus.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 572 - Kapitel1: See" id="744" order="572" lastModified="-1">
+		<Text name="Id: 744 - Tutorial1: See" id="744" order="572" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 574 - Kapitel1: See: &apos;Inspizieren&apos; angewandt" id="745" order="574" lastModified="-1">
+		<Text name="Id: 745 - Tutorial1: See: &apos;Inspizieren&apos; angewandt" id="745" order="574" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Das ist der See. Zum Glück bin ich so ein guter Schwimmer!" path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1_See.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 576 - Kapitel1: Wald" id="746" order="576" lastModified="-1">
+		<Text name="Id: 746 - Tutorial1: Wald" id="746" order="576" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 577 - Kapitel1: Wald: &apos;Inspizieren&apos; angewandt" id="747" order="577" lastModified="-1">
+		<Text name="Id: 747 - Tutorial1: Wald: &apos;Inspizieren&apos; angewandt" id="747" order="577" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Das ist der Wald. Mama sagt, da drin ist es gefährlich.&lt;br/&gt;Aber ich bin sowieso lieber im Wasser!" path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1_Wald.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="748" order="666" lastModified="-1">
+		<Text name="Id: 748 - Blume" id="748" order="666" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="749" order="741" lastModified="-1">
+		<Text name="Id: 749 - Mama: &apos;Blume&apos; abgelegt: Id: 749 - Mama: &apos;Blume&apos; abgelegt: Unnamed" id="749" order="741" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Danke für die Blume!" path="develop/Stimmen/1_Prolog/LEVEL 1_1 Prolog_1 Erzähler.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="751" order="751" lastModified="-1">
+		<Text name="Id: 751 - Rätsel: Cornelius" id="751" order="751" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="752" order="752" lastModified="-1">
+		<Text name="Id: 752 - Kleeblatt" id="752" order="752" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="753" order="753" lastModified="-1">
+		<Text name="Id: 753 - Schildkröte: &apos;Inspizieren&apos; angewandt: Id: 753 - Schildkröte: &apos;Inspizieren&apos; angewandt: Unnamed" id="753" order="753" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Woah! Ich hab noch nie eine Schildkröte gesehen!&lt;br/&gt;Toller Panzer! So einen hätte ich auch gerne." path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1.2_Schildkröte.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="754" order="754" lastModified="-1">
+		<Text name="Id: 754 - Schildkrötenhaus: Laterne: &apos;Inspizieren&apos; angewandt" id="754" order="754" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Oh! Was für eine tolle Laterne!" path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1.2_Laterne.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="755" order="755" lastModified="-1">
+		<Text name="Id: 755 - Schildkrötenhaus: Beet: &apos;Reden&apos; angewandt" id="755" order="755" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ein Beet! Was da wohl wächst?" path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1.2_Beet.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="756" order="756" lastModified="-1">
+		<Text name="Id: 756 - Schildkrötenhaus: Schild: &apos;Inspizieren&apos; angewandt" id="756" order="756" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Düsterwald? Hm...das klingt nach Abenteuern!" path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1.2_Schild.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="757" order="757" lastModified="-1">
+		<Text name="Id: 757 - Kapitel2: Fluss" id="757" order="757" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="758" order="758" lastModified="-1">
+		<Text name="Id: 758 - Kapitel2: Fluss: &apos;Inspizieren&apos; angewandt" id="758" order="758" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Ein Fluss! Das muss der sein, in den ich reingefallen bin.&lt;br/&gt;Der vom See weg und in den Wald hinein führt." path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 2_Fluss.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="759" order="759" lastModified="-1">
+		<Text name="Id: 759 - Kapitel2: Baum" id="759" order="759" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="760" order="760" lastModified="-1">
+		<Text name="Id: 760 - Kapitel2: Baum: &apos;Inspizieren&apos; angewandt" id="760" order="760" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Soo ein großer Baum! Da kann man bestimmt toll dirn wohnen.&lt;br/&gt;Aber ich kann leider nicht klettern..." path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 2_Baum.wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 762 - Hauptmenü: Schalter0" id="762" order="762" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 763 - Hauptmenü: Schalter0" id="763" order="763" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
