@@ -41,7 +41,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="21" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="18" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="159" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="161" tableId="6" LinkAny="F"/>
@@ -118,7 +118,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="126" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="188" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -5539,6 +5539,7 @@
 				<Link parentLink="T" id="595" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="596" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="597" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1489" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;Reden&apos; angewandt" id="60" order="1" lastModified="-1" ActionExecutionType="6">
@@ -5629,6 +5630,7 @@
 				<Link parentLink="T" id="565" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="574" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="601" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1492" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;Reden&apos; angewandt" id="67" order="1" lastModified="-1" ActionExecutionType="6">
@@ -5640,6 +5642,8 @@
 				<Link parentLink="T" id="598" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="599" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="600" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1490" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="1491" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Aktion" id="68" order="67" lastModified="-1" ActionExecutionType="-1">
@@ -6783,7 +6787,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="1489" versionedId="181" tableId="8">
+	<ActionParts newId="1493" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -9004,7 +9008,7 @@
 			<ActionPartLink parentLink="T" id="1188" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Sound &apos;Quaken_alle2.wav&apos; abspielen" id="1473" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="develop\Stimmen\3_Szene 2\Quaken\Quaken_alle2.wav" ActionPartInt="75" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Sound &apos;Quaken_alle2.wav&apos; abspielen" id="1473" order="2" lastModified="-1" ActionPartCommand="24" ActionPartPath="develop/Stimmen/3_Szene 2/Quaken/Quaken_alle2.wav" ActionPartInt="75" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9065,6 +9069,22 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Cursor zeigen" id="1488" order="24" lastModified="-1" ActionPartCommand="141" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="1489" order="61" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="1490" order="13" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="1491" order="14" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="1492" order="23" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -12274,7 +12294,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="1197" versionedId="464" tableId="14">
+	<Texts newId="1198" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
