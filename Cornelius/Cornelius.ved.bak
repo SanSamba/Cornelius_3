@@ -41,7 +41,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="18" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="20" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="159" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="161" tableId="6" LinkAny="F"/>
@@ -104,7 +104,6 @@
 				<Link parentLink="F" id="2" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="3" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="4" tableId="1" LinkAny="F"/>
-				<Link parentLink="F" id="6" tableId="1" LinkAny="F"/>
 			</CharacterInterfaces>
 			<CharacterFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<CharacterCurrentOutfit parentLink="F" id="13" tableId="17" LinkAny="F"/>
@@ -119,7 +118,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="81" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="187" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -842,7 +841,7 @@
 			<InterfaceButtons>
 			</InterfaceButtons>
 			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<InterfaceOffset x="1400" y="-1"/>
+			<InterfaceOffset x="1350" y="-1"/>
 			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
 			<InterfaceBorder>
