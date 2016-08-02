@@ -41,7 +41,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="20" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="14" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="159" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="161" tableId="6" LinkAny="F"/>
@@ -118,7 +118,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="187" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="126" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -1369,13 +1369,14 @@
 			<SceneActionAreas>
 			</SceneActionAreas>
 		</Scene>
-		<Scene name="Credits" id="15" order="15" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="50" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="develop/Kulissen/Credits.png" Transparency="-1">
+		<Scene name="Credits" id="15" order="15" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="50" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="T" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="develop/Kulissen/Credits2.png" Transparency="-1">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="304" tableId="14" LinkAny="F"/>
 			<SceneObjects>
 				<Link parentLink="T" id="232" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="283" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1590,6 +1591,26 @@
 				<Link parentLink="T" id="258" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="260" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="261" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="263" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="264" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="265" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="266" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="267" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="268" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="269" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="270" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="271" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="272" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="273" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="274" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="275" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="276" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="277" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="278" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="279" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="280" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="281" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="282" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -2878,7 +2899,7 @@
 			</PointRelations>
 		</Point>
 	</Points>
-	<Objects newId="262" versionedId="29" tableId="6">
+	<Objects newId="284" versionedId="29" tableId="6">
 		<Object name="Start" id="25" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="351" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="299" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -2929,6 +2950,10 @@
 		<Object name="Credits" id="27" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="753" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="303" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
+				<point x="608" y="647"/>
+				<point x="1312" y="648"/>
+				<point x="1313" y="751"/>
+				<point x="608" y="751"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="T" id="13" tableId="13" LinkAny="F"/>
@@ -5970,8 +5995,435 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
+		<Object name="Blume 12" id="263" order="25" lastModified="-1" ObjectDirection="-1" ObjectCenter="808" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1222" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="189" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 13" id="264" order="26" lastModified="-1" ObjectDirection="-1" ObjectCenter="829" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1223" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="190" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 14" id="265" order="27" lastModified="-1" ObjectDirection="-1" ObjectCenter="777" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1224" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="191" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 15" id="266" order="28" lastModified="-1" ObjectDirection="-1" ObjectCenter="776" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1225" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="192" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 16" id="267" order="29" lastModified="-1" ObjectDirection="-1" ObjectCenter="810" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1226" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="193" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 17" id="268" order="30" lastModified="-1" ObjectDirection="-1" ObjectCenter="805" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1227" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="194" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 18" id="269" order="31" lastModified="-1" ObjectDirection="-1" ObjectCenter="850" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1228" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="195" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 19" id="270" order="32" lastModified="-1" ObjectDirection="-1" ObjectCenter="845" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1229" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="196" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 20" id="271" order="33" lastModified="-1" ObjectDirection="-1" ObjectCenter="881" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1230" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="197" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 21" id="272" order="34" lastModified="-1" ObjectDirection="-1" ObjectCenter="913" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1231" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="198" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 22" id="273" order="35" lastModified="-1" ObjectDirection="-1" ObjectCenter="858" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1232" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="199" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 23" id="274" order="36" lastModified="-1" ObjectDirection="-1" ObjectCenter="788" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1233" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="200" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 24" id="275" order="37" lastModified="-1" ObjectDirection="-1" ObjectCenter="907" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1234" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="201" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 25" id="276" order="38" lastModified="-1" ObjectDirection="-1" ObjectCenter="834" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1235" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="202" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 26" id="277" order="39" lastModified="-1" ObjectDirection="-1" ObjectCenter="884" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1236" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="203" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 27" id="278" order="40" lastModified="-1" ObjectDirection="-1" ObjectCenter="927" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1237" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="204" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 28" id="279" order="41" lastModified="-1" ObjectDirection="-1" ObjectCenter="919" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1238" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="205" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 29" id="280" order="42" lastModified="-1" ObjectDirection="-1" ObjectCenter="898" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1239" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="206" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 30" id="281" order="43" lastModified="-1" ObjectDirection="-1" ObjectCenter="1006" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1240" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="207" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Blume 31" id="282" order="44" lastModified="-1" ObjectDirection="-1" ObjectCenter="1000" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1241" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="208" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
+		<Object name="Hauptmenü" id="283" order="1" lastModified="-1" ObjectDirection="-1" ObjectCenter="114" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1243" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="52" y="55"/>
+				<point x="-10000" y="-10000"/>
+				<point x="1794" y="27"/>
+				<point x="1793" y="106"/>
+				<point x="1880" y="104"/>
+				<point x="1879" y="28"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="209" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="294" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
 	</Objects>
-	<Actions newId="293" versionedId="69" tableId="7">
+	<Actions newId="295" versionedId="69" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7387,8 +7839,15 @@
 			<ActionActionParts>
 			</ActionActionParts>
 		</Action>
+		<Action name="Linksklick" id="294" order="0" lastModified="-1" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1494" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="1493" versionedId="181" tableId="8">
+	<ActionParts newId="1495" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7497,7 +7956,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Menü &apos;Credits&apos; zeigen" id="83" order="0" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Menü &apos;Credits&apos; zeigen" id="83" order="0" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="15" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9687,6 +10146,10 @@
 		</ActionPart>
 		<ActionPart name="Ende Wenn" id="1492" order="23" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Menü &apos;Menü&apos; zeigen" id="1494" order="0" lastModified="-1" ActionPartCommand="46" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="14" tableId="4" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -12458,7 +12921,7 @@
 			<DialogPartAltText parentLink="T" id="1172" tableId="14" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="188" versionedId="14" tableId="13">
+	<Sprites newId="210" versionedId="14" tableId="13">
 		<Sprite name="Unnamed" id="3" order="3" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -13004,8 +13467,113 @@
 				<position x="326" y="850"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Bild" id="189" order="189" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="-176" y="558"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="190" order="190" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="-111" y="579"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="191" order="191" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="-45" y="527"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="192" order="192" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="197" y="526"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="193" order="193" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="131" y="560"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="194" order="194" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="195" y="555"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="195" order="195" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="55" y="600"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="196" order="196" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="298" y="595"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="197" order="197" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="155" y="631"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="198" order="198" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="258" y="663"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="199" order="199" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="229" y="608"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="200" order="200" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="272" y="538"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="201" order="201" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="-187" y="657"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="202" order="202" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="-39" y="584"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="203" order="203" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="-131" y="634"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="204" order="204" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="-69" y="677"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="205" order="205" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="74" y="669"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="206" order="206" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="3" y="648"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="207" order="207" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="-162" y="756"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="208" order="208" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #2.2 klein.png" Transparency="-1">
+				<position x="-6" y="750"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Bild" id="209" order="209" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Hauptmenü 2.0.png" Transparency="-1">
+				<position x="1785" y="22"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="1221" versionedId="464" tableId="14">
+	<Texts newId="1245" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -14987,6 +15555,111 @@
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="1220" order="1220" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1222" order="1222" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1223" order="1223" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1224" order="1224" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1225" order="1225" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1226" order="1226" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1227" order="1227" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1228" order="1228" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1229" order="1229" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1230" order="1230" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1231" order="1231" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1232" order="1232" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1233" order="1233" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1234" order="1234" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1235" order="1235" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1236" order="1236" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1237" order="1237" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1238" order="1238" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1239" order="1239" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1240" order="1240" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1241" order="1241" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1243" order="1243" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
