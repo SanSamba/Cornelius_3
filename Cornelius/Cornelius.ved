@@ -44,7 +44,7 @@
 		<GameLanguages>
 			<Link parentLink="T" id="0" tableId="18" LinkAny="F"/>
 		</GameLanguages>
-		<GameFirstScene parentLink="F" id="22" tableId="4" LinkAny="F"/>
+		<GameFirstScene parentLink="F" id="19" tableId="4" LinkAny="F"/>
 		<GameItems>
 			<Link parentLink="T" id="159" tableId="6" LinkAny="F"/>
 			<Link parentLink="T" id="161" tableId="6" LinkAny="F"/>
@@ -107,7 +107,6 @@
 				<Link parentLink="F" id="2" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="3" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="4" tableId="1" LinkAny="F"/>
-				<Link parentLink="F" id="6" tableId="1" LinkAny="F"/>
 			</CharacterInterfaces>
 			<CharacterFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<CharacterCurrentOutfit parentLink="F" id="13" tableId="17" LinkAny="F"/>
@@ -123,7 +122,7 @@
 			</CharacterOutfits>
 			<CharacterCommentSets>
 			</CharacterCommentSets>
-			<CharacterStartObject parentLink="F" id="165" tableId="6" LinkAny="F"/>
+			<CharacterStartObject parentLink="F" id="167" tableId="6" LinkAny="F"/>
 			<CharacterValues>
 			</CharacterValues>
 			<CharacterConditions>
@@ -1777,10 +1776,10 @@
 				<Link parentLink="T" id="197" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="237" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="238" tableId="6" LinkAny="F"/>
-				<Link parentLink="T" id="239" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="241" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="243" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="244" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="287" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -2002,7 +2001,7 @@
 			</SceneActionAreas>
 		</Scene>
 	</Scenes>
-	<Points newId="306" versionedId="-1" tableId="5">
+	<Points newId="325" versionedId="-1" tableId="5">
 		<Point name="Punkt0" id="6" order="0" lastModified="-1" PointSize="-1">
 			<PointPosition x="1743" y="1078"/>
 			<PointRelations>
@@ -2672,6 +2671,7 @@
 			<PointPosition x="456" y="1141"/>
 			<PointRelations>
 				<Link parentLink="F" id="179" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="312" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt1" id="179" order="1" lastModified="-1" PointSize="-1">
@@ -2708,6 +2708,7 @@
 			<PointRelations>
 				<Link parentLink="F" id="182" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="184" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="314" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt6" id="184" order="6" lastModified="-1" PointSize="-1">
@@ -2715,6 +2716,7 @@
 			<PointRelations>
 				<Link parentLink="F" id="183" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="185" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="315" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt7" id="185" order="7" lastModified="-1" PointSize="-1">
@@ -2743,14 +2745,17 @@
 			<PointRelations>
 				<Link parentLink="F" id="187" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="189" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="324" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt11" id="189" order="11" lastModified="-1" PointSize="-1">
-			<PointPosition x="1013" y="806"/>
+			<PointPosition x="1011" y="806"/>
 			<PointRelations>
 				<Link parentLink="F" id="188" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="190" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="199" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="317" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="323" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt12" id="190" order="12" lastModified="-1" PointSize="-1">
@@ -2758,7 +2763,6 @@
 			<PointRelations>
 				<Link parentLink="F" id="189" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="191" tableId="5" LinkAny="F"/>
-				<Link parentLink="F" id="198" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt13" id="191" order="13" lastModified="-1" PointSize="-1">
@@ -2766,7 +2770,6 @@
 			<PointRelations>
 				<Link parentLink="F" id="190" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="192" tableId="5" LinkAny="F"/>
-				<Link parentLink="F" id="197" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt14" id="192" order="14" lastModified="-1" PointSize="-1">
@@ -2800,19 +2803,7 @@
 			<PointPosition x="897" y="1079"/>
 			<PointRelations>
 				<Link parentLink="F" id="195" tableId="5" LinkAny="F"/>
-			</PointRelations>
-		</Point>
-		<Point name="Punkt19" id="197" order="19" lastModified="-1" PointSize="-1">
-			<PointPosition x="1001" y="1001"/>
-			<PointRelations>
-				<Link parentLink="F" id="191" tableId="5" LinkAny="F"/>
-			</PointRelations>
-		</Point>
-		<Point name="Punkt20" id="198" order="20" lastModified="-1" PointSize="-1">
-			<PointPosition x="1572" y="859"/>
-			<PointRelations>
-				<Link parentLink="F" id="190" tableId="5" LinkAny="F"/>
-				<Link parentLink="F" id="200" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="313" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt21" id="199" order="21" lastModified="-1" PointSize="-1">
@@ -2821,13 +2812,14 @@
 				<Link parentLink="F" id="189" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="203" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="204" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="322" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt22" id="200" order="22" lastModified="-1" PointSize="-1">
 			<PointPosition x="1600" y="791"/>
 			<PointRelations>
-				<Link parentLink="F" id="198" tableId="5" LinkAny="F"/>
 				<Link parentLink="F" id="201" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="319" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt23" id="201" order="23" lastModified="-1" PointSize="-1">
@@ -2841,8 +2833,7 @@
 			<PointPosition x="1428" y="660"/>
 			<PointRelations>
 				<Link parentLink="F" id="201" tableId="5" LinkAny="F"/>
-				<Link parentLink="F" id="205" tableId="5" LinkAny="F"/>
-				<Link parentLink="F" id="206" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="306" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt25" id="203" order="25" lastModified="-1" PointSize="-1">
@@ -2855,25 +2846,6 @@
 			<PointPosition x="1455" y="567"/>
 			<PointRelations>
 				<Link parentLink="F" id="199" tableId="5" LinkAny="F"/>
-			</PointRelations>
-		</Point>
-		<Point name="Punkt27" id="205" order="27" lastModified="-1" PointSize="-1">
-			<PointPosition x="1801" y="535"/>
-			<PointRelations>
-				<Link parentLink="F" id="202" tableId="5" LinkAny="F"/>
-				<Link parentLink="F" id="207" tableId="5" LinkAny="F"/>
-			</PointRelations>
-		</Point>
-		<Point name="Punkt28" id="206" order="28" lastModified="-1" PointSize="-1">
-			<PointPosition x="1537" y="674"/>
-			<PointRelations>
-				<Link parentLink="F" id="202" tableId="5" LinkAny="F"/>
-			</PointRelations>
-		</Point>
-		<Point name="Punkt29" id="207" order="29" lastModified="-1" PointSize="-1">
-			<PointPosition x="1620" y="512"/>
-			<PointRelations>
-				<Link parentLink="F" id="205" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
 		<Point name="Punkt0" id="262" order="0" lastModified="-1" PointSize="-1">
@@ -3153,8 +3125,82 @@
 				<Link parentLink="F" id="304" tableId="5" LinkAny="F"/>
 			</PointRelations>
 		</Point>
+		<Point name="Punkt27" id="306" order="29" lastModified="-1" PointSize="-1">
+			<PointPosition x="1603" y="570"/>
+			<PointRelations>
+				<Link parentLink="F" id="202" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="320" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt19" id="312" order="30" lastModified="-1" PointSize="-1">
+			<PointPosition x="295" y="1139"/>
+			<PointRelations>
+				<Link parentLink="F" id="178" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt20" id="313" order="31" lastModified="-1" PointSize="-1">
+			<PointPosition x="983" y="1001"/>
+			<PointRelations>
+				<Link parentLink="F" id="196" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt28" id="314" order="32" lastModified="-1" PointSize="-1">
+			<PointPosition x="286" y="852"/>
+			<PointRelations>
+				<Link parentLink="F" id="183" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt29" id="315" order="33" lastModified="-1" PointSize="-1">
+			<PointPosition x="278" y="747"/>
+			<PointRelations>
+				<Link parentLink="F" id="184" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt30" id="317" order="34" lastModified="-1" PointSize="-1">
+			<PointPosition x="1177" y="839"/>
+			<PointRelations>
+				<Link parentLink="F" id="189" tableId="5" LinkAny="F"/>
+				<Link parentLink="F" id="318" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt31" id="318" order="35" lastModified="-1" PointSize="-1">
+			<PointPosition x="1536" y="868"/>
+			<PointRelations>
+				<Link parentLink="F" id="317" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt32" id="319" order="36" lastModified="-1" PointSize="-1">
+			<PointPosition x="1678" y="793"/>
+			<PointRelations>
+				<Link parentLink="F" id="200" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt33" id="320" order="37" lastModified="-1" PointSize="-1">
+			<PointPosition x="1632" y="678"/>
+			<PointRelations>
+				<Link parentLink="F" id="306" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt34" id="322" order="38" lastModified="-1" PointSize="-1">
+			<PointPosition x="1259" y="613"/>
+			<PointRelations>
+				<Link parentLink="F" id="199" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt35" id="323" order="39" lastModified="-1" PointSize="-1">
+			<PointPosition x="1040" y="696"/>
+			<PointRelations>
+				<Link parentLink="F" id="189" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
+		<Point name="Punkt36" id="324" order="40" lastModified="-1" PointSize="-1">
+			<PointPosition x="942" y="806"/>
+			<PointRelations>
+				<Link parentLink="F" id="188" tableId="5" LinkAny="F"/>
+			</PointRelations>
+		</Point>
 	</Points>
-	<Objects newId="287" versionedId="29" tableId="6">
+	<Objects newId="288" versionedId="29" tableId="6">
 		<Object name="Start" id="25" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="351" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="299" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -4184,7 +4230,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Laterne" id="116" order="4" lastModified="-1" ObjectDirection="180" ObjectCenter="1085" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Laterne" id="116" order="6" lastModified="-1" ObjectDirection="180" ObjectCenter="1146" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="699" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="150" y="661"/>
@@ -4213,55 +4259,20 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Port_Kapitel2" id="117" order="21" lastModified="-1" ObjectDirection="0" ObjectCenter="319" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Port_Kapitel2" id="117" order="4" lastModified="-1" ObjectDirection="0" ObjectCenter="176" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="700" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="1472" y="435"/>
-				<point x="1456" y="441"/>
-				<point x="1446" y="452"/>
-				<point x="1441" y="459"/>
-				<point x="1412" y="458"/>
-				<point x="1405" y="447"/>
-				<point x="1395" y="450"/>
-				<point x="1369" y="434"/>
-				<point x="1377" y="425"/>
-				<point x="1384" y="426"/>
-				<point x="1376" y="417"/>
-				<point x="1402" y="415"/>
-				<point x="1394" y="394"/>
-				<point x="1408" y="395"/>
-				<point x="1415" y="404"/>
-				<point x="1430" y="244"/>
-				<point x="1408" y="220"/>
-				<point x="1403" y="205"/>
-				<point x="1415" y="195"/>
-				<point x="1433" y="210"/>
-				<point x="1435" y="187"/>
-				<point x="1445" y="183"/>
-				<point x="1456" y="184"/>
-				<point x="1461" y="190"/>
-				<point x="1460" y="212"/>
-				<point x="1548" y="195"/>
-				<point x="1569" y="209"/>
-				<point x="1554" y="229"/>
-				<point x="1454" y="250"/>
-				<point x="1440" y="405"/>
-				<point x="1458" y="399"/>
-				<point x="1464" y="402"/>
-				<point x="1451" y="411"/>
-				<point x="1442" y="425"/>
-				<point x="1462" y="417"/>
-				<point x="1466" y="421"/>
-				<point x="1451" y="430"/>
-				<point x="1473" y="426"/>
-				<point x="1480" y="430"/>
+				<point x="1771" y="298"/>
+				<point x="1767" y="327"/>
+				<point x="1851" y="310"/>
+				<point x="1868" y="293"/>
+				<point x="1853" y="282"/>
 			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="84" tableId="13" LinkAny="F"/>
+			<ObjectCondition parentLink="F" id="4" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="135" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="173" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="205" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
@@ -4270,12 +4281,12 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="1423" y="569"/>
+			<ObjectPosition x="1547" y="600"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Gießkanne" id="119" order="9" lastModified="-1" ObjectDirection="-1" ObjectCenter="547" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Gießkanne" id="119" order="15" lastModified="-1" ObjectDirection="-1" ObjectCenter="547" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="702" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -4295,7 +4306,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Beet" id="120" order="18" lastModified="-1" ObjectDirection="180" ObjectCenter="369" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Beet" id="120" order="17" lastModified="-1" ObjectDirection="180" ObjectCenter="377" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="703" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="610" y="422"/>
@@ -4330,7 +4341,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Start_Schildkröte" id="121" order="8" lastModified="-1" ObjectDirection="-1" ObjectCenter="721" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Start_Schildkröte" id="121" order="11" lastModified="-1" ObjectDirection="-1" ObjectCenter="721" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="704" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -4980,7 +4991,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Start_Cornelius_Cutscene" id="167" order="6" lastModified="-1" ObjectDirection="180" ObjectCenter="838" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Start_Cornelius_Cutscene" id="167" order="9" lastModified="-1" ObjectDirection="180" ObjectCenter="838" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="846" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -5460,7 +5471,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Start_Cornelius_Kapitel1" id="195" order="11" lastModified="-1" ObjectDirection="0" ObjectCenter="516" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Start_Cornelius_Kapitel1" id="195" order="16" lastModified="-1" ObjectDirection="0" ObjectCenter="516" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="948" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -5480,7 +5491,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Start_Cornelius_Kapitel2" id="196" order="22" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Start_Cornelius_Kapitel2" id="196" order="23" lastModified="-1" ObjectDirection="180" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="949" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -5500,38 +5511,21 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Port_Kapitel1" id="197" order="2" lastModified="-1" ObjectDirection="180" ObjectCenter="1459" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Port_Kapitel1" id="197" order="2" lastModified="-1" ObjectDirection="0" ObjectCenter="1459" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="950" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
-				<point x="394" y="1160"/>
-				<point x="430" y="1132"/>
-				<point x="421" y="1098"/>
-				<point x="401" y="1089"/>
-				<point x="412" y="949"/>
-				<point x="512" y="929"/>
-				<point x="525" y="909"/>
-				<point x="512" y="892"/>
-				<point x="416" y="909"/>
-				<point x="416" y="885"/>
-				<point x="392" y="880"/>
-				<point x="385" y="898"/>
-				<point x="369" y="889"/>
-				<point x="358" y="898"/>
-				<point x="358" y="927"/>
-				<point x="385" y="945"/>
-				<point x="372" y="1100"/>
-				<point x="360" y="1090"/>
-				<point x="343" y="1101"/>
-				<point x="327" y="1129"/>
-				<point x="345" y="1147"/>
-				<point x="370" y="1156"/>
+				<point x="1756" y="304"/>
+				<point x="1755" y="325"/>
+				<point x="1697" y="351"/>
+				<point x="1684" y="343"/>
+				<point x="1694" y="324"/>
 			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="140" tableId="13" LinkAny="F"/>
+			<ObjectCondition parentLink="F" id="4" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
-				<Link parentLink="T" id="221" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="222" tableId="7" LinkAny="F"/>
+				<Link parentLink="T" id="327" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -5539,7 +5533,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="578" y="1139"/>
+			<ObjectPosition x="1547" y="600"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -5764,7 +5758,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Blume_1" id="237" order="20" lastModified="-1" ObjectDirection="-1" ObjectCenter="1195" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Blume_1" id="237" order="8" lastModified="-1" ObjectDirection="-1" ObjectCenter="1014" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="1196" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -5784,7 +5778,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Busch_1" id="238" order="19" lastModified="-1" ObjectDirection="-1" ObjectCenter="1628" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Busch_1" id="238" order="22" lastModified="-1" ObjectDirection="-1" ObjectCenter="122" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="1197" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -5804,27 +5798,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Blume_2" id="239" order="12" lastModified="-1" ObjectDirection="-1" ObjectCenter="673" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
-			<ObjectName parentLink="T" id="1198" tableId="14" LinkAny="F"/>
-			<ObjectPolygon>
-			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="165" tableId="13" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectActions>
-			</ObjectActions>
-			<ObjectConditions>
-			</ObjectConditions>
-			<ObjectAnimations>
-			</ObjectAnimations>
-			<ObjectValues>
-			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
-			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimationPos x="0" y="0"/>
-		</Object>
-		<Object name="Busch_2" id="241" order="17" lastModified="-1" ObjectDirection="-1" ObjectCenter="814" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Busch_2" id="241" order="18" lastModified="-1" ObjectDirection="-1" ObjectCenter="226" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="1200" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -5844,7 +5818,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Blume_3" id="243" order="15" lastModified="-1" ObjectDirection="-1" ObjectCenter="562" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Blume_3" id="243" order="20" lastModified="-1" ObjectDirection="-1" ObjectCenter="198" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="1202" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -5864,7 +5838,7 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
-		<Object name="Blume_4" id="244" order="16" lastModified="-1" ObjectDirection="-1" ObjectCenter="558" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+		<Object name="Blume_4" id="244" order="19" lastModified="-1" ObjectDirection="-1" ObjectCenter="221" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
 			<ObjectName parentLink="T" id="1203" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 			</ObjectPolygon>
@@ -6693,8 +6667,28 @@
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
+		<Object name="Schild" id="287" order="21" lastModified="-1" ObjectDirection="0" ObjectCenter="176" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="">
+			<ObjectName parentLink="T" id="1604" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="213" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="1547" y="600"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+		</Object>
 	</Objects>
-	<Actions newId="326" versionedId="69" tableId="7">
+	<Actions newId="330" versionedId="69" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7066,6 +7060,32 @@
 				<Link parentLink="T" id="505" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="506" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="513" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2208" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2209" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2210" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2211" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2212" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2213" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2214" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2215" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2216" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2217" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2218" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2219" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2220" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2221" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2222" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2223" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2224" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2225" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2227" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2228" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2229" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2230" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2231" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2232" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2233" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2234" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Aktion" id="71" order="71" lastModified="-1" ActionExecutionType="-1">
@@ -7387,7 +7407,7 @@
 				<Link parentLink="T" id="515" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;Inspizieren&apos; angewandt" id="132" order="1" lastModified="-1" ActionExecutionType="6">
+		<Action name="&apos;Inspizieren&apos; angewandt" id="132" order="2" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="3" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
@@ -7573,13 +7593,6 @@
 			<ActionCommand parentLink="F" id="2" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="443" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="&apos;Reden&apos; angewandt" id="173" order="2" lastModified="-1" ActionExecutionType="6">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="445" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;Reden&apos; angewandt" id="176" order="2" lastModified="-1" ActionExecutionType="6">
@@ -7787,13 +7800,6 @@
 			<ActionCommand parentLink="F" id="2" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="967" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="&apos;Reden&apos; angewandt" id="221" order="2" lastModified="-1" ActionExecutionType="6">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="969" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;Interaktion&apos; angewandt" id="222" order="3" lastModified="-1" ActionExecutionType="6">
@@ -8497,8 +8503,15 @@
 				<Link parentLink="T" id="2188" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="&apos;Inspizieren&apos; angewandt" id="327" order="4" lastModified="-1" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="3" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="2235" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="2208" versionedId="181" tableId="8">
+	<ActionParts newId="2238" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -8783,107 +8796,107 @@
 			<ActionPartLink parentLink="T" id="461" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="5" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="186" order="4" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="186" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="499" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="188" order="5" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="188" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="501" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="189" order="6" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="189" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="502" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="190" order="7" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="190" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="503" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="191" order="8" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="191" order="12" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="504" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="192" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="192" order="15" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="505" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="193" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="193" order="16" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="506" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="195" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="195" order="17" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="508" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="196" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="196" order="22" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="509" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="197" order="15" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="197" order="24" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="510" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="198" order="16" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="198" order="25" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="511" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="199" order="18" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="199" order="28" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="512" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="200" order="17" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="200" order="26" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="513" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="201" order="19" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="201" order="29" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="514" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="202" order="20" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="202" order="30" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="515" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="203" order="21" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="203" order="32" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="516" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="204" order="22" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="204" order="34" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="517" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="205" order="23" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="205" order="35" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="518" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="206" order="24" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="206" order="36" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="519" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="207" order="25" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="207" order="37" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="520" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="208" order="26" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="208" order="38" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="521" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="209" order="28" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="209" order="39" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="522" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="210" order="29" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="210" order="40" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="523" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="211" order="30" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="211" order="41" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="524" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="212" order="32" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="212" order="42" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="525" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="213" order="34" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="213" order="43" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="526" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -8891,27 +8904,27 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="219" order="35" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="219" order="46" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="532" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="221" order="36" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="221" order="47" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="534" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="222" order="37" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="222" order="48" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="535" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="223" order="40" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="223" order="57" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="536" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="228" order="12" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="228" order="20" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="541" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="229" order="14" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="229" order="23" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="542" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -9347,10 +9360,6 @@
 			<ActionPartLink parentLink="T" id="804" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="445" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="806" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="448" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="809" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -9451,11 +9460,11 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Animation &apos;Tür schließen&apos; abspielen und warten" id="505" order="38" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
+		<ActionPart name="Animation &apos;Tür schließen&apos; abspielen und warten" id="505" order="52" lastModified="-1" ActionPartCommand="19" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="1" ActionPartString="">
 			<ActionPartLink parentLink="F" id="147" tableId="9" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Outfit von &apos;Schildkröte&apos; auf &apos;Tür zu&apos; wechseln" id="506" order="39" lastModified="-1" ActionPartCommand="51" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Outfit von &apos;Schildkröte&apos; auf &apos;Tür zu&apos; wechseln" id="506" order="53" lastModified="-1" ActionPartCommand="51" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="12" tableId="17" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9463,7 +9472,7 @@
 			<ActionPartLink parentLink="F" id="11" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Person &apos;Aktuelle Person&apos; nach links ausrichten" id="513" order="3" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="180" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Person &apos;Aktuelle Person&apos; nach links ausrichten" id="513" order="4" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="180" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -9749,10 +9758,6 @@
 		</ActionPart>
 		<ActionPart name="Zu Kulisse &apos;Schildkrötenhaus&apos; wechseln" id="967" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="195" tableId="6" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="969" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="952" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Zu Kulisse &apos;Kapitel1&apos; wechseln" id="970" order="0" lastModified="-1" ActionPartCommand="10" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="180" ActionPartAltInt2="0" ActionPartString="">
@@ -12106,6 +12111,114 @@
 		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2207" order="15" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="1579" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2208" order="9" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1580" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2209" order="11" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1581" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2210" order="13" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1582" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2211" order="14" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1583" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2212" order="18" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1584" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2213" order="19" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1585" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="2214" order="21" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1586" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2215" order="44" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1587" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2216" order="45" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1588" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="2217" order="49" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1589" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Schildkröte&apos; ausgeben" id="2218" order="50" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1590" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2219" order="10" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1591" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Wenn Bedingung &apos;Schildkröte_geredet&apos; falsch" id="2220" order="3" lastModified="-1" ActionPartCommand="140" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Cornelius&apos; ausgeben" id="2221" order="55" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1593" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Person &apos;Aktuelle Person&apos; nach rechts ausrichten" id="2222" order="56" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Sonst" id="2223" order="60" lastModified="-1" ActionPartCommand="5" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Bedingung &apos;Schildkröte_geredet&apos; auf wahr setzen" id="2224" order="58" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="4" tableId="10" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="2225" order="62" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1597" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="2227" order="65" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1599" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Person &apos;Aktuelle Person&apos; nach rechts ausrichten" id="2228" order="64" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Ende Wenn" id="2229" order="67" lastModified="-1" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Pause für 3 Sekunden" id="2230" order="63" lastModified="-1" ActionPartCommand="30" ActionPartPath="" ActionPartInt="3" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor verstecken" id="2231" order="61" lastModified="-1" ActionPartCommand="141" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor zeigen" id="2232" order="66" lastModified="-1" ActionPartCommand="141" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor verstecken" id="2233" order="51" lastModified="-1" ActionPartCommand="141" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Cursor zeigen" id="2234" order="54" lastModified="-1" ActionPartCommand="141" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="2235" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1603" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="281" versionedId="75" tableId="9">
@@ -15526,7 +15639,7 @@
 			</AnimationWalkSteps>
 		</Animation>
 	</Animations>
-	<Conditions newId="39" versionedId="3" tableId="10">
+	<Conditions newId="40" versionedId="3" tableId="10">
 		<Condition name="Karl_1" id="1" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
 			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -15539,7 +15652,7 @@
 			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Condition>
-		<Condition name="Schildkröte_1" id="4" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
+		<Condition name="Schildkröte_geredet" id="4" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionCondition1Negate="F" ConditionCondition2Negate="F" ConditionOperator="0">
 			<ConditionCondition1 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ConditionCondition2 parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Condition>
@@ -15804,7 +15917,7 @@
 			<DialogPartAltText parentLink="T" id="1128" tableId="14" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="212" versionedId="14" tableId="13">
+	<Sprites newId="214" versionedId="14" tableId="13">
 		<Sprite name="Unnamed" id="3" order="3" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="-1">
 				<position x="0" y="0"/>
@@ -15988,11 +16101,6 @@
 		<Sprite name="Bild" id="83" order="39" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Laterne_klein.png" Transparency="-1">
 				<position x="-267" y="431"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Bild" id="84" order="41" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Schild 1.1.png" Transparency="-1">
-				<position x="1002" y="74"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Bild" id="86" order="44" lastModified="-1">
@@ -16220,11 +16328,6 @@
 				<position x="4920" y="171"/>
 			</SpriteSprite>
 		</Sprite>
-		<Sprite name="Bild" id="140" order="41" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Schild 1.1.png" Transparency="-1">
-				<position x="-43" y="771"/>
-			</SpriteSprite>
-		</Sprite>
 		<Sprite name="Bild" id="161" order="24" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #1_klein.png" Transparency="-1">
 				<position x="1260" y="741"/>
@@ -16243,11 +16346,6 @@
 		<Sprite name="Bild" id="164" order="164" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Busch #1.png" Transparency="-1">
 				<position x="-678" y="428"/>
-			</SpriteSprite>
-		</Sprite>
-		<Sprite name="Bild" id="165" order="165" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Blume #1_klein.png" Transparency="-1">
-				<position x="828" y="560"/>
 			</SpriteSprite>
 		</Sprite>
 		<Sprite name="Bild" id="167" order="167" lastModified="-1">
@@ -16460,8 +16558,13 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Bild" id="213" order="212" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="develop/Umgebung/Schild 3.0.png" Transparency="-1">
+				<position x="1608" y="257"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="1580" versionedId="464" tableId="14">
+	<Texts newId="1606" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -16814,22 +16917,22 @@
 		</Text>
 		<Text name="Id: 499 - Schildkröte: &apos;Reden&apos; angewandt: Id: 499 - Schildkröte: &apos;Reden&apos; angewandt: Id: 499 - Schildkröte: &apos;Reden&apos; angewandt: Id: 499 - Schildkröte: &apos;Reden&apos; angewandt: Id: 499 - Schildkröte: &apos;Reden&apos; angewandt: Id: 499 - Schildkröte: &apos;Reden&apos; angewandt: Id: 499 - Schildkröte: &apos;Reden&apos; angewandt: Id: 499 - Schildkröte: &apos;Reden&apos; angewandt: Id: 499 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 499 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 499 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 499 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Left click: Id: 499 - Schildkröte: Left click: Id: 499 - Schildkröte: Left click: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Id: 499 - Schildkröte: Linksklick: Unnamed" id="499" order="499" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Du hast lange geschlafen, Junge." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_A.wav" int="0"/>
+				<text Text="Du hast lange geschlafen, &lt;br/&gt;Junge." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_A.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 501 - Schildkröte: &apos;Reden&apos; angewandt: Id: 501 - Schildkröte: &apos;Reden&apos; angewandt: Id: 501 - Schildkröte: &apos;Reden&apos; angewandt: Id: 501 - Schildkröte: &apos;Reden&apos; angewandt: Id: 501 - Schildkröte: &apos;Reden&apos; angewandt: Id: 501 - Schildkröte: &apos;Reden&apos; angewandt: Id: 501 - Schildkröte: &apos;Reden&apos; angewandt: Id: 501 - Schildkröte: &apos;Reden&apos; angewandt: Id: 501 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 501 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 501 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 501 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Left click: Id: 501 - Schildkröte: Left click: Id: 501 - Schildkröte: Left click: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Id: 501 - Schildkröte: Linksklick: Unnamed" id="501" order="501" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ähm … Hallo. Wo bin ich hier?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_B.wav" int="0"/>
+				<text Text="Ähm.. Hallo. Wo bin ich hier?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_B.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 502 - Schildkröte: &apos;Reden&apos; angewandt: Id: 502 - Schildkröte: &apos;Reden&apos; angewandt: Id: 502 - Schildkröte: &apos;Reden&apos; angewandt: Id: 502 - Schildkröte: &apos;Reden&apos; angewandt: Id: 502 - Schildkröte: &apos;Reden&apos; angewandt: Id: 502 - Schildkröte: &apos;Reden&apos; angewandt: Id: 502 - Schildkröte: &apos;Reden&apos; angewandt: Id: 502 - Schildkröte: &apos;Reden&apos; angewandt: Id: 502 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 502 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 502 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 502 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Left click: Id: 502 - Schildkröte: Left click: Id: 502 - Schildkröte: Left click: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Id: 502 - Schildkröte: Linksklick: Unnamed" id="502" order="502" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Im Wald. Aber ich sehe schon, aus diesem Boden bist du nicht gewachsen?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_C.wav" int="0"/>
+				<text Text="Im Wald. Aber ich sehe schon, &lt;br/&gt;aus diesem Boden bist du nicht gewachsen?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_C.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Unnamed" id="503" order="503" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Boden … ? Achso! Nein, ich wohne am Waldrand, mit meiner Familie. Da sind auch &lt;br/&gt;Biber ... und Enten … Ich weiß gar nicht, wo ich eigentlich herkomme. Mein Zuhause &lt;br/&gt;war das jedenfalls nicht." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_D.wav" int="0"/>
+				<text Text="Boden.. ? Achso! Nein, ich wohne am Waldrand, &lt;br/&gt;mit meiner Familie." path="develop/Stimmen/4_Szene 5/a/Boden..,achso..wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 504 - Schildkröte: &apos;Reden&apos; angewandt: Id: 504 - Schildkröte: &apos;Reden&apos; angewandt: Id: 504 - Schildkröte: &apos;Reden&apos; angewandt: Id: 504 - Schildkröte: &apos;Reden&apos; angewandt: Id: 504 - Schildkröte: &apos;Reden&apos; angewandt: Id: 504 - Schildkröte: &apos;Reden&apos; angewandt: Id: 504 - Schildkröte: &apos;Reden&apos; angewandt: Id: 504 - Schildkröte: &apos;Reden&apos; angewandt: Id: 504 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 504 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 504 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 504 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Left click: Id: 504 - Schildkröte: Left click: Id: 504 - Schildkröte: Left click: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Id: 504 - Schildkröte: Linksklick: Unnamed" id="504" order="504" lastModified="-1">
@@ -16839,27 +16942,27 @@
 		</Text>
 		<Text name="Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Unnamed" id="505" order="505" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ja! Ich bin da gerade erst hingezogen, aber die anderen mögen mich nicht! &lt;br/&gt;Nur weil ich ein Schnabeltier bin. Als ob ich etwas dafür könnte. Das ist so gemein!" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_F.wav" int="0"/>
+				<text Text="Das ist so gemein!" path="develop/Stimmen/4_Szene 5/a/Das ist so...wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 506 - Schildkröte: &apos;Reden&apos; angewandt: Id: 506 - Schildkröte: &apos;Reden&apos; angewandt: Id: 506 - Schildkröte: &apos;Reden&apos; angewandt: Id: 506 - Schildkröte: &apos;Reden&apos; angewandt: Id: 506 - Schildkröte: &apos;Reden&apos; angewandt: Id: 506 - Schildkröte: &apos;Reden&apos; angewandt: Id: 506 - Schildkröte: &apos;Reden&apos; angewandt: Id: 506 - Schildkröte: &apos;Reden&apos; angewandt: Id: 506 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 506 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 506 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 506 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Left click: Id: 506 - Schildkröte: Left click: Id: 506 - Schildkröte: Left click: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Id: 506 - Schildkröte: Linksklick: Unnamed" id="506" order="506" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Nun ... ein Flieder fühlt sich nicht wohl unter Gänseblümchen." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_G.wav" int="0"/>
+				<text Text="Nun.. ein Flieder fühlt sich nicht wohl &lt;br/&gt;unter Gänseblümchen." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_G.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Unnamed" id="508" order="508" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Was reden Sie denn da?! Sie verstehen gar nichts! Wenn ich nur stärker wäre! Dann &lt;br/&gt;würden die anderen mich respektieren und mit mir spielen wollen. &lt;br/&gt;" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_H.wav" int="0"/>
+				<text Text="Was reden Sie denn da?! &lt;br/&gt;Sie verstehen gar nichts!" path="develop/Stimmen/4_Szene 5/a/Was reden sie...wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 509 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 509 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 509 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Unnamed" id="509" order="509" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Soso, die Rose will also spitzere Dornen. Weißt du, man kann durch viele Dinge &lt;br/&gt;stärker werden. " path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_J.wav" int="0"/>
+				<text Text="Weißt du, &lt;br/&gt;man kann durch viele Dinge stärker werden. " path="develop/Stimmen/4_Szene 5/a/Weißt du, man kann...wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 510 - Schildkröte: &apos;Reden&apos; angewandt: Id: 510 - Schildkröte: &apos;Reden&apos; angewandt: Id: 510 - Schildkröte: &apos;Reden&apos; angewandt: Id: 510 - Schildkröte: &apos;Reden&apos; angewandt: Id: 510 - Schildkröte: &apos;Reden&apos; angewandt: Id: 510 - Schildkröte: &apos;Reden&apos; angewandt: Id: 510 - Schildkröte: &apos;Reden&apos; angewandt: Id: 510 - Schildkröte: &apos;Reden&apos; angewandt: Id: 510 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 510 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 510 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 510 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Left click: Id: 510 - Schildkröte: Left click: Id: 510 - Schildkröte: Left click: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Id: 510 - Schildkröte: Linksklick: Unnamed" id="510" order="510" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Wirklich?? Wie? Sagen Sie schon!" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_L.wav" int="0"/>
+				<text Text="Wirklich?? Wie? &lt;br/&gt;Sagen Sie schon!" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_L.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 511 - Schildkröte: &apos;Reden&apos; angewandt: Id: 511 - Schildkröte: &apos;Reden&apos; angewandt: Id: 511 - Schildkröte: &apos;Reden&apos; angewandt: Id: 511 - Schildkröte: &apos;Reden&apos; angewandt: Id: 511 - Schildkröte: &apos;Reden&apos; angewandt: Id: 511 - Schildkröte: &apos;Reden&apos; angewandt: Id: 511 - Schildkröte: &apos;Reden&apos; angewandt: Id: 511 - Schildkröte: &apos;Reden&apos; angewandt: Id: 511 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 511 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 511 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 511 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Left click: Id: 511 - Schildkröte: Left click: Id: 511 - Schildkröte: Left click: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Id: 511 - Schildkröte: Linksklick: Unnamed" id="511" order="511" lastModified="-1">
@@ -16879,32 +16982,32 @@
 		</Text>
 		<Text name="Id: 514 - Schildkröte: &apos;Reden&apos; angewandt: Id: 514 - Schildkröte: &apos;Reden&apos; angewandt: Id: 514 - Schildkröte: &apos;Reden&apos; angewandt: Id: 514 - Schildkröte: &apos;Reden&apos; angewandt: Id: 514 - Schildkröte: &apos;Reden&apos; angewandt: Id: 514 - Schildkröte: &apos;Reden&apos; angewandt: Id: 514 - Schildkröte: &apos;Reden&apos; angewandt: Id: 514 - Schildkröte: &apos;Reden&apos; angewandt: Id: 514 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 514 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 514 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 514 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Left click: Id: 514 - Schildkröte: Left click: Id: 514 - Schildkröte: Left click: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Id: 514 - Schildkröte: Linksklick: Unnamed" id="514" order="514" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ein Trank … Was für ein Trank? " path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_P.wav" int="0"/>
+				<text Text="Ein Trank..&lt;br/&gt;Was für ein Trank? " path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_P.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 515 - Schildkröte: &apos;Reden&apos; angewandt: Id: 515 - Schildkröte: &apos;Reden&apos; angewandt: Id: 515 - Schildkröte: &apos;Reden&apos; angewandt: Id: 515 - Schildkröte: &apos;Reden&apos; angewandt: Id: 515 - Schildkröte: &apos;Reden&apos; angewandt: Id: 515 - Schildkröte: &apos;Reden&apos; angewandt: Id: 515 - Schildkröte: &apos;Reden&apos; angewandt: Id: 515 - Schildkröte: &apos;Reden&apos; angewandt: Id: 515 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 515 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 515 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 515 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Left click: Id: 515 - Schildkröte: Left click: Id: 515 - Schildkröte: Left click: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Id: 515 - Schildkröte: Linksklick: Unnamed" id="515" order="515" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ein stärkender Trank. Aber das ist nicht so leicht …" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Q.wav" int="0"/>
+				<text Text="Ein stärkender Trank.&lt;br/&gt;Aber das ist nicht so leicht.." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Q.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 516 - Schildkröte: &apos;Reden&apos; angewandt: Id: 516 - Schildkröte: &apos;Reden&apos; angewandt: Id: 516 - Schildkröte: &apos;Reden&apos; angewandt: Id: 516 - Schildkröte: &apos;Reden&apos; angewandt: Id: 516 - Schildkröte: &apos;Reden&apos; angewandt: Id: 516 - Schildkröte: &apos;Reden&apos; angewandt: Id: 516 - Schildkröte: &apos;Reden&apos; angewandt: Id: 516 - Schildkröte: &apos;Reden&apos; angewandt: Id: 516 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 516 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 516 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 516 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Left click: Id: 516 - Schildkröte: Left click: Id: 516 - Schildkröte: Left click: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Id: 516 - Schildkröte: Linksklick: Unnamed" id="516" order="516" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ich will diesen Trank! Bitte, können Sie ihn mir brauen?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_R.wav" int="0"/>
+				<text Text="Ich will diesen Trank!&lt;br/&gt;Bitte, können Sie ihn mir brauen?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_R.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 517 - Schildkröte: &apos;Reden&apos; angewandt: Id: 517 - Schildkröte: &apos;Reden&apos; angewandt: Id: 517 - Schildkröte: &apos;Reden&apos; angewandt: Id: 517 - Schildkröte: &apos;Reden&apos; angewandt: Id: 517 - Schildkröte: &apos;Reden&apos; angewandt: Id: 517 - Schildkröte: &apos;Reden&apos; angewandt: Id: 517 - Schildkröte: &apos;Reden&apos; angewandt: Id: 517 - Schildkröte: &apos;Reden&apos; angewandt: Id: 517 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 517 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 517 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 517 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Left click: Id: 517 - Schildkröte: Left click: Id: 517 - Schildkröte: Left click: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Id: 517 - Schildkröte: Linksklick: Unnamed" id="517" order="517" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Nun, ich habe nicht alle Zutaten. Und es ist seeehr schwierig, sie zu beschaffen." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_S.wav" int="0"/>
+				<text Text="Nun, ich habe nicht alle Zutaten.&lt;br/&gt;Und es ist seeehr schwierig, sie zu beschaffen." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_S.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 518 - Schildkröte: &apos;Reden&apos; angewandt: Id: 518 - Schildkröte: &apos;Reden&apos; angewandt: Id: 518 - Schildkröte: &apos;Reden&apos; angewandt: Id: 518 - Schildkröte: &apos;Reden&apos; angewandt: Id: 518 - Schildkröte: &apos;Reden&apos; angewandt: Id: 518 - Schildkröte: &apos;Reden&apos; angewandt: Id: 518 - Schildkröte: &apos;Reden&apos; angewandt: Id: 518 - Schildkröte: &apos;Reden&apos; angewandt: Id: 518 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 518 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 518 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 518 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Left click: Id: 518 - Schildkröte: Left click: Id: 518 - Schildkröte: Left click: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Id: 518 - Schildkröte: Linksklick: Unnamed" id="518" order="518" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ich … ich mach‘s! Sagen Sie mir nur, welche und wo ich sie finde!" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_T.wav" int="0"/>
+				<text Text="Ich.. ich mach es!&lt;br/&gt;Sagen Sie mir nur, welche und wo ich sie finde!" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_T.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 519 - Schildkröte: &apos;Reden&apos; angewandt: Id: 519 - Schildkröte: &apos;Reden&apos; angewandt: Id: 519 - Schildkröte: &apos;Reden&apos; angewandt: Id: 519 - Schildkröte: &apos;Reden&apos; angewandt: Id: 519 - Schildkröte: &apos;Reden&apos; angewandt: Id: 519 - Schildkröte: &apos;Reden&apos; angewandt: Id: 519 - Schildkröte: &apos;Reden&apos; angewandt: Id: 519 - Schildkröte: &apos;Reden&apos; angewandt: Id: 519 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 519 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 519 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 519 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Left click: Id: 519 - Schildkröte: Left click: Id: 519 - Schildkröte: Left click: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Id: 519 - Schildkröte: Linksklick: Unnamed" id="519" order="519" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Naja, wenn du das unbedingt willst …" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_U.wav" int="0"/>
+				<text Text="Naja, wenn du das unbedingt willst.." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_U.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 520 - Schildkröte: &apos;Reden&apos; angewandt: Id: 520 - Schildkröte: &apos;Reden&apos; angewandt: Id: 520 - Schildkröte: &apos;Reden&apos; angewandt: Id: 520 - Schildkröte: &apos;Reden&apos; angewandt: Id: 520 - Schildkröte: &apos;Reden&apos; angewandt: Id: 520 - Schildkröte: &apos;Reden&apos; angewandt: Id: 520 - Schildkröte: &apos;Reden&apos; angewandt: Id: 520 - Schildkröte: &apos;Reden&apos; angewandt: Id: 520 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 520 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 520 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 520 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Left click: Id: 520 - Schildkröte: Left click: Id: 520 - Schildkröte: Left click: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Id: 520 - Schildkröte: Linksklick: Unnamed" id="520" order="520" lastModified="-1">
@@ -16914,32 +17017,32 @@
 		</Text>
 		<Text name="Id: 521 - Schildkröte: &apos;Reden&apos; angewandt: Id: 521 - Schildkröte: &apos;Reden&apos; angewandt: Id: 521 - Schildkröte: &apos;Reden&apos; angewandt: Id: 521 - Schildkröte: &apos;Reden&apos; angewandt: Id: 521 - Schildkröte: &apos;Reden&apos; angewandt: Id: 521 - Schildkröte: &apos;Reden&apos; angewandt: Id: 521 - Schildkröte: &apos;Reden&apos; angewandt: Id: 521 - Schildkröte: &apos;Reden&apos; angewandt: Id: 521 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 521 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 521 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 521 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Left click: Id: 521 - Schildkröte: Left click: Id: 521 - Schildkröte: Left click: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Id: 521 - Schildkröte: Linksklick: Unnamed" id="521" order="521" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Zunächst, mein kleiner Freund, bringe mir den Zahn eines Löwen. " path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_W.wav" int="0"/>
+				<text Text="Zunächst, mein kleiner Freund,&lt;br/&gt;bringe mir den Zahn eines Löwen." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_W.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 522 - Schildkröte: &apos;Reden&apos; angewandt: Id: 522 - Schildkröte: &apos;Reden&apos; angewandt: Id: 522 - Schildkröte: &apos;Reden&apos; angewandt: Id: 522 - Schildkröte: &apos;Reden&apos; angewandt: Id: 522 - Schildkröte: &apos;Reden&apos; angewandt: Id: 522 - Schildkröte: &apos;Reden&apos; angewandt: Id: 522 - Schildkröte: &apos;Reden&apos; angewandt: Id: 522 - Schildkröte: &apos;Reden&apos; angewandt: Id: 522 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 522 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 522 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 522 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Left click: Id: 522 - Schildkröte: Left click: Id: 522 - Schildkröte: Left click: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Id: 522 - Schildkröte: Linksklick: Unnamed" id="522" order="522" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Den Zahn eines –" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Xa.wav" int="0"/>
+				<text Text="Den Zahn eines-" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Xa.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 523 - Schildkröte: &apos;Reden&apos; angewandt: Id: 523 - Schildkröte: &apos;Reden&apos; angewandt: Id: 523 - Schildkröte: &apos;Reden&apos; angewandt: Id: 523 - Schildkröte: &apos;Reden&apos; angewandt: Id: 523 - Schildkröte: &apos;Reden&apos; angewandt: Id: 523 - Schildkröte: &apos;Reden&apos; angewandt: Id: 523 - Schildkröte: &apos;Reden&apos; angewandt: Id: 523 - Schildkröte: &apos;Reden&apos; angewandt: Id: 523 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 523 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 523 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 523 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Left click: Id: 523 - Schildkröte: Left click: Id: 523 - Schildkröte: Left click: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Id: 523 - Schildkröte: Linksklick: Unnamed" id="523" order="523" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Dann, an zweiter Stelle, eine blaue Erinnerung." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Xb.wav" int="0"/>
+				<text Text="Dann, an zweiter Stelle,&lt;br/&gt;eine blaue Erinnerung." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Xb.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 524 - Schildkröte: &apos;Reden&apos; angewandt: Id: 524 - Schildkröte: &apos;Reden&apos; angewandt: Id: 524 - Schildkröte: &apos;Reden&apos; angewandt: Id: 524 - Schildkröte: &apos;Reden&apos; angewandt: Id: 524 - Schildkröte: &apos;Reden&apos; angewandt: Id: 524 - Schildkröte: &apos;Reden&apos; angewandt: Id: 524 - Schildkröte: &apos;Reden&apos; angewandt: Id: 524 - Schildkröte: &apos;Reden&apos; angewandt: Id: 524 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 524 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 524 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 524 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Left click: Id: 524 - Schildkröte: Left click: Id: 524 - Schildkröte: Left click: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Id: 524 - Schildkröte: Linksklick: Unnamed" id="524" order="524" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Was? Wie soll ich denn -" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Ya.wav" int="0"/>
+				<text Text="Was? Wie soll ich denn-" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Ya.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 525 - Schildkröte: &apos;Reden&apos; angewandt: Id: 525 - Schildkröte: &apos;Reden&apos; angewandt: Id: 525 - Schildkröte: &apos;Reden&apos; angewandt: Id: 525 - Schildkröte: &apos;Reden&apos; angewandt: Id: 525 - Schildkröte: &apos;Reden&apos; angewandt: Id: 525 - Schildkröte: &apos;Reden&apos; angewandt: Id: 525 - Schildkröte: &apos;Reden&apos; angewandt: Id: 525 - Schildkröte: &apos;Reden&apos; angewandt: Id: 525 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 525 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 525 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 525 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Left click: Id: 525 - Schildkröte: Left click: Id: 525 - Schildkröte: Left click: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Id: 525 - Schildkröte: Linksklick: Unnamed" id="525" order="525" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Und zuletzt, so soll es sein, ein kleines bisschen Glück." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Yb.wav" int="0"/>
+				<text Text="Und zuletzt, so soll es sein,&lt;br/&gt;ein kleines bisschen Glück." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Yb.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Unnamed" id="526" order="526" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ähhm … entschuldigung, aber ist das Ihr Ernst?&lt;br/&gt;Ähhhh … okay … und, ähm, wo finde ich diese Dinge? &lt;br/&gt;Den Zahn, die Erinnerung und das Glück?" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Z.wav" int="0"/>
+				<text Text="Ähhm.. entschuldigung, aber ist das Ihr Ernst?" path="develop/Stimmen/4_Szene 5/a/Äähm..entschuldigung...wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 532 - Schildkröte: &apos;Reden&apos; angewandt: Id: 532 - Schildkröte: &apos;Reden&apos; angewandt: Id: 532 - Schildkröte: &apos;Reden&apos; angewandt: Id: 532 - Schildkröte: &apos;Reden&apos; angewandt: Id: 532 - Schildkröte: &apos;Reden&apos; angewandt: Id: 532 - Schildkröte: &apos;Reden&apos; angewandt: Id: 532 - Schildkröte: &apos;Reden&apos; angewandt: Id: 532 - Schildkröte: &apos;Reden&apos; angewandt: Id: 532 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 532 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 532 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 532 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Left click: Id: 532 - Schildkröte: Left click: Id: 532 - Schildkröte: Left click: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Id: 532 - Schildkröte: Linksklick: Unnamed" id="532" order="532" lastModified="-1">
@@ -16954,22 +17057,22 @@
 		</Text>
 		<Text name="Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Unnamed" id="535" order="535" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ein Hinweis, Junge: versuche nicht, alles alleine zu tun. Hilf, und dir soll geholfen &lt;br/&gt;werden." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Zb.wav" int="0"/>
+				<text Text="Ein Hinweis, Junge:" path="develop/Stimmen/4_Szene 5/a/Ein Hinweis, Junge..wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 536 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 536 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 536 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Unnamed" id="536" order="536" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Ähm. Okay. Na, dann … dann mal los!" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_Zc.wav" int="0"/>
+				<text Text="Na, dann.. dann mal los!" path="develop/Stimmen/4_Szene 5/a/na dann mal los..wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 541 - Schildkröte: &apos;Reden&apos; angewandt: Id: 541 - Schildkröte: &apos;Reden&apos; angewandt: Id: 541 - Schildkröte: &apos;Reden&apos; angewandt: Id: 541 - Schildkröte: &apos;Reden&apos; angewandt: Id: 541 - Schildkröte: &apos;Reden&apos; angewandt: Id: 541 - Schildkröte: &apos;Reden&apos; angewandt: Id: 541 - Schildkröte: &apos;Reden&apos; angewandt: Id: 541 - Schildkröte: &apos;Reden&apos; angewandt: Id: 541 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 541 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 541 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 541 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Left click: Id: 541 - Schildkröte: Left click: Id: 541 - Schildkröte: Left click: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Id: 541 - Schildkröte: Linksklick: Unnamed" id="541" order="541" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Aber ich bin nicht stark. Hab ja nicht einmal diesen Fisch fangen können…" path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_I.wav" int="0"/>
+				<text Text="Aber ich bin nicht stark.&lt;br/&gt;Hab ja nicht einmal diesen Fisch fangen können.." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_I.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 542 - Schildkröte: &apos;Reden&apos; angewandt: Id: 542 - Schildkröte: &apos;Reden&apos; angewandt: Id: 542 - Schildkröte: &apos;Reden&apos; angewandt: Id: 542 - Schildkröte: &apos;Reden&apos; angewandt: Id: 542 - Schildkröte: &apos;Reden&apos; angewandt: Id: 542 - Schildkröte: &apos;Reden&apos; angewandt: Id: 542 - Schildkröte: &apos;Reden&apos; angewandt: Id: 542 - Schildkröte: &apos;Reden&apos; angewandt: Id: 542 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 542 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 542 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 542 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Left click: Id: 542 - Schildkröte: Left click: Id: 542 - Schildkröte: Left click: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Id: 542 - Schildkröte: Linksklick: Unnamed" id="542" order="542" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Nun, mein Junge ... ich kann dir helfen." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_K.wav" int="0"/>
+				<text Text="Nun, mein Junge.. &lt;br/&gt;Ich kann dir helfen." path="develop/Stimmen/4_Szene 5/LEVEL 1_4 Szene 5_2 Cornelius &amp; Schildkröte_K.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 546 - : Rätsel" id="546" order="1" lastModified="-1">
@@ -17614,7 +17717,7 @@
 		</Text>
 		<Text name="Id: 756 - Schildkrötenhaus: Port_Kapitel2: &apos;Inspizieren&apos; angewandt" id="756" order="756" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Düsterwald? Hm...das klingt nach Abenteuern!" path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1.2_Schild.wav" int="0"/>
+				<text Text="Düsterwald?&lt;br/&gt;Hm.. das klingt nach Abenteuern!" path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 1.2_Schild.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 757 - Kapitel2: Fluss" id="757" order="757" lastModified="-1">
@@ -17755,11 +17858,6 @@
 		<Text name="Id: 804 - Schildkrötenhaus: Laterne: &apos;Interaktion&apos; angewandt" id="804" order="786" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Das nützt mir jetzt nichts." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Das nützt mir jetzt nichts.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 806 - Schildkrötenhaus: Port_Kapitel2: &apos;Reden&apos; angewandt" id="806" order="777" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Hmmm...." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Hm2.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 809 - Schildkrötenhaus: Beet: &apos;Reden&apos; angewandt" id="809" order="777" lastModified="-1">
@@ -17960,11 +18058,6 @@
 		<Text name="Id: 950 - Schildkrötenhaus: Port_Kapitel1" id="950" order="488" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Seeufer" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 952 - Schildkrötenhaus: Port_Kapitel1: &apos;Reden&apos; angewandt" id="952" order="777" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Hmmm...." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Hm2.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 954 - Kapitel1: Start_Cornelius_Schildkrötenhaus" id="954" order="32" lastModified="-1">
@@ -18238,11 +18331,6 @@
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 1197 - Schildkrötenhaus: Busch_1" id="1197" order="1197" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 1198 - Schildkrötenhaus: Blume_2" id="1198" order="1198" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
@@ -19097,6 +19185,91 @@
 				<text Text="Und wer ist denn das?" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Unnamed" id="1580" order="503" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Da sind auch Biber.. und Enten.." path="develop/Stimmen/4_Szene 5/a/Da sind auch....wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Unnamed" id="1581" order="503" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Mein Zuhause war das jedenfalls nicht." path="develop/Stimmen/4_Szene 5/a/Mein Zuhause..wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Unnamed" id="1582" order="505" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Ja! Ich bin da gerade erst hingezogen, &lt;br/&gt;aber die anderen mögen mich nicht!" path="develop/Stimmen/4_Szene 5/a/Ja! Ich bin da...wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt: Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Left click: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Id: 505 - Schildkröte: Linksklick: Unnamed" id="1583" order="505" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Nur weil ich ein Schnabeltier bin. &lt;br/&gt;Als ob ich etwas dafür könnte." path="develop/Stimmen/4_Szene 5/a/Als ob ich etwas..wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Unnamed" id="1584" order="508" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Wenn ich nur stärker wäre!" path="develop/Stimmen/4_Szene 5/a/Wenn ich nur stärker...wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt: Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Left click: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Id: 508 - Schildkröte: Linksklick: Unnamed" id="1585" order="508" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Dann würden die anderen mich respektieren &lt;br/&gt;und mit mir spielen wollen." path="develop/Stimmen/4_Szene 5/a/Dann würden die anderen...wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt: Id: 509 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 509 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 509 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 509 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Left click: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Id: 509 - Schildkröte: Linksklick: Unnamed" id="1586" order="509" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Soso, die Rose will also spitzere Dornen." path="develop/Stimmen/4_Szene 5/a/Soso, die Rose...wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Unnamed" id="1587" order="526" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Ähhhh.. okay.. und, ähm,&lt;br/&gt;wo finde ich diese Dinge?" path="develop/Stimmen/4_Szene 5/a/ÄÄhm..okay und..wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt: Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Left click: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Id: 526 - Schildkröte: Linksklick: Unnamed" id="1588" order="526" lastModified="-1">
+			<TextTextLanguages>
+				<text Text=" Den Zahn, die Erinnerung und das Glück?" path="develop/Stimmen/4_Szene 5/a/Den Zahn, die erinnerung..wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Unnamed" id="1589" order="535" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Versuche nicht, alles alleine zu tun." path="develop/Stimmen/4_Szene 5/a/Versuche nicht, alles..wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt: Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Left click: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Id: 535 - Schildkröte: Linksklick: Unnamed" id="1590" order="535" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Hilf, und dir soll geholfen werden." path="develop/Stimmen/4_Szene 5/a/Hilf, und dir soll...wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt: Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Left click: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Id: 503 - Schildkröte: Linksklick: Unnamed" id="1591" order="503" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Ich weiß gar nicht,&lt;br/&gt;wo ich eigentlich herkomme." path="develop/Stimmen/4_Szene 5/a/Ich weiß gar nicht..wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt: Id: 536 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 536 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 536 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 536 - Schildkröte: &apos;Reden&apos; angewandt (sofort): Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Left click: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Id: 536 - Schildkröte: Linksklick: Unnamed" id="1593" order="536" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Ähm.. Okay." path="develop/Stimmen/4_Szene 5/a/ääähm...okay..wav" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1597" order="1597" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Hallo? Ist da jemand zu Hause?" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1599" order="1599" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Vielleicht später." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1603" order="1603" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="See?&lt;br/&gt;Vielleicht komm ich so zurück nach Hause!" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 700 - Schildkrötenhaus: Port_Kapitel2" id="1604" order="488" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Düsterwald" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="1" versionedId="1" tableId="15">
 		<Cursor name="Cursor_Normal" id="0" order="0" lastModified="-1">
@@ -19928,56 +20101,6 @@
 		</WaySystem>
 		<WaySystem name="Main" id="20" order="1" lastModified="-1">
 			<WaySystemBorder>
-				<point x="263" y="1077"/>
-				<point x="260" y="1195"/>
-				<point x="825" y="1193"/>
-				<point x="1237" y="957"/>
-				<point x="1075" y="950"/>
-				<point x="1080" y="912"/>
-				<point x="1601" y="933"/>
-				<point x="1862" y="745"/>
-				<point x="1509" y="736"/>
-				<point x="1513" y="730"/>
-				<point x="1619" y="730"/>
-				<point x="1912" y="589"/>
-				<point x="1859" y="419"/>
-				<point x="1772" y="443"/>
-				<point x="1666" y="436"/>
-				<point x="1571" y="466"/>
-				<point x="1504" y="460"/>
-				<point x="1450" y="483"/>
-				<point x="1356" y="484"/>
-				<point x="1293" y="530"/>
-				<point x="1231" y="546"/>
-				<point x="1221" y="587"/>
-				<point x="1163" y="610"/>
-				<point x="1092" y="621"/>
-				<point x="1019" y="648"/>
-				<point x="962" y="669"/>
-				<point x="598" y="580"/>
-				<point x="419" y="583"/>
-				<point x="371" y="640"/>
-				<point x="316" y="683"/>
-				<point x="309" y="734"/>
-				<point x="293" y="765"/>
-				<point x="278" y="809"/>
-				<point x="248" y="827"/>
-				<point x="265" y="910"/>
-				<point x="272" y="945"/>
-				<point x="378" y="956"/>
-				<point x="451" y="996"/>
-				<point x="462" y="1080"/>
-				<point x="-10000" y="-10000"/>
-				<point x="278" y="727"/>
-				<point x="345" y="760"/>
-				<point x="227" y="901"/>
-				<point x="177" y="862"/>
-				<point x="-10000" y="-10000"/>
-				<point x="1283" y="487"/>
-				<point x="1342" y="553"/>
-				<point x="1196" y="583"/>
-				<point x="1195" y="534"/>
-				<point x="-10000" y="-10000"/>
 				<point x="406" y="876"/>
 				<point x="411" y="774"/>
 				<point x="474" y="716"/>
@@ -19994,6 +20117,56 @@
 				<point x="665" y="887"/>
 				<point x="570" y="879"/>
 				<point x="467" y="865"/>
+				<point x="-10000" y="-10000"/>
+				<point x="222" y="727"/>
+				<point x="224" y="852"/>
+				<point x="240" y="916"/>
+				<point x="244" y="945"/>
+				<point x="257" y="960"/>
+				<point x="309" y="962"/>
+				<point x="375" y="972"/>
+				<point x="408" y="970"/>
+				<point x="434" y="986"/>
+				<point x="463" y="1006"/>
+				<point x="463" y="1034"/>
+				<point x="463" y="1067"/>
+				<point x="424" y="1086"/>
+				<point x="324" y="1078"/>
+				<point x="244" y="1078"/>
+				<point x="231" y="1113"/>
+				<point x="218" y="1157"/>
+				<point x="226" y="1183"/>
+				<point x="234" y="1196"/>
+				<point x="827" y="1195"/>
+				<point x="1244" y="955"/>
+				<point x="1078" y="950"/>
+				<point x="1081" y="913"/>
+				<point x="1600" y="939"/>
+				<point x="1855" y="745"/>
+				<point x="1509" y="739"/>
+				<point x="1506" y="727"/>
+				<point x="1645" y="724"/>
+				<point x="1750" y="663"/>
+				<point x="1752" y="606"/>
+				<point x="1706" y="557"/>
+				<point x="1627" y="508"/>
+				<point x="1575" y="472"/>
+				<point x="1504" y="467"/>
+				<point x="1442" y="490"/>
+				<point x="1354" y="547"/>
+				<point x="1232" y="581"/>
+				<point x="1167" y="614"/>
+				<point x="1091" y="627"/>
+				<point x="968" y="672"/>
+				<point x="824" y="645"/>
+				<point x="721" y="619"/>
+				<point x="627" y="591"/>
+				<point x="552" y="581"/>
+				<point x="498" y="583"/>
+				<point x="434" y="578"/>
+				<point x="383" y="622"/>
+				<point x="372" y="673"/>
+				<point x="277" y="695"/>
 			</WaySystemBorder>
 			<WaySystemPoints>
 				<Link parentLink="T" id="178" tableId="5" LinkAny="F"/>
@@ -20015,17 +20188,24 @@
 				<Link parentLink="T" id="194" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="195" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="196" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="197" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="198" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="199" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="200" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="201" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="202" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="203" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="306" tableId="5" LinkAny="F"/>
 				<Link parentLink="T" id="204" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="205" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="206" tableId="5" LinkAny="F"/>
-				<Link parentLink="T" id="207" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="203" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="202" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="201" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="200" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="199" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="312" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="313" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="314" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="315" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="317" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="318" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="319" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="320" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="322" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="323" tableId="5" LinkAny="F"/>
+				<Link parentLink="T" id="324" tableId="5" LinkAny="F"/>
 			</WaySystemPoints>
 		</WaySystem>
 	</WaySystems>
