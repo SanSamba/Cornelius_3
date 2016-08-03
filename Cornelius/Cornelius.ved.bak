@@ -4244,7 +4244,6 @@
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="133" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="170" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="171" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
@@ -4327,7 +4326,6 @@
 			<ObjectActions>
 				<Link parentLink="T" id="134" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="176" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="177" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -4905,7 +4903,6 @@
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="136" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="182" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="183" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
@@ -4957,7 +4954,6 @@
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
 				<Link parentLink="T" id="137" tableId="7" LinkAny="F"/>
-				<Link parentLink="T" id="179" tableId="7" LinkAny="F"/>
 				<Link parentLink="T" id="180" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
@@ -6669,7 +6665,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 		</Object>
 	</Objects>
-	<Actions newId="332" versionedId="69" tableId="7">
+	<Actions newId="331" versionedId="69" tableId="7">
 		<Action name="F5" id="0" order="0" lastModified="-1" ActionExecutionType="1073741886">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -7421,6 +7417,7 @@
 			<ActionCommand parentLink="F" id="3" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="387" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2261" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Linksklick" id="138" order="0" lastModified="-1" ActionExecutionType="7">
@@ -7554,13 +7551,6 @@
 				<Link parentLink="T" id="440" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;Reden&apos; angewandt" id="170" order="2" lastModified="-1" ActionExecutionType="6">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="442" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
 		<Action name="&apos;Interaktion&apos; angewandt" id="171" order="3" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="2" tableId="2" LinkAny="F"/>
@@ -7568,25 +7558,12 @@
 				<Link parentLink="T" id="443" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;Reden&apos; angewandt" id="176" order="2" lastModified="-1" ActionExecutionType="6">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="448" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="&apos;Interaktion&apos; angewandt" id="177" order="3" lastModified="-1" ActionExecutionType="6">
+		<Action name="&apos;Interaktion&apos; angewandt" id="176" order="2" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="2" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
-				<Link parentLink="T" id="449" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
-		<Action name="&apos;Reden&apos; angewandt" id="179" order="2" lastModified="-1" ActionExecutionType="6">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="451" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="448" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2259" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="&apos;Interaktion&apos; angewandt" id="180" order="3" lastModified="-1" ActionExecutionType="6">
@@ -7596,18 +7573,12 @@
 				<Link parentLink="T" id="452" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="&apos;Reden&apos; angewandt" id="182" order="2" lastModified="-1" ActionExecutionType="6">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="4" tableId="2" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="454" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
 		<Action name="&apos;Interaktion&apos; angewandt" id="183" order="3" lastModified="-1" ActionExecutionType="6">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="2" tableId="2" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="455" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="2260" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Bei Beginn der Kulisse" id="188" order="1" lastModified="-1" ActionExecutionType="31">
@@ -8517,7 +8488,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="2259" versionedId="181" tableId="8">
+	<ActionParts newId="2262" versionedId="181" tableId="8">
 		<ActionPart name="Spiel beenden" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -9346,10 +9317,6 @@
 			<ActionPartLink parentLink="T" id="801" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="442" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="803" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="443" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="804" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -9358,20 +9325,8 @@
 			<ActionPartLink parentLink="T" id="809" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="449" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="810" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="451" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="812" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
 		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="452" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="813" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="454" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="815" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="455" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -12278,8 +12233,20 @@
 			<ActionPartLink parentLink="F" id="330" tableId="7" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="2259" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1608" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Person &apos;Aktuelle Person&apos; nach links ausrichten" id="2260" order="1" lastModified="-1" ActionPartCommand="58" ActionPartPath="" ActionPartInt="180" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Text von &apos;Aktuelle Person&apos; ausgeben" id="2261" order="2" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="1610" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="286" versionedId="75" tableId="9">
+	<Animations newId="287" versionedId="75" tableId="9">
 		<Animation name="Unnamed" id="11" order="11" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -16667,7 +16634,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="1615" versionedId="464" tableId="14">
+	<Texts newId="1611" versionedId="464" tableId="14">
 		<Text name="Id: 9 - : Cornelius" id="9" order="9" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -17840,7 +17807,7 @@
 		</Text>
 		<Text name="Id: 760 - Kapitel2: Baum: &apos;Inspizieren&apos; angewandt" id="760" order="760" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Soo ein großer Baum! Da kann man bestimmt toll dirn wohnen.&lt;br/&gt;Aber ich kann leider nicht klettern..." path="develop/Stimmen/SFX/SFX Cornelius_LEVEL 2_Baum.wav" int="0"/>
+				<text Text="Soo ein großer Baum!&lt;br/&gt;Da kann man bestimmt toll drin wohnen." path="develop/Stimmen/SFX/a/Soo ein großer...wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 762 - Hauptmenü: Schalter0" id="762" order="762" lastModified="-1">
@@ -17953,14 +17920,9 @@
 				<text Text="Das nützt mir jetzt nichts." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Das nützt mir jetzt nichts.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 803 - Schildkrötenhaus: Laterne: &apos;Reden&apos; angewandt" id="803" order="777" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Hmmm...." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Hm2.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
 		<Text name="Id: 804 - Schildkrötenhaus: Laterne: &apos;Interaktion&apos; angewandt" id="804" order="786" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Das nützt mir jetzt nichts." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Das nützt mir jetzt nichts.wav" int="0"/>
+				<text Text="Da komm ich nicht ran." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 809 - Schildkrötenhaus: Beet: &apos;Reden&apos; angewandt" id="809" order="777" lastModified="-1">
@@ -17968,29 +17930,14 @@
 				<text Text="Hmmm...." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Hm2.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 810 - Schildkrötenhaus: Beet: &apos;Interaktion&apos; angewandt" id="810" order="786" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Das nützt mir jetzt nichts." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Das nützt mir jetzt nichts.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 812 - Kapitel2: Baum: &apos;Reden&apos; angewandt" id="812" order="777" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Hmmm...." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Hm2.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
 		<Text name="Id: 813 - Kapitel2: Baum: &apos;Interaktion&apos; angewandt" id="813" order="786" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Das nützt mir jetzt nichts." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Das nützt mir jetzt nichts.wav" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 815 - Kapitel2: Fluss: &apos;Reden&apos; angewandt" id="815" order="777" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="Hmmm...." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Hm2.wav" int="0"/>
+				<text Text="Da komme ich nicht hoch." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 816 - Kapitel2: Fluss: &apos;Interaktion&apos; angewandt" id="816" order="786" lastModified="-1">
 			<TextTextLanguages>
-				<text Text="Das nützt mir jetzt nichts." path="develop/Stimmen/SFX/SFX Cornelius_ALL_Das nützt mir jetzt nichts.wav" int="0"/>
+				<text Text="Da gehe ich bestimmt nicht schwimmen." path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 821 - : Cutscene" id="821" order="821" lastModified="-1">
@@ -19381,6 +19328,16 @@
 		<Text name="Unnamed" id="1607" order="1607" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Zum Glück ist da eine Brücke.&lt;br/&gt;Blöder Fluss.." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1608" order="1608" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Wenn ich nur ein paar Samen hätte.." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="1610" order="1610" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Aber ich kann leider nicht klettern." path="develop/Stimmen/SFX/a/Aber ich kann leider nicht kletter.wav" int="0"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
